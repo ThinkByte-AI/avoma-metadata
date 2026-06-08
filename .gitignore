@@ -1,7 +1,8 @@
 # ---- Secrets / credentials (NEVER commit) ----
 .env
-avoma api key.txt
-keys.txt
+*api key*.txt
+*api keys*.txt
+keys*.txt
 
 # ---- Customer / meeting data (private business data) ----
 meetings_*.csv

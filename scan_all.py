@@ -23,7 +23,8 @@ MAX_CONCURRENCY = int(os.environ.get("MAX_CONCURRENCY", "3"))
 PER_KEY_RPM     = float(os.environ.get("PER_KEY_RPM", "40"))
 THROTTLE = 60.0 / PER_KEY_RPM
 
-keys = [l.split() for l in open("keys.txt", encoding="utf-8") if l.strip()]
+KEYS_FILE = os.environ.get("KEYS_FILE", "keys.txt")
+keys = [l.split() for l in open(KEYS_FILE, encoding="utf-8") if l.strip()]
 lock = threading.Lock()
 progress = {}
 
