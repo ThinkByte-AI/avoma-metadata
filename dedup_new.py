@@ -10,7 +10,8 @@ archive it directly (MANIFEST=meetings_deduped2.csv KEYS_FILE=keys2.txt).
 import csv, os
 
 NEW_KEYS = os.environ.get("KEYS_FILE", "keys2.txt")
-PRIOR = os.environ.get("PRIOR_MANIFEST", "meetings_deduped.csv")
+# PRIOR_MANIFEST may be a comma-separated list of already-known manifests.
+PRIORS = [p.strip() for p in os.environ.get("PRIOR_MANIFEST", "meetings_deduped.csv").split(",") if p.strip()]
 OUT = os.environ.get("OUT", "meetings_deduped2.csv")
 
 names = [l.split()[0] for l in open(NEW_KEYS, encoding="utf-8") if l.strip()]
@@ -42,14 +43,18 @@ for path in files:
                 if not e["rec"] and r.get("recording_uuid"):
                     e["rec"] = r["recording_uuid"]
 
-# 2) subtract uuids already in the prior (batch-1) manifest
+# 2) subtract uuids already in ANY prior manifest
 prior = set()
-if os.path.exists(PRIOR):
-    with open(PRIOR, encoding="utf-8") as f:
-        for r in csv.DictReader(f):
-            if r.get("uuid"):
-                prior.add(r["uuid"])
-print(f"Prior manifest uuids: {len(prior):,}")
+for pm in PRIORS:
+    if os.path.exists(pm):
+        with open(pm, encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                if r.get("uuid"):
+                    prior.add(r["uuid"])
+        print(f"  prior loaded: {pm}")
+    else:
+        print(f"  prior MISSING (skipped): {pm}")
+print(f"Prior manifest uuids (union): {len(prior):,}")
 
 net_new = {u: m for u, m in uniq.items() if u not in prior}
 overlap = len(uniq) - len(net_new)
