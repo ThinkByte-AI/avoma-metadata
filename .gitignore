@@ -7,6 +7,9 @@ keys*.txt
 # ---- Customer / meeting data (private business data) ----
 meetings_*.csv
 dedup_meeting_ids.txt
+# ...but DO track the curated CSV folder (explicitly requested)
+!csv_files/
+!csv_files/*.csv
 
 # ---- Logs ----
 *.log
