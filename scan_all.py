@@ -57,18 +57,21 @@ def has_video(m):
 
 
 def get(url, headers, params, retries=8):
+    last = "no response"
     for i in range(retries):
         try:
             r = requests.get(url, headers=headers, params=params, timeout=60)
         except requests.RequestException as e:
+            last = f"network error: {e}"
             time.sleep(min(5 * (i + 1), 60)); continue
         if r.status_code == 200:
             return r.json()
+        last = f"status {r.status_code}"
         # 403 here is usually the IP WAF block -> long backoff; also 429/5xx
         wait = min(15 * (i + 1), 120) if r.status_code == 403 else min(2 ** i, 30)
         wait = int(r.headers.get("Retry-After", wait))
         time.sleep(wait)
-    raise RuntimeError(f"give up {url} (last status {r.status_code})")
+    raise RuntimeError(f"give up {url} ({last})")
 
 
 def scan_one(name, key):
