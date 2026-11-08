@@ -190,7 +190,7 @@ def _order_meetings(db: Session, ids: list[uuid.UUID], scores: dict[uuid.UUID, f
     return sorted(ids, key=lambda i: (scores.get(i, 0.0), start(i)), reverse=True)
 
 
-def search(db: Session, user: User, req: SearchRequest, embedder=None) -> SearchResponse:
+def search(db: Session, user: User, req: SearchRequest, embedder=None, record_history: bool = True) -> SearchResponse:
     t0 = time.perf_counter()
     now = datetime.now(UTC)
     q = req.q.strip()
@@ -206,7 +206,8 @@ def search(db: Session, user: User, req: SearchRequest, embedder=None) -> Search
         ids = list(db.scalars(select(Meeting.id).where(Meeting.id.in_(scope)).order_by(*order, Meeting.id)
                               .offset(offset).limit(req.page_size)))
         summaries = build_summaries(db, ids)
-        _record_history(db, user, req, total)
+        if record_history:
+            _record_history(db, user, req, total)
         return SearchResponse(total=total, page=req.page, page_size=req.page_size, semantic_used=False,
                               took_ms=int((time.perf_counter() - t0) * 1000),
                               results=[MeetingHit(meeting=summaries[i], score=0.0, match_types=[], matches=[])
@@ -281,7 +282,8 @@ def search(db: Session, user: User, req: SearchRequest, embedder=None) -> Search
                                   match_types=sorted(m_types[mid]), matches=matches))
 
     total = len(ordered)
-    _record_history(db, user, req, total)
+    if record_history:
+        _record_history(db, user, req, total)
     took = int((time.perf_counter() - t0) * 1000)
     log.info("search", extra={"q_len": len(q), "mode": req.mode, "total": total, "took_ms": took,
                               "semantic_used": semantic_used})
