@@ -48,14 +48,16 @@ class S3Store:
                         last_modified=o["LastModified"],
                     )
 
-    def _get_bytes(self, key: str) -> bytes:
-        return self.client.get_object(Bucket=self.bucket, Key=key)["Body"].read()
+    def fetch(self, key: str) -> tuple[bytes, str]:
+        """Return (body, etag). Only used for small text files (transcripts, notes)."""
+        r = self.client.get_object(Bucket=self.bucket, Key=key)
+        return r["Body"].read(), str(r.get("ETag", "")).strip('"')
 
     def get_json(self, key: str) -> Any:
-        return json.loads(self._get_bytes(key))
+        return json.loads(self.fetch(key)[0])
 
     def get_text(self, key: str) -> str:
-        return self._get_bytes(key).decode("utf-8", errors="replace")
+        return self.fetch(key)[0].decode("utf-8", errors="replace")
 
     def presign_get(self, key: str, content_type: str, ttl: int, download_name: str | None = None) -> str:
         params = {"Bucket": self.bucket, "Key": key, "ResponseContentType": content_type}
