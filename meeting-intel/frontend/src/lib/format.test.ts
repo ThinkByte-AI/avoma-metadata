@@ -33,3 +33,12 @@ describe("formatBytes", () => {
     expect(formatBytes(0)).toBe("0 B");
   });
 });
+
+describe("displayEmail", async () => {
+  const { displayEmail } = await import("./format");
+  it("hides values that are not email addresses", () => {
+    expect(displayEmail("harsha jakku")).toBeNull();
+    expect(displayEmail(null)).toBeNull();
+    expect(displayEmail("a@b.co")).toBe("a@b.co");
+  });
+});
