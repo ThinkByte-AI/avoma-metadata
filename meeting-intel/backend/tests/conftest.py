@@ -76,11 +76,11 @@ def db(engine) -> Session:
 def _clear_caches():
     """Response caches must not leak between tests."""
     yield
-    try:
-        from app.api.routers.dashboard import clear_stats_cache
-    except ImportError:
-        return
+    from app.api.routers.dashboard import clear_stats_cache
+    from app.ratelimit import ai_limiter
+
     clear_stats_cache()
+    ai_limiter.reset()
 
 
 @pytest.fixture

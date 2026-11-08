@@ -34,6 +34,14 @@ async def lifespan(_: FastAPI):
                 ensure_bootstrap_admin(db, s.admin_email, s.admin_password)
         except Exception:
             log.exception("could not create bootstrap admin")
+    if s.app_mode == "dev-mock":
+        from app.devseed import seed_dev_data  # noqa: PLC0415
+
+        try:
+            with get_session_factory()() as db:
+                seed_dev_data(db)
+        except Exception:
+            log.exception("could not create development sample data")
     yield
 
 
