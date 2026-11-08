@@ -6,8 +6,12 @@ from fastapi.responses import JSONResponse
 from sqlalchemy import text
 from sqlalchemy.orm import Session
 
+from app.api.routers import analytics as analytics_router
 from app.api.routers import auth as auth_router
+from app.api.routers import dashboard as dashboard_router
 from app.api.routers import ingestion as ingestion_router
+from app.api.routers import meetings as meetings_router
+from app.api.routers import participants as participants_router
 from app.api.routers import search as search_router
 from app.api.routers import system as system_router
 from app.api.routers import users as users_router
@@ -51,6 +55,10 @@ def create_app() -> FastAPI:
     app.include_router(system_router.router)
     app.include_router(ingestion_router.router)
     app.include_router(search_router.router)
+    app.include_router(meetings_router.router)
+    app.include_router(participants_router.router)
+    app.include_router(dashboard_router.router)
+    app.include_router(analytics_router.router)
 
     @app.get("/api/health", tags=["system"])
     def health(db: Session = Depends(get_db)):

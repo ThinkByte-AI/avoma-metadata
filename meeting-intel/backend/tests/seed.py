@@ -47,7 +47,7 @@ def seed_search_data(db, embedder=None) -> Seeded:
             ("alice", "Great, what about the marketing budget?", 21, 24),
         ], [("Key Takeaways", "- Revenue grew five percent.")]),
         (M2, "Client Onboarding Discussion", 40, 1800, "Bob", ["Bob"], False, None, [
-            ("carol", "Welcome aboard, we will set up your account this week.", 5, 9),
+            ("carol", "Welcome aboard Dan, we will set up your account this week.", 5, 9),
             ("dan", "We need the onboarding finished before the project deadline.", 10, 15),
             ("carol", "The deadline is achievable if documents arrive Monday.", 16, 20),
         ], []),
