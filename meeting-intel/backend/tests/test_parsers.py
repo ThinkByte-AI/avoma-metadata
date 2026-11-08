@@ -131,3 +131,10 @@ def test_notes_without_title():
 def test_notes_empty():
     n = parse_notes("")
     assert n.title is None and n.sections == [] and n.topics == []
+
+
+def test_topics_drop_numbering_and_template_headings():
+    md = "# T\n## 1. Weekly Account Management Focus\n- a\n## Decision\n- b\n## Current Tasks\n- c\n## 2) SEO and SEM strategy\n- d\n## Pain Points\n- e\n## Follow-Up Meeting\n- f\n"
+    n = parse_notes(md)
+    assert n.topics == ["Weekly Account Management Focus", "Seo And Sem Strategy"]
+    assert [s.heading for s in n.sections][:2] == ["1. Weekly Account Management Focus", "Decision"]  # sections keep raw headings

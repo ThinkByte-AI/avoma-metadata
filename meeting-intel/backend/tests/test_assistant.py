@@ -182,3 +182,11 @@ def test_validation_and_auth(ai, client):
     set_script()
     assert _ask(admin, "").status_code == 422
     assert _ask(admin, "x" * 2001).status_code == 422
+
+
+def test_citation_ranges_are_expanded():
+    from app.ai.assistant import clean_citations
+
+    text, cited = clean_citations("Ads were discussed [1-3] and later [5–6, 9].", {1, 2, 3, 5, 6})
+    assert text == "Ads were discussed [1][2][3] and later [5][6]."
+    assert cited == [1, 2, 3, 5, 6]

@@ -5,7 +5,18 @@ from datetime import datetime
 
 from app.ingestion.metadata import parse_dt
 
-NON_TOPIC_HEADINGS = {"participants", "key takeaways", "action items", "next steps", "summary"}
+# Avoma template headings that describe the note's structure, not what was discussed.
+NON_TOPIC_HEADINGS = {
+    "participants", "key takeaways", "action items", "next steps", "summary", "meeting summary", "overview",
+    "decision", "decisions", "decisions made", "key decisions", "current tasks", "recently completed tasks",
+    "completed tasks", "pending tasks", "business goals", "goals", "pain point", "pain points", "challenges",
+    "follow-up meeting", "follow up meeting", "follow-up", "next meeting", "agenda", "open questions", "questions",
+    "risks", "notes", "introduction", "discussion", "other", "miscellaneous", "updates",
+    # sales-call template fields
+    "use case", "use cases", "positive moment", "positive moments", "decision maker", "decision makers",
+    "current workflow", "features interested", "impact", "team size", "competitors", "objections",
+}
+_NUMBERING = re.compile(r"^\s*(?:\d+[.)]|[-*•])\s*")
 _DATE_LINE = re.compile(r"^_(?P<dt>[^_]+)_$")
 
 
@@ -50,9 +61,10 @@ def parse_notes(md: str) -> ParsedNotes:
 
     topics: list[str] = []
     for s in sections:
-        if s.heading.strip().lower() in NON_TOPIC_HEADINGS:
+        heading = _NUMBERING.sub("", s.heading).strip()
+        if not heading or heading.lower() in NON_TOPIC_HEADINGS:
             continue
-        t = s.heading.strip().title()[:80]
+        t = heading.title()[:80]
         if t and t not in topics:
             topics.append(t)
 
