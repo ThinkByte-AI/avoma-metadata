@@ -97,6 +97,44 @@ def client(app, db) -> TestClient:
     return _client_for(app, db)
 
 
+DEFAULT_PASSWORD = "correct horse battery"
+
+
+@pytest.fixture
+def make_user(db):
+    """Create a user directly in the DB. Returns the User row."""
+    from app.auth.security import hash_password
+    from app.models import User
+
+    def _make(email: str, password: str = DEFAULT_PASSWORD, role: str = "user", **kw) -> User:
+        u = User(
+            email=email.lower(),
+            name=kw.pop("name", email.split("@")[0].title()),
+            password_hash=hash_password(password),
+            role=role,
+            **kw,
+        )
+        db.add(u)
+        db.commit()
+        return u
+
+    return _make
+
+
+def login(client: TestClient, email: str, password: str = DEFAULT_PASSWORD):
+    r = client.post("/api/auth/login", json={"email": email, "password": password})
+    assert r.status_code == 200, r.text
+    return r
+
+
+@pytest.fixture
+def admin_client(app, db, make_user) -> TestClient:
+    make_user("admin@example.com", role="admin", access_scope="all", can_download=True)
+    c = _client_for(app, db)
+    login(c, "admin@example.com")
+    return c
+
+
 @pytest.fixture
 def client_with_test_routes(db) -> TestClient:
     app = create_app()
