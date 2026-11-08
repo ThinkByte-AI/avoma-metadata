@@ -41,3 +41,8 @@ export function formatDate(iso: string | null | undefined, withTime = true): str
 export function formatNumber(n: number): string {
   return n.toLocaleString();
 }
+
+/** Avoma sometimes stores a name in the email field; only show real addresses. */
+export function displayEmail(email: string | null | undefined): string | null {
+  return email && email.includes("@") ? email : null;
+}

@@ -67,7 +67,7 @@ export default function LoginPage() {
       <div className="flex flex-1 items-center justify-center bg-muted/40 px-4">
         <Card className="w-full max-w-sm">
           <CardHeader className="items-center text-center">
-            <span className="mb-2 flex size-10 items-center justify-center rounded-lg bg-primary text-primary-foreground">
+            <span className="mx-auto mb-2 flex size-10 items-center justify-center rounded-lg bg-primary text-primary-foreground">
               <AudioLines className="size-5" aria-hidden />
             </span>
             <CardTitle>Meeting Intelligence</CardTitle>
