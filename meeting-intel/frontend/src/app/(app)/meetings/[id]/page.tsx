@@ -8,6 +8,7 @@ import { Suspense, useMemo, useRef, useState } from "react";
 import { toast } from "sonner";
 import { AudioPlayer, type AudioPlayerHandle } from "@/components/audio-player";
 import { NotesMarkdown } from "@/components/notes-markdown";
+import { VideoDownloadButton } from "@/components/recording-download";
 import { AvailabilityBadges } from "@/components/result-card";
 import { EmptyState, ErrorState } from "@/components/states";
 import { TranscriptViewer } from "@/components/transcript-viewer";
@@ -128,7 +129,10 @@ function MeetingView() {
             </div>
           )}
         </div>
-        <AvailabilityBadges m={m} />
+        <div className="flex flex-col items-end gap-2">
+          <AvailabilityBadges m={m} />
+          {canDownload && m.recordings.some((r) => r.kind === "video") && <VideoDownloadButton meetingId={m.id} />}
+        </div>
       </div>
 
       <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_280px]">

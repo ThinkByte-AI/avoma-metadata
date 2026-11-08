@@ -2,6 +2,7 @@ name: meeting-intel
 
 x-backend-common: &backend-common
   build: ./backend
+  restart: unless-stopped
   env_file:
     # Root .env of the archive repo holds AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY (optional).
     - path: ../.env
@@ -13,13 +14,11 @@ x-backend-common: &backend-common
     METADATA_DIR: /data/metadata
   volumes:
     - ../csv_files:/data/metadata:ro
-  depends_on:
-    db:
-      condition: service_healthy
 
 services:
   db:
     image: pgvector/pgvector:pg17
+    restart: unless-stopped
     environment:
       POSTGRES_USER: mi
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-mi}
@@ -37,22 +36,39 @@ services:
 
   backend:
     <<: *backend-common
+    # Runs migrations before serving; it only reports healthy once they are done.
     command: sh -c "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000"
     ports:
       - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+      start_period: 20s
 
   worker:
     <<: *backend-common
     command: python -m app.worker
+    depends_on:
+      db:
+        condition: service_healthy
+      backend:
+        condition: service_healthy
 
   frontend:
     build: ./frontend
+    restart: unless-stopped
     environment:
       BACKEND_URL: http://backend:8000
     ports:
       - "3100:3000"
     depends_on:
-      - backend
+      backend:
+        condition: service_healthy
 
 volumes:
   pgdata:

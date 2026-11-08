@@ -265,3 +265,10 @@ def test_make_chunks_never_exceeds_max_except_single_long_turn():
     segs = [Segment(0, 0, "A", 0.0, 1.0, " ".join(["w"] * 400), 400), Segment(1, 0, "A", 2.0, 3.0, "short line here", 3)]
     assert [c["word_count"] for c in make_chunks(segs, {}, target_words=150, max_words=300)] == [400, 3]
     assert make_chunks([], {}) == []
+
+
+def test_parsed_meeting_with_same_etags_is_not_reparsed(db, store, meta):
+    scan_bucket(db, store, P, meta)
+    process_meeting(db, store, A, meta[A])  # now 'parsed' (vectors pending)
+    assert db.get(Meeting, A).ingest_status == "parsed"
+    assert A not in scan_bucket(db, store, P, meta).to_process  # phase 2 picks it up; no second download

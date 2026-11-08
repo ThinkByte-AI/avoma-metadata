@@ -114,7 +114,8 @@ def scan_bucket(
             continue
         t, n = files.get(FileKind.TRANSCRIPT), files.get(FileKind.NOTES_MD)
         changed = (t.etag if t else None) != m.transcript_etag or (n.etag if n else None) != m.notes_etag
-        if m.ingest_status != "indexed" or changed:
+        # 'parsed' meetings only need vectors (phase 2); re-read files only when they changed in S3.
+        if changed or m.ingest_status not in ("parsed", "indexed"):
             r.to_process.append(mid)
 
     r.to_process.sort(key=lambda i: (existing[i].start_at or datetime.max.replace(tzinfo=UTC), str(i)))

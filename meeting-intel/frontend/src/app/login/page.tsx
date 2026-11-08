@@ -9,11 +9,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { ApiError, api } from "@/lib/api";
-
-function safeNext(next: string | null): string {
-  // Only same-site paths; never redirect off-site.
-  return next && next.startsWith("/") && !next.startsWith("//") ? next : "/overview";
-}
+import { safeNext } from "@/lib/safe-next";
 
 function LoginForm() {
   const router = useRouter();
