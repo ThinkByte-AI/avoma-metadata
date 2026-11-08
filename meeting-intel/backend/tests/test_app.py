@@ -31,3 +31,14 @@ def test_settings_prefix_list(settings_override, monkeypatch):
     monkeypatch.setenv("S3_PREFIXES", "avoma/, other/ ,")
     get_settings.cache_clear()
     assert get_settings().s3_prefix_list == ["avoma/", "other/"]
+
+
+def test_embed_dim_must_match_database_column(monkeypatch, settings_override):
+    import pytest
+    from app.config import get_settings
+    from app.main import create_app
+
+    monkeypatch.setenv("EMBED_DIM", "1024")
+    get_settings.cache_clear()
+    with pytest.raises(RuntimeError, match="EMBED_DIM"):
+        create_app()

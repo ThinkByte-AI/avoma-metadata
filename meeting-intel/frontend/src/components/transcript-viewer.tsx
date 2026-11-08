@@ -113,6 +113,9 @@ export function TranscriptViewer({
         ref={parentRef}
         onWheel={markUserScroll}
         onTouchMove={markUserScroll}
+        onPointerDown={markUserScroll}
+        onKeyDown={markUserScroll}
+        tabIndex={0}
         className="h-[60vh] overflow-y-auto"
         role="list"
         aria-label="Transcript"

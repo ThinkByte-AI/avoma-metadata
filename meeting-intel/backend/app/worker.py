@@ -26,6 +26,9 @@ def build_embedder():
 def main() -> None:
     s = get_settings()
     setup_logging(s.log_level)
+    from app.main import check_embed_dim  # noqa: PLC0415
+
+    check_embed_dim(s)
     factory = get_session_factory()
     store = get_store()
     embedder = build_embedder()

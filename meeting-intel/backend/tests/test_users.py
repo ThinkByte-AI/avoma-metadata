@@ -69,3 +69,14 @@ def test_user_changes_are_audited(admin_client, db):
     admin_client.patch(f"/api/users/{uid}", json={"name": "Bobby"})
     actions = [a.action for a in db.scalars(select(AuditLog).order_by(AuditLog.id))]
     assert actions[-2:] == ["user.create", "user.update"]
+
+
+def test_admin_cannot_lock_themselves_out(admin_client, db):
+    from app.models import User
+    from sqlalchemy import select
+
+    me = db.scalar(select(User).where(User.email == "admin@example.com"))
+    for body in ({"is_active": False}, {"role": "user"}):
+        r = admin_client.patch(f"/api/users/{me.id}", json=body)
+        assert r.status_code == 400 and r.json()["error"]["code"] == "cannot_modify_self"
+    assert admin_client.patch(f"/api/users/{me.id}", json={"name": "Boss"}).status_code == 200

@@ -190,3 +190,16 @@ def test_citation_ranges_are_expanded():
     text, cited = clean_citations("Ads were discussed [1-3] and later [5–6, 9].", {1, 2, 3, 5, 6})
     assert text == "Ads were discussed [1][2][3] and later [5][6]."
     assert cited == [1, 2, 3, 5, 6]
+
+
+def test_speaker_filter_is_capped(ai, db):
+    from app.models import Participant
+
+    as_user, set_script = ai
+    admin = as_user("admin@example.com", role="admin")
+    for i in range(25):
+        db.add(Participant(name=f"Bobby {i}", email=f"bobby{i}@x.example", is_internal=False, normalized_key=f"email:bobby{i}@x.example"))
+    db.commit()
+    set_script(tool_call("revenue", speaker="Bob"), final("ok"))
+    r = _ask(admin, filters={"speaker_ids": list(range(1000, 1019))})
+    assert r.status_code == 200

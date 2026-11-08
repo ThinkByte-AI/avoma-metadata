@@ -96,3 +96,15 @@ def test_bootstrap_skipped_when_users_exist(db, make_user):
 
     make_user("someone@example.com")
     assert ensure_bootstrap_admin(db, "boss@example.com", "a-long-password") is False
+
+
+def test_login_attempts_are_rate_limited(client, make_user):
+    from app.ratelimit import LOGIN_LIMIT_PER_MIN, login_limiter
+
+    login_limiter.reset()
+    make_user("alice@example.com")
+    for _ in range(LOGIN_LIMIT_PER_MIN):
+        assert client.post("/api/auth/login", json={"email": "alice@example.com", "password": "wrong pass!"}).status_code == 401
+    r = client.post("/api/auth/login", json={"email": "alice@example.com", "password": "correct horse battery"})
+    assert r.status_code == 429 and r.json()["error"]["code"] == "rate_limited"
+    login_limiter.reset()

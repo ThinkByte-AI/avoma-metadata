@@ -53,6 +53,8 @@ def update_user(
     if user is None:
         raise not_found("user")
     changes = body.model_dump(exclude_unset=True)
+    if user.id == admin.id and (changes.get("is_active") is False or changes.get("role", "admin") != "admin"):
+        raise ApiError(400, "cannot_modify_self", "You can't deactivate or demote your own account.")
     password = changes.pop("password", None)
     for field, value in changes.items():
         setattr(user, field, value)
