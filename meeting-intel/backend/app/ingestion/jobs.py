@@ -62,8 +62,10 @@ def set_status(db: Session, job_id: int, status: str) -> IngestionJob:
     job = db.get(IngestionJob, job_id)
     if job is None:
         raise ApiError(404, "not_found", "Job not found")
-    if status == "running" and job.started_at is None:
-        status = "queued"  # resumed before the worker ever picked it up
+    if status == "running":
+        orphaned = job.heartbeat_at is None or job.heartbeat_at < datetime.now(UTC) - STALE_AFTER
+        if job.started_at is None or orphaned:
+            status = "queued"  # never picked up, or its worker is gone: let a worker claim it
     job.status = status
     if status in ("completed", "failed", "cancelled"):
         job.finished_at = datetime.now(UTC)

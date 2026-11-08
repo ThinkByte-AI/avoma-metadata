@@ -175,3 +175,18 @@ def test_fresh_running_job_not_requeued(db):
     db.commit()
     assert requeue_stale_jobs(db) == 0
     assert db.scalar(select(IngestionJob.status)) == "running"
+
+
+def test_resume_of_orphaned_paused_job_requeues_it(db):
+    job = IngestionJob(kind="initial", status="paused", started_at=datetime.now(UTC) - timedelta(hours=1),
+                       heartbeat_at=datetime.now(UTC) - timedelta(minutes=30))
+    db.add(job)
+    db.commit()
+    assert set_status(db, job.id, "running").status == "queued"  # its worker is gone; let a new one claim it
+
+
+def test_resume_of_live_paused_job_keeps_running(db):
+    job = IngestionJob(kind="initial", status="paused", started_at=datetime.now(UTC), heartbeat_at=datetime.now(UTC))
+    db.add(job)
+    db.commit()
+    assert set_status(db, job.id, "running").status == "running"
