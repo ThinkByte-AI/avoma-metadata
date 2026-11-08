@@ -137,3 +137,11 @@ def test_meetings_list_filters_and_sort(admin, seeded):
 def test_meetings_list_scoped(as_user):
     alice = as_user("alice-user@example.com", account_label="Alice")
     assert _ids(alice.get("/api/meetings").json()) == [str(M1), str(M3)]
+
+
+def test_accounts_list_admin_only(as_user, admin):
+    r = admin.get("/api/meetings/accounts")
+    assert r.status_code == 200 and r.json() == ["Alice", "Bob", "Zed"]
+    alice = as_user("alice-user@example.com", account_label="Alice")
+    r = alice.get("/api/meetings/accounts")
+    assert r.status_code == 403 and r.json()["error"]["code"] == "forbidden"

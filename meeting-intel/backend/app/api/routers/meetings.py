@@ -12,7 +12,7 @@ from app.api.schemas import MeetingSummary, Page, ParticipantRef, UtcDT
 from app.api.summaries import build_summaries
 from app.audit import write_audit
 from app.auth.access import ensure_meeting_access
-from app.auth.deps import client_ip, current_user
+from app.auth.deps import client_ip, current_user, require_admin
 from app.aws.s3 import S3Store, get_store
 from app.config import get_settings
 from app.db import get_db
@@ -90,6 +90,14 @@ def list_meetings(
                           .offset((page - 1) * page_size).limit(page_size)))
     s = build_summaries(db, ids)
     return Page[MeetingSummary](total=total, page=page, page_size=page_size, items=[s[i] for i in ids])
+
+
+@router.get("/accounts", response_model=list[str])
+def list_accounts(_: User = Depends(require_admin), db: Session = Depends(get_db)) -> list[str]:
+    """Distinct Avoma account labels (for assigning a user's account_label). Declared before /{meeting_id}."""
+    label = func.unnest(Meeting.accounts).label("label")
+    sq = select(label).where(Meeting.duplicate_of.is_(None)).subquery()
+    return [r for r in db.scalars(select(sq.c.label).distinct().order_by(sq.c.label)) if r]
 
 
 def _people(db: Session, meeting_id: uuid.UUID) -> list[ParticipantWithTime]:
