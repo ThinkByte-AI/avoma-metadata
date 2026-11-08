@@ -72,6 +72,17 @@ def db(engine) -> Session:
             _truncate_all(conn)
 
 
+@pytest.fixture(autouse=True)
+def _clear_caches():
+    """Response caches must not leak between tests."""
+    yield
+    try:
+        from app.api.routers.dashboard import clear_stats_cache
+    except ImportError:
+        return
+    clear_stats_cache()
+
+
 @pytest.fixture
 def settings_override():
     get_settings.cache_clear()
