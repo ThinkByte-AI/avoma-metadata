@@ -7,6 +7,7 @@ import random
 import re
 import time
 from concurrent.futures import ThreadPoolExecutor
+from functools import lru_cache
 from typing import Any, Protocol
 
 import boto3
@@ -92,6 +93,14 @@ class BedrockEmbedder:
 
     def embed_query(self, text: str) -> list[float]:
         return self._one(text)
+
+
+@lru_cache
+def get_query_embedder() -> Embedder:
+    """FastAPI dependency: one shared embedder for search queries."""
+    from app.config import get_settings  # noqa: PLC0415
+
+    return get_embedder(get_settings())
 
 
 def get_embedder(settings) -> Embedder:

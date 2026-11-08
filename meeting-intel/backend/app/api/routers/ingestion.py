@@ -1,10 +1,9 @@
-from datetime import datetime
-
 from fastapi import APIRouter, Depends, Request
 from pydantic import BaseModel, ConfigDict
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
+from app.api.schemas import UtcDT, _iso_z
 from app.audit import write_audit
 from app.auth.deps import client_ip, require_admin
 from app.config import get_settings
@@ -25,9 +24,9 @@ class JobOut(BaseModel):
     stats: dict
     error: str | None
     requested_by: int | None
-    created_at: datetime
-    started_at: datetime | None
-    finished_at: datetime | None
+    created_at: UtcDT
+    started_at: UtcDT | None
+    finished_at: UtcDT | None
 
 
 def _enqueue(kind: str, action: str, request: Request, admin: User, db: Session) -> IngestionJob:
@@ -87,8 +86,8 @@ def status(_: User = Depends(require_admin), db: Session = Depends(get_db)) -> d
         select(Meeting).where(Meeting.ingest_status == "failed").order_by(Meeting.updated_at.desc()).limit(50)
     )
     return {
-        "current_job": JobOut.model_validate(current).model_dump() if current else None,
-        "last_completed_job": JobOut.model_validate(last).model_dump() if last else None,
+        "current_job": JobOut.model_validate(current).model_dump(mode="json") if current else None,
+        "last_completed_job": JobOut.model_validate(last).model_dump(mode="json") if last else None,
         "totals": {
             "meetings": sum(by_status.values()),
             **{k: by_status.get(k, 0) for k in ("indexed", "parsed", "failed", "skipped", "discovered")},
@@ -99,7 +98,7 @@ def status(_: User = Depends(require_admin), db: Session = Depends(get_db)) -> d
             {"id": str(m.id), "subject": m.subject, "error": m.ingest_error, "attempts": m.ingest_attempts}
             for m in failed
         ],
-        "last_sync_at": last.finished_at if last else None,
+        "last_sync_at": _iso_z(last.finished_at) if last and last.finished_at else None,
         "bucket": s.s3_bucket,
         "prefixes": s.s3_prefix_list,
     }
