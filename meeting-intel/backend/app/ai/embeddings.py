@@ -5,7 +5,9 @@ import logging
 import math
 import random
 import re
+import threading
 import time
+from collections import OrderedDict
 from concurrent.futures import ThreadPoolExecutor
 from functools import lru_cache
 from typing import Any, Protocol
@@ -23,6 +25,7 @@ from botocore.exceptions import (
 log = logging.getLogger("app.ai.embeddings")
 
 _RETRYABLE = {"ThrottlingException", "ServiceUnavailableException", "ModelNotReadyException", "InternalServerException"}
+QUERY_CACHE_SIZE = 512
 _NETWORK_ERRORS = (ReadTimeoutError, ConnectTimeoutError, EndpointConnectionError, ConnectionClosedError)
 
 
@@ -71,6 +74,8 @@ class BedrockEmbedder:
     ):
         self.model_id, self.dim, self.concurrency = model_id, dim, max(1, concurrency)
         self.max_retries, self.backoff_base = max_retries, backoff_base
+        self._query_cache: OrderedDict[str, list[float]] = OrderedDict()
+        self._cache_lock = threading.Lock()
         self.client = client or boto3.client(
             "bedrock-runtime",
             region_name=region,
@@ -103,7 +108,18 @@ class BedrockEmbedder:
             return list(pool.map(self._one, texts))
 
     def embed_query(self, text: str) -> list[float]:
-        return self._one(text)
+        # Paging/sorting re-runs the same query; keep recent query vectors (each Bedrock call is a network round trip).
+        key = text.strip()
+        with self._cache_lock:
+            if key in self._query_cache:
+                self._query_cache.move_to_end(key)
+                return self._query_cache[key]
+        vec = self._one(text)
+        with self._cache_lock:
+            self._query_cache[key] = vec
+            while len(self._query_cache) > QUERY_CACHE_SIZE:
+                self._query_cache.popitem(last=False)
+        return vec
 
 
 @lru_cache
