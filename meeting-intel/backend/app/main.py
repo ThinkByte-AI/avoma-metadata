@@ -7,6 +7,7 @@ from sqlalchemy import text
 from sqlalchemy.orm import Session
 
 from app.api.routers import auth as auth_router
+from app.api.routers import system as system_router
 from app.api.routers import users as users_router
 from app.auth.bootstrap import ensure_bootstrap_admin
 from app.config import get_settings
@@ -45,6 +46,7 @@ def create_app() -> FastAPI:
     app.add_middleware(RequestLogMiddleware)
     app.include_router(auth_router.router)
     app.include_router(users_router.router)
+    app.include_router(system_router.router)
 
     @app.get("/api/health", tags=["system"])
     def health(db: Session = Depends(get_db)):
