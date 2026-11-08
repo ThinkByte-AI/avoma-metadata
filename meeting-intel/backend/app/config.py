@@ -25,7 +25,7 @@ class Settings(BaseSettings):
     embed_dim: int = 512
     embed_concurrency: int = 32
     bedrock_chat_model: str = "zai.glm-5"
-    semantic_max_distance: float = 0.6
+    semantic_max_distance: float = 0.72
 
     jwt_secret: str = Field(min_length=16)
     jwt_ttl_min: int = 720
