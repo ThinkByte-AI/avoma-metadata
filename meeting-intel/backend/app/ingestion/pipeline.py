@@ -11,7 +11,7 @@ from collections import defaultdict
 from dataclasses import dataclass, field
 from datetime import UTC, datetime
 
-from sqlalchemy import delete, func, insert, select
+from sqlalchemy import delete, func, insert, select, update
 from sqlalchemy.dialects.postgresql import insert as pg_insert
 from sqlalchemy.orm import Session
 
@@ -204,6 +204,44 @@ def process_meeting(db: Session, store: S3Store, meeting_id: uuid.UUID, meta: Me
         m.ingest_attempts = (m.ingest_attempts or 0) + 1
         db.commit()
         log.warning("meeting failed", extra={"meeting_id": str(meeting_id), "error": m.ingest_error})
+        return False
+
+
+MIN_EMBED_WORDS = 4
+EMBED_BATCH = 64
+EMBED_MAX_CHARS = 8000
+
+
+def embed_meeting(db: Session, embedder, meeting_id: uuid.UUID) -> bool:
+    """Embed this meeting's not-yet-embedded segments, then mark it indexed. False (and recorded) on failure."""
+    m = db.get(Meeting, meeting_id)
+    if m is None:
+        return False
+    try:
+        rows = db.execute(
+            select(TranscriptSegment.id, TranscriptSegment.speaker_name, TranscriptSegment.section, TranscriptSegment.text)
+            .where(TranscriptSegment.meeting_id == meeting_id, TranscriptSegment.embedding.is_(None))
+            .order_by(TranscriptSegment.kind, TranscriptSegment.seq)
+        ).all()
+        todo = [r for r in rows if len(r.text.split()) >= MIN_EMBED_WORDS]
+        for i in range(0, len(todo), EMBED_BATCH):
+            chunk = todo[i : i + EMBED_BATCH]
+            texts = [f"{m.subject} | {r.speaker_name or r.section}: {r.text}"[:EMBED_MAX_CHARS] for r in chunk]
+            vectors = embedder.embed_documents(texts)
+            db.execute(update(TranscriptSegment), [{"id": r.id, "embedding": v} for r, v in zip(chunk, vectors)])
+        m.ingest_status = "indexed"
+        m.indexed_at = datetime.now(UTC)
+        m.ingest_error = None
+        db.commit()
+        return True
+    except Exception as e:
+        db.rollback()
+        m = db.get(Meeting, meeting_id)
+        m.ingest_status = "failed"
+        m.ingest_error = f"embedding: {type(e).__name__}: {e}"[:2000]
+        m.ingest_attempts = (m.ingest_attempts or 0) + 1
+        db.commit()
+        log.warning("embedding failed", extra={"meeting_id": str(meeting_id), "error": m.ingest_error})
         return False
 
 
