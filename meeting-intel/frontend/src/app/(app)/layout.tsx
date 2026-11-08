@@ -73,7 +73,9 @@ export default function AppLayout({ children }: { children: ReactNode }) {
     <div className="flex min-h-screen flex-col">
       <DevBanner />
       <div className="flex flex-1">
-        <AppSidebar isAdmin={isAdmin} />
+        <Suspense fallback={<div className="hidden w-60 shrink-0 border-r bg-sidebar md:block" />}>
+          <AppSidebar isAdmin={isAdmin} />
+        </Suspense>
         <div className="flex min-w-0 flex-1 flex-col">
           <header className="sticky top-0 z-30 flex h-14 items-center gap-2 border-b bg-background/85 px-3 backdrop-blur md:px-6">
             <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
@@ -85,7 +87,9 @@ export default function AppLayout({ children }: { children: ReactNode }) {
               <SheetContent side="left" className="w-64 p-0">
                 <SheetTitle className="sr-only">Navigation</SheetTitle>
                 <Brand />
-                <SidebarNav isAdmin={isAdmin} onNavigate={() => setMobileOpen(false)} />
+                <Suspense fallback={null}>
+                  <SidebarNav isAdmin={isAdmin} onNavigate={() => setMobileOpen(false)} />
+                </Suspense>
               </SheetContent>
             </Sheet>
             <div className="flex-1">
