@@ -1,0 +1,49 @@
+name: meeting-intel
+
+x-backend-common: &backend-common
+  build: ./backend
+  env_file:
+    # Root .env of the archive repo holds AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY (optional).
+    - path: ../.env
+      required: false
+    - path: .env
+      required: true
+  environment:
+    DATABASE_URL: postgresql+psycopg://mi:${POSTGRES_PASSWORD:-mi}@db:5432/meeting_intel
+    METADATA_DIR: /data/metadata
+  volumes:
+    - ../csv_files:/data/metadata:ro
+  depends_on:
+    db:
+      condition: service_healthy
+
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    environment:
+      POSTGRES_USER: mi
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-mi}
+      POSTGRES_DB: meeting_intel
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./infra/db-init.sql:/docker-entrypoint-initdb.d/10-init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mi -d meeting_intel"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  backend:
+    <<: *backend-common
+    command: sh -c "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000"
+    ports:
+      - "8000:8000"
+
+  worker:
+    <<: *backend-common
+    command: python -m app.worker
+
+volumes:
+  pgdata:
