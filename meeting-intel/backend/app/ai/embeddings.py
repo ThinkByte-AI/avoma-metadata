@@ -12,11 +12,18 @@ from typing import Any, Protocol
 
 import boto3
 from botocore.config import Config
-from botocore.exceptions import ClientError
+from botocore.exceptions import (
+    ClientError,
+    ConnectionClosedError,
+    ConnectTimeoutError,
+    EndpointConnectionError,
+    ReadTimeoutError,
+)
 
 log = logging.getLogger("app.ai.embeddings")
 
 _RETRYABLE = {"ThrottlingException", "ServiceUnavailableException", "ModelNotReadyException", "InternalServerException"}
+_NETWORK_ERRORS = (ReadTimeoutError, ConnectTimeoutError, EndpointConnectionError, ConnectionClosedError)
 
 
 class Embedder(Protocol):
@@ -30,7 +37,7 @@ class Embedder(Protocol):
 class FakeEmbedder:
     """Bag-of-words hashed into `dim` buckets, L2-normalised. Similar wording → similar vectors."""
 
-    def __init__(self, dim: int = 1024):
+    def __init__(self, dim: int = 512):
         self.dim = dim
 
     def _vec(self, text: str) -> list[float]:
@@ -67,7 +74,8 @@ class BedrockEmbedder:
         self.client = client or boto3.client(
             "bedrock-runtime",
             region_name=region,
-            config=Config(retries={"mode": "adaptive", "max_attempts": 6}, max_pool_connections=max(10, concurrency)),
+            config=Config(retries={"mode": "adaptive", "max_attempts": 6}, max_pool_connections=max(10, concurrency),
+                          connect_timeout=10, read_timeout=30),
         )
 
     def _one(self, text: str) -> list[float]:
@@ -82,7 +90,10 @@ class BedrockEmbedder:
                 code = e.response.get("Error", {}).get("Code", "")
                 if code not in _RETRYABLE or attempt == self.max_retries:
                     raise
-                time.sleep(self.backoff_base * (2**attempt) * (0.5 + random.random()))
+            except _NETWORK_ERRORS:
+                if attempt == self.max_retries:
+                    raise
+            time.sleep(self.backoff_base * (2**attempt) * (0.5 + random.random()))
         raise RuntimeError("unreachable")
 
     def embed_documents(self, texts: list[str]) -> list[list[float]]:

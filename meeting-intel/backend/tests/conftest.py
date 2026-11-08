@@ -13,6 +13,8 @@ os.environ["DATABASE_URL_TEST"] = TEST_DB_URL
 os.environ.setdefault("S3_BUCKET", "test-bucket")
 os.environ.setdefault("JWT_SECRET", "test-secret-test-secret-test-secret")
 os.environ.setdefault("AWS_REGION", "ap-south-1")
+# The fake bag-of-words embedder scores long conversation windows lower than Titan does.
+os.environ.setdefault("SEMANTIC_MAX_DISTANCE", "0.8")
 os.environ.setdefault("AWS_ACCESS_KEY_ID", "testing")
 os.environ.setdefault("AWS_SECRET_ACCESS_KEY", "testing")
 for _k in ("ADMIN_EMAIL", "ADMIN_PASSWORD"):

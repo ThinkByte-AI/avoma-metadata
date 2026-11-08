@@ -104,6 +104,7 @@ class Source:
     section: str | None
     start_sec: float | None
     text: str
+    kind: str = "utterance"
     before: str | None = None
     after: str | None = None
 
@@ -190,7 +191,12 @@ class _Session:
         for meeting, m in picked:
             src = self._source_for(meeting, m)
             day = src.start_at.date().isoformat() if src.start_at else "unknown date"
-            who = f"Speaker: {src.speaker_name}" if src.speaker_name else f"Meeting notes: {src.section or 'Notes'}"
+            if src.kind == "chunk":
+                who = f"Conversation between: {src.speaker_name}"
+            elif src.speaker_name:
+                who = f"Speaker: {src.speaker_name}"
+            else:
+                who = f"Meeting notes: {src.section or 'Notes'}"
             block = [f"[{src.n}] Meeting: {src.subject} | Date: {day} | {who} | Time: {_fmt_time(src.start_sec)}"]
             if src.before:
                 block.append(f"  (before) {src.before}")
@@ -225,7 +231,7 @@ class _Session:
         before, after = self._ctx.get(m.segment_id, (None, None))
         src = Source(n=n, segment_id=m.segment_id, meeting_id=meeting.id, subject=meeting.subject,
                      start_at=meeting.start_at, speaker_name=m.speaker_name, section=m.section,
-                     start_sec=m.start_sec, text=m.text, before=before, after=after)
+                     start_sec=m.start_sec, text=m.text, kind=m.kind, before=before, after=after)
         self.sources[n] = src
         self.by_segment[m.segment_id] = n
         return src

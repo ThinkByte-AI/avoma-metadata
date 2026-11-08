@@ -13,12 +13,13 @@ from app.aws.s3 import S3Store
 from app.config import get_settings
 from app.errors import ApiError
 from app.ingestion.metadata import MeetingMeta
-from app.ingestion.pipeline import process_meeting, scan_bucket
-from app.models import IngestionJob
+from app.ingestion.pipeline import embed_meetings, process_meeting, scan_bucket
+from app.models import IngestionJob, Meeting
 
 log = logging.getLogger("app.ingestion.jobs")
 
 ACTIVE_STATUSES = ("queued", "running", "paused")
+EMBED_MEETINGS_PER_BATCH = 8  # ~250 chunks per Bedrock fan-out
 STALE_AFTER = timedelta(minutes=10)
 
 
@@ -123,27 +124,42 @@ def run_job(
             meta: dict[Any, MeetingMeta] = meta_loader()
             scan = scan_bucket(db, store, prefixes, meta, only_failed=(job.kind == "retry"))
             stats = {k: v for k, v in scan.__dict__.items() if k != "to_process"}
-            stats.update(to_process=len(scan.to_process), processed=0, meetings_parsed=0,
-                         meetings_indexed=0, meetings_failed=0)
+            stats.update(phase="parse", to_process=len(scan.to_process), processed=0, meetings_parsed=0,
+                         meetings_indexed=0, meetings_failed=0, to_embed=0, embedded=0)
             _save(db, job_id, stats)
 
+            # Phase 1: parse every meeting (transcripts, notes, participants) so keyword search works early.
             cancelled = False
             for mid in scan.to_process:
                 if _wait_while_paused(db, job_id, poll_sec) == "cancelled":
                     cancelled = True
                     break
                 ok = process_meeting(db, store, mid, meta.get(mid))
-                if ok:
-                    stats["meetings_parsed"] += 1
-                    if embedder is not None:
-                        from app.ingestion.pipeline import embed_meeting  # noqa: PLC0415
-
-                        ok = embed_meeting(db, embedder, mid)
-                        stats["meetings_indexed"] += ok
+                stats["meetings_parsed"] += ok
                 stats["meetings_failed"] += not ok
                 stats["processed"] += 1
                 _save(db, job_id, stats)
 
+            # Phase 2: semantic vectors for everything parsed but not yet indexed, newest meetings first.
+            if embedder is not None and not cancelled:
+                pending = list(db.scalars(
+                    select(Meeting.id).where(Meeting.ingest_status == "parsed", Meeting.duplicate_of.is_(None))
+                    .order_by(Meeting.start_at.desc().nulls_last(), Meeting.id)
+                ))
+                stats.update(phase="embed", to_embed=len(pending))
+                _save(db, job_id, stats)
+                for i in range(0, len(pending), EMBED_MEETINGS_PER_BATCH):
+                    if _wait_while_paused(db, job_id, poll_sec) == "cancelled":
+                        cancelled = True
+                        break
+                    results = embed_meetings(db, embedder, pending[i:i + EMBED_MEETINGS_PER_BATCH])
+                    ok_n = sum(results.values())
+                    stats["meetings_indexed"] += ok_n
+                    stats["meetings_failed"] += len(results) - ok_n
+                    stats["embedded"] += len(results)
+                    _save(db, job_id, stats)
+
+            stats["phase"] = "done"
             final = "cancelled" if cancelled else "completed"
             _save(db, job_id, stats, status=final, finished_at=datetime.now(UTC))
             log.info("job finished", extra={"job_id": job_id, "status": final, **stats})
