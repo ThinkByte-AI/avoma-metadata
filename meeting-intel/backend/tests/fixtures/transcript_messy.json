@@ -1,0 +1,17 @@
+{
+  "uuid": null,
+  "meeting_uuid": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+  "modified": null,
+  "speakers": [
+    {"id": 0, "name": "Carol", "email": "", "is_rep": true},
+    {"id": 1, "name": "  ", "email": null, "is_rep": false}
+  ],
+  "transcript": [
+    {"speaker_id": 0, "transcript": "Opening remarks here.", "timestamps": [5.0, 5.5, 6.0]},
+    {"speaker_id": 9, "transcript": "Who am I?", "timestamps": [7.0, 7.2, 7.4]},
+    {"speaker_id": 0, "transcript": "   ", "timestamps": [8.0]},
+    {"speaker_id": 0, "transcript": "No timing here.", "timestamps": []},
+    {"speaker_id": 1, "transcript": "Blank name speaker.", "timestamps": [9.0, 9.5, 10.0]},
+    {"speaker_id": null, "transcript": "Null speaker.", "timestamps": [11.0, 11.5]}
+  ]
+}
