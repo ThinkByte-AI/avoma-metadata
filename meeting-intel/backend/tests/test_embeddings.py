@@ -219,3 +219,12 @@ def test_run_job_with_embedder_indexes(db, engine, store, meta):
     db.expire_all()
     assert db.get(IngestionJob, job.id).stats["meetings_indexed"] == 3
     assert db.get(Meeting, A).ingest_status == "indexed"
+
+
+def test_query_embeddings_are_cached(runtime):
+    with Stubber(runtime) as stub:
+        stub.add_response("invoke_model", _resp([0.3] * 1024), _expected("same question"))
+        e = BedrockEmbedder(MODEL, "ap-south-1", 1024, concurrency=1, client=runtime)
+        first = e.embed_query("same question")
+        assert e.embed_query("same question") == first  # second call served from cache (no second stubbed response)
+        stub.assert_no_pending_responses()
