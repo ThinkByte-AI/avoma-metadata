@@ -31,3 +31,9 @@ def system_status(
         "app_mode": s.app_mode,
         "db": db_state,
     }
+
+
+@router.get("/info")
+def system_info() -> dict:
+    """Public: lets the UI show the development-mode banner before sign-in."""
+    return {"app_mode": get_settings().app_mode}

@@ -75,3 +75,8 @@ def test_system_status_reports_config(admin_client, app, s3_bucket):
     assert body["bucket"] == "test-bucket" and body["prefixes"] == ["avoma/"] and body["region"] == REGION
     assert body["embed_model"] == "amazon.titan-embed-text-v2:0" and body["chat_model"] == "zai.glm-5"
     assert body["app_mode"] == "production" and body["db"] == "ok"
+
+
+def test_system_info_is_public_and_minimal(client):
+    r = client.get("/api/system/info")
+    assert r.status_code == 200 and r.json() == {"app_mode": "production"}

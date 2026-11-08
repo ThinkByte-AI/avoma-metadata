@@ -1,0 +1,7 @@
+allowBuilds:
+  sharp: false
+  unrs-resolver: false
+# Slow links: fewer parallel downloads, long timeouts.
+networkConcurrency: 4
+fetchTimeout: 1800000
+fetchRetries: 6

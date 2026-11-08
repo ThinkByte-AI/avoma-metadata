@@ -45,5 +45,14 @@ services:
     <<: *backend-common
     command: python -m app.worker
 
+  frontend:
+    build: ./frontend
+    environment:
+      BACKEND_URL: http://backend:8000
+    ports:
+      - "3100:3000"
+    depends_on:
+      - backend
+
 volumes:
   pgdata:
