@@ -80,3 +80,11 @@ def test_system_status_reports_config(admin_client, app, s3_bucket):
 def test_system_info_is_public_and_minimal(client):
     r = client.get("/api/system/info")
     assert r.status_code == 200 and r.json() == {"app_mode": "production"}
+
+
+def test_store_is_reused_between_requests(settings_override):
+    from app.aws.s3 import get_store
+
+    get_store.cache_clear()
+    assert get_store() is get_store()
+    get_store.cache_clear()

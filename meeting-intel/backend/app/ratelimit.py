@@ -10,6 +10,7 @@ from app.errors import ApiError
 from app.models import User
 
 AI_LIMIT_PER_MIN = 20
+LOGIN_LIMIT_PER_MIN = 10  # per email + client address
 
 
 class SlidingWindowLimiter:
@@ -35,6 +36,7 @@ class SlidingWindowLimiter:
 
 
 ai_limiter = SlidingWindowLimiter(AI_LIMIT_PER_MIN)
+login_limiter = SlidingWindowLimiter(LOGIN_LIMIT_PER_MIN)
 
 
 def ai_rate_limit(user: User = Depends(current_user)) -> User:

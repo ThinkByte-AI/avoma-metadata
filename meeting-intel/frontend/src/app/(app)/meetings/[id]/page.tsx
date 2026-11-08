@@ -152,6 +152,8 @@ function MeetingView() {
             <TabsContent value="transcript" className="mt-3">
               {!m.has_transcript ? (
                 <EmptyState title="No transcript" description="This meeting has no transcript in the archive." />
+              ) : !["parsed", "indexed"].includes(m.ingest_status) ? (
+                <EmptyState title="Not processed yet" description="This meeting's transcript has not been loaded yet. Check Data Ingestion for progress." />
               ) : transcript.error ? (
                 <ErrorState error={transcript.error} onRetry={() => transcript.refetch()} />
               ) : transcript.isPending ? (

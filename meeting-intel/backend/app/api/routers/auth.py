@@ -12,6 +12,7 @@ from app.config import get_settings
 from app.db import get_db
 from app.errors import ApiError
 from app.models import User
+from app.ratelimit import login_limiter
 
 router = APIRouter(prefix="/api/auth", tags=["auth"])
 
@@ -19,6 +20,8 @@ router = APIRouter(prefix="/api/auth", tags=["auth"])
 @router.post("/login", response_model=UserOut)
 def login(body: LoginIn, request: Request, response: Response, db: Session = Depends(get_db)) -> User:
     email = body.email.strip().lower()
+    if not login_limiter.hit(f"{email}|{client_ip(request)}"):
+        raise ApiError(429, "rate_limited", "Too many sign-in attempts. Please wait a minute and try again.")
     user = db.scalar(select(User).where(func.lower(User.email) == email))
     ok = verify_password(body.password, user.password_hash if user else None)
     if not ok or user is None or not user.is_active:

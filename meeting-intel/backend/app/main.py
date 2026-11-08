@@ -45,8 +45,19 @@ async def lifespan(_: FastAPI):
     yield
 
 
+def check_embed_dim(settings) -> None:
+    from app.models import EMBED_DIM  # noqa: PLC0415
+
+    if settings.embed_dim != EMBED_DIM:
+        raise RuntimeError(
+            f"EMBED_DIM={settings.embed_dim} but the database column is vector({EMBED_DIM}). "
+            "Change both together (models.EMBED_DIM + a migration) and re-run ingestion."
+        )
+
+
 def create_app() -> FastAPI:
     settings = get_settings()
+    check_embed_dim(settings)
     setup_logging(settings.log_level)
 
     app = FastAPI(

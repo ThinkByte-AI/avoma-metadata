@@ -109,7 +109,7 @@ export interface SearchRequest {
 
 export interface SegmentMatch {
   segment_id: number;
-  kind: "utterance" | "note";
+  kind: "utterance" | "note" | "chunk";
   speaker_name: string | null;
   section: string | null;
   start_sec: number | null;

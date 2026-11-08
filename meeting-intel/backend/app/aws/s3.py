@@ -1,6 +1,7 @@
 """Read-only access to the archive bucket. This module never writes, copies or deletes objects."""
 import json
 from collections.abc import Iterator
+from functools import lru_cache
 from dataclasses import dataclass
 from datetime import datetime
 from typing import Any
@@ -73,7 +74,8 @@ class S3Store:
             return {"ok": False, "bucket": self.bucket, "region": self.region, "error": str(e)}
 
 
+@lru_cache
 def get_store() -> S3Store:
-    """FastAPI dependency / factory built from settings."""
+    """FastAPI dependency / factory built from settings (one shared client)."""
     s = get_settings()
     return S3Store(s.s3_bucket, s.aws_region)
