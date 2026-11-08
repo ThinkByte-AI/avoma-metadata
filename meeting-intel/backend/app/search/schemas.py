@@ -36,7 +36,7 @@ class SearchRequest(BaseModel):
 
 class SegmentMatch(BaseModel):
     segment_id: int
-    kind: Literal["utterance", "note"]
+    kind: Literal["utterance", "note", "chunk"]
     speaker_name: str | None
     section: str | None
     start_sec: float | None

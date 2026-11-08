@@ -84,8 +84,14 @@ def seed_search_data(db, embedder=None) -> Seeded:
             db.add(TranscriptSegment(
                 meeting_id=mid, kind="utterance", seq=seq, participant_id=people[who], speaker_name=name,
                 start_sec=start, end_sec=end, text=text,
-                embedding=embedder.embed_documents([f"{subject} | {name}: {text}"])[0],
             ))
+        chunk_text = "\n".join(f"{people_spec[w][0]}: {t}" for w, t, _, _ in utts)
+        names = list(dict.fromkeys(people_spec[w][0] for w, _, _, _ in utts))
+        db.add(TranscriptSegment(
+            meeting_id=mid, kind="chunk", seq=0, participant_ids=sorted({people[w] for w, _, _, _ in utts}),
+            speaker_name=", ".join(names), start_sec=utts[0][2], end_sec=utts[-1][3], text=chunk_text,
+            embedding=embedder.embed_documents([f"{subject} | {chunk_text}"])[0],
+        ))
         for seq, (heading, text) in enumerate(notes):
             db.add(TranscriptSegment(
                 meeting_id=mid, kind="note", seq=seq, section=heading, text=text,

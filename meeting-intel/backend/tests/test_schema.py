@@ -59,11 +59,20 @@ def test_segment_kind_checked(db):
         db.flush()
 
 
-def test_embedding_dimension_is_1024(db):
+def test_embedding_dimension_is_512(db):
     m = _meeting(db)
-    db.add(TranscriptSegment(meeting_id=m.id, kind="utterance", seq=0, text="a", embedding=[0.1, 0.2, 0.3]))
+    db.add(TranscriptSegment(meeting_id=m.id, kind="chunk", seq=0, text="a", embedding=[0.1] * 512))
+    db.flush()
+    db.add(TranscriptSegment(meeting_id=m.id, kind="chunk", seq=1, text="b", embedding=[0.1] * 1024))
     with pytest.raises((DataError, StatementError)):
         db.flush()
+
+
+def test_chunk_kind_with_participant_ids(db):
+    m = _meeting(db)
+    db.add(TranscriptSegment(meeting_id=m.id, kind="chunk", seq=0, text="Alice: hi", participant_ids=[1, 2]))
+    db.flush()
+    assert db.scalar(text("SELECT participant_ids FROM transcript_segments")) == [1, 2]
 
 
 def test_only_one_active_job(db):

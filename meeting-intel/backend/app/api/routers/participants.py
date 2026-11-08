@@ -92,6 +92,7 @@ def get_participant(participant_id: int, user: User = Depends(current_user), db:
                    TranscriptSegment.speaker_name, TranscriptSegment.text, Meeting.subject, Meeting.start_at)
             .join(Meeting, Meeting.id == TranscriptSegment.meeting_id)
             .where(TranscriptSegment.tsv.op("@@")(tsq), TranscriptSegment.meeting_id.in_(visible),
+                   TranscriptSegment.kind != "chunk",
                    or_(TranscriptSegment.participant_id.is_(None), TranscriptSegment.participant_id != participant_id))
             .order_by(Meeting.start_at.desc().nulls_last(), TranscriptSegment.seq).limit(30)
         )

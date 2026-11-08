@@ -81,9 +81,15 @@ def seed_dev_data(db: Session) -> int:
             name = _PEOPLE[who][0]
             db.add(TranscriptSegment(
                 meeting_id=mid, kind="utterance", seq=seq, participant_id=pid[who], speaker_name=name,
-                start_sec=t, end_sec=end, text=text, embedding=emb.embed_documents([f"{subject} | {name}: {text}"])[0],
+                start_sec=t, end_sec=end, text=text,
             ))
             t = end + 1
+        chunk_text = "\n".join(f"{_PEOPLE[w][0]}: {txt}" for w, txt in lines)
+        db.add(TranscriptSegment(
+            meeting_id=mid, kind="chunk", seq=0, participant_ids=sorted({pid[w] for w, _ in lines}),
+            speaker_name=", ".join(dict.fromkeys(_PEOPLE[w][0] for w, _ in lines)), start_sec=5.0, end_sec=t,
+            text=chunk_text, embedding=emb.embed_documents([f"{subject} | {chunk_text}"])[0],
+        ))
         for who, sec in spoke.items():
             db.add(MeetingParticipant(meeting_id=mid, participant_id=pid[who], speaking_sec=round(sec, 2),
                                       is_internal=_PEOPLE[who][2]))

@@ -47,6 +47,6 @@ def test_status_totals_match_db(admin_client, engine, store, meta):  # noqa: F81
     assert body["last_completed_job"]["id"] == job_id and body["last_completed_job"]["stats"]["processed"] == 3
     t = body["totals"]
     assert (t["meetings"], t["parsed"], t["skipped"], t["failed"], t["indexed"], t["discovered"]) == (4, 3, 1, 0, 0, 0)
-    assert t["segments"] == 7 + 5 + 1 and t["embedded_segments"] == 0
+    assert t["segments"] == 8 + 6 + 1 and t["embedded_segments"] == 0
     assert body["failed_meetings"] == [] and body["last_sync_at"] is not None
     assert body["bucket"] == "test-bucket" and body["prefixes"] == ["avoma/"]

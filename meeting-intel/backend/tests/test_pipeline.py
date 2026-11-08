@@ -138,13 +138,23 @@ def test_process_meeting_writes_segments_participants_notes(db, store, meta):
     assert (t.segment_count, t.word_count, t.speaker_count, float(t.last_word_sec)) == (3, 20, 2, 17.5)
     assert t.transcription_uuid == T
 
+    chunk = db.scalars(select(TranscriptSegment).where(TranscriptSegment.meeting_id == A,
+                                                       TranscriptSegment.kind == "chunk")).one()
+    assert chunk.text == ("Alice Tester: Hi Bob, good evening. Let us review revenue.\n"
+                          "Bob Client: Revenue grew five percent last quarter.\n"
+                          "Alice Tester: Great, what about the marketing budget?")
+    assert (float(chunk.start_sec), float(chunk.end_sec), chunk.seq) == (10.0, 17.5, 0)
+    assert chunk.speaker_name == "Alice Tester, Bob Client" and chunk.participant_id is None
+    assert sorted(chunk.participant_ids) == sorted(p.id for p in people.values())
+
 
 def test_generic_speakers_are_not_participants(db, store, meta):
     scan_bucket(db, store, P, meta)
     assert process_meeting(db, store, B, meta[B]) is True
     names = sorted(p.name for p in db.scalars(select(Participant)))
     assert names == ["Carol"]
-    segs = db.scalars(select(TranscriptSegment).where(TranscriptSegment.meeting_id == B).order_by(TranscriptSegment.seq)).all()
+    segs = db.scalars(select(TranscriptSegment).where(TranscriptSegment.meeting_id == B, TranscriptSegment.kind == "utterance")
+                      .order_by(TranscriptSegment.seq)).all()
     assert [s.speaker_name for s in segs] == ["Carol", "Speaker 9", "Carol", "Speaker 1", "Unknown speaker"]
     assert segs[1].participant_id is None
 
@@ -173,7 +183,7 @@ def test_reprocess_is_idempotent(db, store, meta):
     first = counts()
     scan_bucket(db, store, P, meta)
     process_meeting(db, store, A, meta[A])
-    assert counts() == first == (7, 2, 2, 1)
+    assert counts() == first == (8, 2, 2, 1)
 
 
 def test_same_email_reused_across_meetings(db, store, meta):
@@ -233,3 +243,25 @@ def test_never_reads_recordings(db, store, meta):
     for mid in r.to_process:
         process_meeting(db, store, mid, meta.get(mid))
     assert seen and not [k for k in seen if k.endswith((".mp3", ".mp4"))]
+
+
+def test_make_chunks_groups_turns_to_target_words():
+    from app.ingestion.pipeline import make_chunks
+    from app.ingestion.transcript import Segment
+
+    segs = [Segment(i, i % 2, f"P{i % 2}", float(i * 10), float(i * 10 + 5), " ".join(["w"] * 40), 40) for i in range(10)]
+    chunks = make_chunks(segs, {0: 100, 1: 200}, target_words=100, max_words=150)
+    assert [c["word_count"] for c in chunks] == [120, 120, 120, 40]
+    assert chunks[0]["text"].startswith("P0: w w") and chunks[0]["text"].count("\n") == 2
+    assert (chunks[1]["start_sec"], chunks[1]["end_sec"]) == (30.0, 55.0)
+    assert chunks[0]["participant_ids"] == [100, 200] and chunks[0]["speaker_name"] == "P0, P1"
+    assert [c["seq"] for c in chunks] == [0, 1, 2, 3]
+
+
+def test_make_chunks_never_exceeds_max_except_single_long_turn():
+    from app.ingestion.pipeline import make_chunks
+    from app.ingestion.transcript import Segment
+
+    segs = [Segment(0, 0, "A", 0.0, 1.0, " ".join(["w"] * 400), 400), Segment(1, 0, "A", 2.0, 3.0, "short line here", 3)]
+    assert [c["word_count"] for c in make_chunks(segs, {}, target_words=150, max_words=300)] == [400, 3]
+    assert make_chunks([], {}) == []

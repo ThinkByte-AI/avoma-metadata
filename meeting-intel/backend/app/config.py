@@ -22,8 +22,8 @@ class Settings(BaseSettings):
     metadata_dir: str = "/data/metadata"
 
     bedrock_embed_model: str = "amazon.titan-embed-text-v2:0"
-    embed_dim: int = 1024
-    embed_concurrency: int = 16
+    embed_dim: int = 512
+    embed_concurrency: int = 32
     bedrock_chat_model: str = "zai.glm-5"
     semantic_max_distance: float = 0.6
 

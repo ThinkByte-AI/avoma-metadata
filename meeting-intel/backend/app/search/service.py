@@ -81,7 +81,7 @@ def tsquery(q: str, mode: str):
 
 def _keyword_list(db: Session, tsq, scope, speakers: list[int]) -> list[int]:
     rank = func.ts_rank_cd(TS.tsv, tsq)
-    stmt = select(TS.id).where(TS.tsv.op("@@")(tsq), TS.meeting_id.in_(scope))
+    stmt = select(TS.id).where(TS.tsv.op("@@")(tsq), TS.meeting_id.in_(scope), TS.kind != "chunk")
     if speakers:
         stmt = stmt.where(TS.participant_id.in_(speakers))
     return list(db.scalars(stmt.order_by(rank.desc(), TS.id).limit(CANDIDATES)))
@@ -91,9 +91,10 @@ def _semantic_list(db: Session, qvec: list[float], scope, speakers: list[int]) -
     db.execute(text(f"SET LOCAL hnsw.ef_search = {CANDIDATES}"))
     db.execute(text("SET LOCAL hnsw.iterative_scan = relaxed_order"))
     dist = TS.embedding.cosine_distance(qvec)
-    stmt = select(TS.id, dist.label("d")).where(TS.embedding.is_not(None), TS.meeting_id.in_(scope))
-    if speakers:
-        stmt = stmt.where(TS.participant_id.in_(speakers))
+    stmt = select(TS.id, dist.label("d")).where(TS.embedding.is_not(None), TS.meeting_id.in_(scope),
+                                                TS.kind != "utterance")
+    if speakers:  # a conversation window counts when any of its speakers is selected
+        stmt = stmt.where(or_(TS.participant_id.in_(speakers), TS.participant_ids.overlap(speakers)))
     rows = db.execute(stmt.order_by(dist).limit(CANDIDATES)).all()
     max_d = get_settings().semantic_max_distance
     return [r.id for r in sorted(rows, key=lambda r: r.d) if r.d is not None and r.d <= max_d]

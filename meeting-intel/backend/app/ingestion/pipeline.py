@@ -208,41 +208,107 @@ def process_meeting(db: Session, store: S3Store, meeting_id: uuid.UUID, meta: Me
 
 
 MIN_EMBED_WORDS = 4
-EMBED_BATCH = 64
 EMBED_MAX_CHARS = 8000
+EMBED_KINDS = ("chunk", "note")  # single utterances are keyword-searchable only
+CHUNK_TARGET_WORDS = 150
+CHUNK_MAX_WORDS = 300
+
+
+def make_chunks(segments, speaker_pid: dict[int, int], target_words: int = CHUNK_TARGET_WORDS,
+                max_words: int = CHUNK_MAX_WORDS) -> list[dict]:
+    """Group consecutive speaker turns into ~target_words conversation windows for semantic search.
+
+    A window closes once it reaches target_words, or before a turn that would push it past max_words.
+    A single turn longer than max_words becomes its own window.
+    """
+    chunks: list[dict] = []
+    cur: list = []
+    words = 0
+
+    def close() -> None:
+        if not cur:
+            return
+        names = list(dict.fromkeys(s.speaker_name for s in cur))
+        pids = sorted({speaker_pid[s.speaker_id] for s in cur if s.speaker_id in speaker_pid})
+        chunks.append({
+            "seq": len(chunks),
+            "text": "\n".join(f"{s.speaker_name}: {s.text}" for s in cur),
+            "start_sec": cur[0].start_sec,
+            "end_sec": max(s.end_sec for s in cur),
+            "speaker_name": ", ".join(names[:4]) + (f" +{len(names) - 4}" if len(names) > 4 else ""),
+            "participant_ids": pids,
+            "word_count": sum(s.word_count for s in cur),
+        })
+
+    for seg in segments:
+        if cur and words + seg.word_count > max_words:
+            close()
+            cur, words = [], 0
+        cur.append(seg)
+        words += seg.word_count
+        if words >= target_words:
+            close()
+            cur, words = [], 0
+    close()
+    return chunks
+
+
+def _embed_text(subject: str, kind: str, section: str | None, text: str) -> str:
+    body = f"{section}: {text}" if kind == "note" and section else text
+    return f"{subject} | {body}"[:EMBED_MAX_CHARS]
+
+
+def _mark_failed(db: Session, meeting_id: uuid.UUID, error: Exception) -> None:
+    m = db.get(Meeting, meeting_id)
+    m.ingest_status = "failed"
+    m.ingest_error = f"embedding: {type(error).__name__}: {error}"[:2000]
+    m.ingest_attempts = (m.ingest_attempts or 0) + 1
+    db.commit()
+    log.warning("embedding failed", extra={"meeting_id": str(meeting_id), "error": m.ingest_error})
+
+
+def embed_meetings(db: Session, embedder, meeting_ids: list[uuid.UUID]) -> dict[uuid.UUID, bool]:
+    """Embed the pending chunk/note segments of several meetings in one batch, then mark them indexed.
+
+    If the batch fails, each meeting is retried on its own so one bad meeting cannot sink the rest.
+    """
+    if not meeting_ids:
+        return {}
+    subjects = dict(db.execute(select(Meeting.id, Meeting.subject).where(Meeting.id.in_(meeting_ids))).all())
+    rows = db.execute(
+        select(TranscriptSegment.id, TranscriptSegment.meeting_id, TranscriptSegment.kind, TranscriptSegment.section,
+               TranscriptSegment.text)
+        .where(TranscriptSegment.meeting_id.in_(meeting_ids), TranscriptSegment.embedding.is_(None),
+               TranscriptSegment.kind.in_(EMBED_KINDS))
+        .order_by(TranscriptSegment.meeting_id, TranscriptSegment.kind, TranscriptSegment.seq)
+    ).all()
+    todo = [r for r in rows if len(r.text.split()) >= MIN_EMBED_WORDS]
+    try:
+        vectors = embedder.embed_documents([_embed_text(subjects[r.meeting_id], r.kind, r.section, r.text)
+                                            for r in todo]) if todo else []
+        if todo:
+            db.execute(update(TranscriptSegment), [{"id": r.id, "embedding": v} for r, v in zip(todo, vectors)])
+        now = datetime.now(UTC)
+        db.execute(update(Meeting).where(Meeting.id.in_(meeting_ids))
+                   .values(ingest_status="indexed", indexed_at=now, ingest_error=None))
+        db.commit()
+        return {mid: True for mid in meeting_ids}
+    except Exception as e:
+        db.rollback()
+        if len(meeting_ids) == 1:
+            _mark_failed(db, meeting_ids[0], e)
+            return {meeting_ids[0]: False}
+    out: dict[uuid.UUID, bool] = {}
+    for mid in meeting_ids:
+        out.update(embed_meetings(db, embedder, [mid]))
+    return out
 
 
 def embed_meeting(db: Session, embedder, meeting_id: uuid.UUID) -> bool:
-    """Embed this meeting's not-yet-embedded segments, then mark it indexed. False (and recorded) on failure."""
-    m = db.get(Meeting, meeting_id)
-    if m is None:
+    """Embed one meeting's pending segments and mark it indexed. False (and recorded) on failure."""
+    if db.get(Meeting, meeting_id) is None:
         return False
-    try:
-        rows = db.execute(
-            select(TranscriptSegment.id, TranscriptSegment.speaker_name, TranscriptSegment.section, TranscriptSegment.text)
-            .where(TranscriptSegment.meeting_id == meeting_id, TranscriptSegment.embedding.is_(None))
-            .order_by(TranscriptSegment.kind, TranscriptSegment.seq)
-        ).all()
-        todo = [r for r in rows if len(r.text.split()) >= MIN_EMBED_WORDS]
-        for i in range(0, len(todo), EMBED_BATCH):
-            chunk = todo[i : i + EMBED_BATCH]
-            texts = [f"{m.subject} | {r.speaker_name or r.section}: {r.text}"[:EMBED_MAX_CHARS] for r in chunk]
-            vectors = embedder.embed_documents(texts)
-            db.execute(update(TranscriptSegment), [{"id": r.id, "embedding": v} for r, v in zip(chunk, vectors)])
-        m.ingest_status = "indexed"
-        m.indexed_at = datetime.now(UTC)
-        m.ingest_error = None
-        db.commit()
-        return True
-    except Exception as e:
-        db.rollback()
-        m = db.get(Meeting, meeting_id)
-        m.ingest_status = "failed"
-        m.ingest_error = f"embedding: {type(e).__name__}: {e}"[:2000]
-        m.ingest_attempts = (m.ingest_attempts or 0) + 1
-        db.commit()
-        log.warning("embedding failed", extra={"meeting_id": str(meeting_id), "error": m.ingest_error})
-        return False
+    return embed_meetings(db, embedder, [meeting_id])[meeting_id]
 
 
 def _process(db: Session, store: S3Store, m: Meeting, meta: MeetingMeta | None) -> None:
@@ -299,15 +365,22 @@ def _process(db: Session, store: S3Store, m: Meeting, meta: MeetingMeta | None) 
         seg_rows += [
             {"meeting_id": m.id, "transcript_id": transcript_id, "kind": "utterance", "seq": s.seq,
              "participant_id": speaker_pid.get(s.speaker_id) if s.speaker_id is not None else None,
-             "speaker_name": s.speaker_name, "section": None, "start_sec": s.start_sec, "end_sec": s.end_sec,
-             "text": s.text}
+             "participant_ids": None, "speaker_name": s.speaker_name, "section": None, "start_sec": s.start_sec,
+             "end_sec": s.end_sec, "text": s.text}
             for s in parsed.segments
+        ]
+        seg_rows += [
+            {"meeting_id": m.id, "transcript_id": transcript_id, "kind": "chunk", "seq": c["seq"],
+             "participant_id": None, "participant_ids": c["participant_ids"], "speaker_name": c["speaker_name"],
+             "section": None, "start_sec": c["start_sec"], "end_sec": c["end_sec"], "text": c["text"]}
+            for c in make_chunks(parsed.segments, speaker_pid)
         ]
     if notes:
         note_sections = [s for s in notes.sections if s.text.strip() and s.heading.lower() not in SKIP_NOTE_SECTIONS]
         seg_rows += [
             {"meeting_id": m.id, "transcript_id": None, "kind": "note", "seq": i, "participant_id": None,
-             "speaker_name": None, "section": s.heading, "start_sec": None, "end_sec": None, "text": s.text}
+             "participant_ids": None, "speaker_name": None, "section": s.heading, "start_sec": None,
+             "end_sec": None, "text": s.text}
             for i, s in enumerate(note_sections)
         ]
     if seg_rows:

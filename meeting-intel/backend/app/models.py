@@ -24,7 +24,7 @@ from sqlalchemy import (
 from sqlalchemy.dialects.postgresql import ARRAY, JSONB, TSVECTOR, UUID
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 
-EMBED_DIM = 1024
+EMBED_DIM = 512
 
 
 class Base(DeclarativeBase):
@@ -170,7 +170,7 @@ class Transcript(Base):
 class TranscriptSegment(Base):
     __tablename__ = "transcript_segments"
     __table_args__ = (
-        CheckConstraint("kind IN ('utterance','note')", name="ck_segments_kind"),
+        CheckConstraint("kind IN ('utterance','note','chunk')", name="ck_segments_kind"),
         UniqueConstraint("meeting_id", "kind", "seq", name="uq_segments_meeting_kind_seq"),
         Index("ix_segments_tsv", "tsv", postgresql_using="gin"),
         Index(
@@ -192,6 +192,8 @@ class TranscriptSegment(Base):
     kind: Mapped[str] = mapped_column(Text, nullable=False)
     seq: Mapped[int] = mapped_column(Integer, nullable=False)
     participant_id: Mapped[int | None] = mapped_column(Integer, ForeignKey("participants.id", ondelete="SET NULL"))
+    # chunk rows (conversation windows used for semantic search): every speaker in the window
+    participant_ids: Mapped[list[int] | None] = mapped_column(ARRAY(Integer))
     speaker_name: Mapped[str | None] = mapped_column(Text)
     section: Mapped[str | None] = mapped_column(Text)
     start_sec: Mapped[Decimal | None] = mapped_column(Numeric(12, 3))

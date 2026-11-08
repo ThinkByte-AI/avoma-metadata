@@ -63,7 +63,34 @@ def test_run_job_processes_and_records_stats(db, factory, store, meta):
     s = j.stats
     assert (s["objects_scanned"], s["audio_files"], s["transcript_files"], s["meetings_identified"], s["duplicates"]) == (11, 2, 4, 4, 2)
     assert (s["to_process"], s["processed"], s["meetings_parsed"], s["meetings_failed"]) == (3, 3, 3, 0)
+    assert (s["phase"], s["to_embed"], s["embedded"]) == ("done", 0, 0)  # no embedder: parse only
     assert db.get(Meeting, A).ingest_status == "parsed"
+
+
+def test_run_job_parses_everything_before_embedding(db, factory, store, meta):
+    from app.ai.embeddings import FakeEmbedder
+
+    order: list[str] = []
+    real_fetch = store.fetch
+
+    def spy_fetch(key):
+        order.append("parse")
+        return real_fetch(key)
+
+    class Spy(FakeEmbedder):
+        def embed_documents(self, texts):
+            order.append("embed")
+            return super().embed_documents(texts)
+
+    store.fetch = spy_fetch
+    job = enqueue_job(db, "initial", None)
+    with factory() as s:
+        claim_next_job(s)
+    run_job(factory, job.id, store, Spy(), lambda: meta, poll_sec=0.05)
+    assert "embed" in order and "parse" not in order[order.index("embed"):]
+    db.expire_all()
+    st = db.get(IngestionJob, job.id).stats
+    assert (st["phase"], st["to_embed"], st["embedded"], st["meetings_indexed"]) == ("done", 3, 3, 3)
 
 
 def test_pause_then_resume_finishes_job(db, factory, store, meta):
