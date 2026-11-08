@@ -237,7 +237,8 @@ class _Session:
         return src
 
 
-_CITE = re.compile(r"\[(\d+(?:\s*,\s*\d+)*)\]")
+_CITE = re.compile(r"\[(\d+(?:\s*[-–]\s*\d+)?(?:\s*,\s*\d+(?:\s*[-–]\s*\d+)?)*)\]")
+MAX_RANGE = 20
 
 
 def clean_citations(answer: str, known: set[int]) -> tuple[str, list[int]]:
@@ -245,7 +246,11 @@ def clean_citations(answer: str, known: set[int]) -> tuple[str, list[int]]:
     order: list[int] = []
 
     def repl(m: re.Match) -> str:
-        nums = [int(x) for x in re.split(r"\s*,\s*", m.group(1))]
+        nums: list[int] = []
+        for part in re.split(r"\s*,\s*", m.group(1)):
+            bounds = [int(x) for x in re.split(r"\s*[-–]\s*", part)]  # "3" or "1-8" / "1–8"
+            lo, hi = bounds[0], bounds[-1]
+            nums.extend(range(lo, min(hi, lo + MAX_RANGE - 1) + 1) if hi > lo else [lo])
         keep = [n for n in nums if n in known]
         for n in keep:
             if n not in order:
