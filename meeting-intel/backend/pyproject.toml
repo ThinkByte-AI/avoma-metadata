@@ -1,0 +1,37 @@
+[project]
+name = "meeting-intel-backend"
+version = "0.1.0"
+description = "Meeting Intelligence API and ingestion worker"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.32",
+    "sqlalchemy>=2.0.36",
+    "psycopg[binary]>=3.2",
+    "alembic>=1.14",
+    "pgvector>=0.3.6",
+    "pydantic-settings>=2.6",
+    "pyjwt>=2.10",
+    "pwdlib[argon2]>=0.2.1",
+    "boto3>=1.35",
+    "cachetools>=5.5",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "httpx>=0.28",
+    "moto[s3]>=5.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+filterwarnings = [
+    "ignore::DeprecationWarning:botocore.*",
+    "ignore:Using `httpx` with `starlette.testclient`",
+]
+
+[tool.uv]
+package = false
