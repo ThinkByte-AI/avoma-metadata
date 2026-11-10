@@ -1,0 +1,1176 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "data": [
+        {
+          "children": [
+            {
+              "text": "Participants",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "cb8hm",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "ThinkByte: Niharika Chavati, vinay kovvuri, Charan Kumar",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {}
+        },
+        {
+          "children": [
+            {
+              "text": "Key Takeaways",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The meeting focused on UI updates, input validation, and resolving login and leaderboard issues for Aegon Games' website.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "16199914-a5f9-46b0-bd18-c0f1a8457ada",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Main issues addressed were mobile responsiveness, input validation, login delays, leaderboard data consistency, and UI navigation enhancements.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "706255b8-dd1c-4d18-8f74-56120ad71329",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Follow-up actions involve continuing high-priority tasks, scheduling another meeting tomorrow, and implementing identified solutions.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "8fb46c65-81c0-4f93-8856-c0498ffdb12f",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Solutions proposed include validation for inputs, a loading screen for login delays, UI updates for navigation, and ensuring leaderboard data accuracy.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "1bbf33bf-3f7f-42f3-80a9-38ff8958e0cd",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Action Items",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Speaker 1",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Share the high priority action items related to adding entry CTA buttons to tournament cards and bottom navigation bar items and destinations.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "60801165-ac30-4390-95e3-940aef3cc238",
+                            "time": 555.3933,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "0"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Niharika Chavati",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Improve mobile card UI responsiveness",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "0e8f1c95-0f44-4c85-8775-6590a5cfcce2",
+                            "time": 298.41998,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v11"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "1"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Speaker 3",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Enhance login process for a smoother user experience",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "4ea3f882-99a3-4a66-abe8-41d4e9c32f59",
+                            "time": 880.31,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v11"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Review and ensure compliance of mobile UI changes with design standards",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "feee3150-177d-4d5b-9369-a2dfe5f81356",
+                            "time": 1451.51,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v11"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "2"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Team",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Manage navigation and design updates for mobile and tournaments",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "a8d26c96-7dfb-476c-81a4-49c2b964d284",
+                            "time": 486.65,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v11"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Implement and validate input field validation and error handling",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "7576dceb-0a94-4bd2-9a65-b77b6f77092b",
+                            "time": 667.12,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v11"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Address leaderboard data update issues and API functionality",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "d315f769-c398-49e3-9053-f5ab177a45e8",
+                            "time": 1229.86,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v11"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "Team"
+              }
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Meeting and Coordination",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "meeting_and_coordination",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Regular check-ins scheduled to maintain progress, address high-priority tasks. Niharika Chavati taking active role in development, with team members such as Vinay contributing to discussions and task coordination.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "68ee18b1-3582-47c0-a5e5-8d4a7da7340e",
+                    "time": 247.95999,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Schedule follow-up meetings to address ongoing tasks, maintain clear communication, collaboration. Focus on high-priority tasks first, ensure responsiveness, input validation, data consistency are addressed promptly.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "40214d36-34a4-466b-a97c-5f6c06c0e184",
+                    "time": 1533.07,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Need for continual updates, coordination among team members to ensure tasks are completed efficiently and priorities remain clear.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "dd499522-4bff-4216-871f-dfa9d5fe785a",
+                    "time": 1533.07,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "meeting_and_coordination",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Website Development and UI Updates",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "website_development_and_ui_updates",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Niharika Chavati is leading development of website components, focusing on card UI implementation for games section, particularly for mobile and desktop versions. She has received context from Vinay and is addressing immediate priorities.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "048b80af-f06e-4ed9-a2ed-88f5d5c940fa",
+                    "time": 268.66922,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Need mobile responsiveness for game Charan's card UI to ensure seamless user experience across devices.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "dee736ae-a78a-4e5d-a597-16d5fae4a6ab",
+                    "time": 304.94998,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Prioritize tasks related to mobile card UI and other high-priority updates. Discuss and implement changes post-discussion with Vinay.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "dd8f2da6-c476-4eb6-abb1-e77ca7281541",
+                    "time": 1521.34,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "website_development_and_ui_updates",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "UI Navigation and Component Enhancements",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "ui_navigation_and_component_enhancements",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Need for enhanced mobile navigation, including entry CTA buttons and bottom navigation bar, ensuring users can easily access key sections of the app.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "bf2d0acb-7500-4e9d-baa5-d91a8265a471",
+                    "time": 486.65,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Add entry CTA buttons for tournament cards, develop bottom navigation bar for mobile view. Update top navigation bar to display key sections: home, tournaments, leaderboard, shop, partner with us, league.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "f7910979-7502-4379-b32d-6dd219f65ae0",
+                    "time": 486.65,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Develop mobile UI navigation components, such as entry CTA buttons, bottom navigation bar, and top navigation bar with key sections like home and tournaments. Update tournament card UI and ensure consistency between logged-in and logged-out states.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "54ee0501-b9a9-4e5b-8dda-cd3dc4167834",
+                    "time": 486.65,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "ui_navigation_and_component_enhancements",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Input Validation and Geo-Tagging",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "input_validation_and_geo-tagging",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Validate inputs before sending OTP requests, display backend error messages users. Check feasibility of geo-tagging using IP addresses show relevant input fields based on user's location.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "5254529a-918d-48c3-bad2-8fc469d6ef20",
+                    "time": 596.25,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Implement validation for phone numbers, gamer handles, and OTP codes to improve data integrity and user experience. Explore geo-tagging to tailor user input options based on location, potentially using IP address capture.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "842727d3-5c0d-45ee-ab8f-d9dc5892ccbf",
+                    "time": 667.12,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Current system lacks validation, allowing incorrect data entry like phone numbers exceeding 10 digits or incorrect gamer handles.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "cddc11a9-74fa-49aa-a9e5-5989c95cf273",
+                    "time": 688.3,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "input_validation_and_geo-tagging",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Leaderboard Data and API Functionality",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "leaderboard_data_and_api_functionality",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Confirm API calls are functioning correctly by checking network activity and responses. Investigate potential issues with invalid or expired tokens affecting data retrieval.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "0982a200-9ec1-46c4-b7f5-b9d72e5aa86f",
+                    "time": 710.54,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Leaderboard data not updating as expected, leading to inconsistencies and potential user confusion.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "39f64b89-c49a-471b-9a3f-30be3c4cefb8",
+                    "time": 1170.7,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Ensure leaderboard data updates correctly and API calls function as expected, preventing data inconsistencies and errors. Investigate issues with leaderboard data not refreshing or displaying correctly after user interactions.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "54986951-02fa-427d-a3da-8e2d421308d8",
+                    "time": 1229.86,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "leaderboard_data_and_api_functionality",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Login and Authentication Improvements",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "login_and_authentication_improvements",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Delay caused by sequential calls to OTP less and backend server, leading to user experience issues.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "74bcaf45-ddbb-4951-ad70-838529a95b23",
+                    "time": 850,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Address delays in social login, specifically with Google authentication, by implementing a loading screen to manage user expectations during authentication process.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "43aa1c01-5370-45a0-b33c-b3bd4fa628d0",
+                    "time": 862.245,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Implement loading screen to manage delays during authentication process, ensuring user is informed of progress and reducing likelihood of repeated actions due to impatience.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "821dba92-7c8f-4f87-8fe6-d97459fe0c5a",
+                    "time": 880.31,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "login_and_authentication_improvements",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Pain Point",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_pain_point",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Leaderboard data is not updating correctly in the sheet, and filters are not highlighting the correct information.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "c33fcd14-2a17-4595-be9b-ac9f18560d5e",
+                    "time": 1175.745,
+                    "highlight_note_list_item": true,
+                    "machine_note": true,
+                    "model": "machine_note_cleaned"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Invalid token and expired token issues in the logged-in view.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "cf668af4-f65f-42fe-83ea-f39d8686e7ba",
+                    "time": 1397.86,
+                    "highlight_note_list_item": true,
+                    "machine_note": true,
+                    "model": "machine_note_cleaned"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_pain_point",
+            "highlight_notes_list": true
+          }
+        }
+      ],
+      "created": "2024-11-20T12:39:20.546282Z",
+      "modified": "2024-11-20T12:40:10.202856Z"
+    }
+  ]
+}

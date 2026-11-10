@@ -1,0 +1,1800 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "data": [
+        {
+          "children": [
+            {
+              "text": "Participants",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "cb8hm",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Thinkbyte: Krishna Sindhur, vinay kovvuri, Anupam Gevariya, Yash Mori",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {}
+        },
+        {
+          "children": [
+            {
+              "text": "Key Takeaways",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The meeting focused on the progress and challenges of various projects, including data scraping from LinkedIn, Hubspot API integration, and document classification for Nityo Infotech",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "1bfc0233-93e6-44b8-9099-42d7cd780df5",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "A persistent technical issue discussed was the difficulty in scraping current company names from LinkedIn profiles, which is essential for accurately fetching role information",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "076b8890-d595-4c28-874d-334a5ef91a4c",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "There was a consensus on the need for a centralized Git repository for improved collaboration, with a 'demo' folder to manage and present project demos",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "f4044d89-863e-4eef-b40e-d1e717a31f8c",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The team agreed to start daily catchups to ensure that projects like the Jacob project are on track and to effectively address any immediate blockers",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "c20c0988-8968-422d-983d-429fa87d4697",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Preparations for a client demo of the Hubspot integration project are underway, with emphasis on the simplicity, GDPR compliance, and cost benefits of the service",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "b6d8f626-f73e-4d6c-921a-e83caba05548",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Use Case",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_use_case",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Encountered errors in different types of profiles and had to fix them in the network.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "v9303",
+                    "time": 2889.8796,
+                    "highlight_note_list_item": true,
+                    "keyword": true,
+                    "trigger_prompt": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_use_case",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Team Coordination",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "team_coordination",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vinay proposes that the team starts catching up daily to track action items and work towards project goals.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "6c554584-4d8f-4aed-a56e-3ce12c200b5c",
+                    "time": 426.05997,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The immediate focus is to ensure that the Jacob project and other key initiatives are pushed to the central Git repository.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "70abfa10-9585-4c52-9285-466786e73002",
+                    "time": 1283.09,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The plan is to establish a routine where the team can discuss blockers and progress, with Krishna providing oversight and guidance.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "78af202f-2d60-4529-8d99-2d1cc9f150c3",
+                    "time": 2039,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "team_coordination",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Business Goals",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_need",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The goal to demonstrate the projects to the client was reiterated with emphasis on ensuring decent quality for the presentation.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ec7e09fe-f58b-4ea1-8e82-1176b68795a6",
+                    "time": 426.05997,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_need",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Project Updates",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "project_updates",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The project involves connecting with the Hubspot API, retrieving people's current roles and company names, and updating Hubspot with this information. They discuss the potential costs and quarterly recurring fees for refresh.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7627dcf4-921f-4dc5-aef4-9e408263f169",
+                    "time": 817.25995,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The team discusses a project that uses Google Search to scrape the top results to understand the roles of individuals when their current role is not available directly through an API.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "d6cbb49e-d5f8-4123-871a-3f662b4b73d1",
+                    "time": 1110.38,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "This method is necessary because LinkedIn sometimes blocks direct access to this information, and the project aims to update customer databases with the current roles of individuals.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "9fdb2b35-8676-4da6-a54e-a8baf2df6300",
+                    "time": 1113.2883,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vinay Kovvuri and Krishna Sindhur discuss the ongoing projects, specifically mentioning the Hubspot integration project.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "18cb09d0-2997-4df7-8e9a-5d9aa36fd6a0",
+                    "time": 1150.9896,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vinay brings up another project called \"Blocks,\" which is related to content automation and keyword research.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "57caba2b-eeca-4203-a6a4-fea10effcc2b",
+                    "time": 1337.68,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The project helps generate a keyword universe, suggesting related keywords, and identifying what content to use for blog posts based on search volumes and keyword difficulties.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "f478e94c-117b-49bf-babe-6a8723a4fbb6",
+                    "time": 1391.6998,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Some improvements and cleanups are needed, but the project is in development, and further discussion is planned for the next meeting.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "87892472-8661-4be2-917b-2558d88584c0",
+                    "time": 1603.4288,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vinay describes a project for Nityo Infotech which involves classifying documents received from diagnostic centers and restructuring them into a desired format for insurance companies.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "15183b6f-cd6d-4c4c-8d4a-d6bafab7c8d5",
+                    "time": 1783.6799,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The current status is that they are working on refining this method and preparing for a feature demo. Hong, a colleague, is working on obtaining the desired output from Google Search.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "111d2cd5-d750-44c2-ae13-7e10a5af25d4",
+                    "time": 1841.1693,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The process currently done manually involves thousands of reports per day, and automation could significantly reduce costs and time.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "68f87a70-b6f4-4683-807f-5d73e627d2bc",
+                    "time": 1938.2095,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "A demo is being prepared for the client, and the current state involves sorting out the categorization and naming of the documents accurately.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "4b9d6247-2480-49ab-a235-cb813da01e63",
+                    "time": 3447.829,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "project_updates",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Concerns",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "concerns",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "There is a concern about scraping difficulties, specifically when the scraper fails to retrieve current company names from LinkedIn profiles.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "97869ccb-9c51-46d3-9f93-65c79e39c2ea",
+                    "time": 945.04944,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "concerns",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Technical Issues",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "technical_issues",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Yash Mori and Anupam Gevariya report a problem with scraping LinkedIn data where they are unable to retrieve the current company name for some profiles, which impacts the ability to fetch the correct roles.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "eafd8b0b-09e5-4c91-951a-246c6471629e",
+                    "time": 945.04944,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Krishna advises that they need to handle missing data gracefully and prepare the code to accommodate different profile formats, suggesting grouping profiles into categories and testing.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "bbc15d34-1277-4442-b279-5a9c76beaf4d",
+                    "time": 1190.6296,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Yash reports issues with categorizing PDF pages into correct document types during the processing, which is crucial for the Nityo Infotech project.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "d1886d8f-0579-4af5-b50e-8b6fb130ff19",
+                    "time": 1855.6997,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "There are challenges with recognizing certain pages, particularly when they contain mixed content like forms and IDs.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "2df70a43-4b3f-40cf-9685-1f37243df29d",
+                    "time": 1905.5485,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The current approach is to refine the processing algorithm to ensure accurate categorization, and this issue is being actively worked on.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "032038db-42ec-4bd2-9b83-8299fa2387bf",
+                    "time": 2153.9102,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The issue remains unresolved, but the immediate approach is to handle missing data points and continue refining the scraping process.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "4de989e7-caf8-434d-a39a-140d24967b5b",
+                    "time": 2798.7,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "technical_issues",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Code Quality",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "code_quality",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "He emphasizes that the code should be resilient and handle exceptions gracefully without breaking.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "0aa1821b-fd3f-41e2-a448-309b50227f4d",
+                    "time": 1027.9789,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Krishna advises the team on maintaining high code quality, including writing legible code, handling errors properly, and writing functions that perform a single task.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "0d1fb6ba-b74b-48b8-9e6c-13f0f4339f15",
+                    "time": 2390.5295,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The team is encouraged to read and follow good coding practices, write meaningful comments, and create functions with descriptive names.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "fb9c7121-e070-43c6-bde9-9255365c4d96",
+                    "time": 3554.4795,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "code_quality",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Career Advice",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "career_advice",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "He stresses the value of contributing to projects like Rama Index and learning from high-quality codebases.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "0702e86d-c1ef-44c2-9204-2169c7fc0c0e",
+                    "time": 1027.9789,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Towards the end of the meeting, Krishna provides career advice to the younger team members, encouraging them to learn from open-source projects and understand the importance of good documentation and error handling.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ffd84888-de8a-4fb0-9b95-361cc5ee732a",
+                    "time": 2039,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The team is motivated to continue learning and improving their technical skills while working on their projects.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "3a6967b2-b2b4-4041-96be-f32d3100a673",
+                    "time": 2484.9993,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "career_advice",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Development Collaboration",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "development_collaboration",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vinay proceeds to create the repository live during the meeting, and they plan to move all relevant projects into this centralized location.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "5a4270f6-c247-414e-b502-87bd91e0eae2",
+                    "time": 1033.45,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vinay and Krishna discuss setting up a Git repository for better collaboration among the team members.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "8e44bd3b-e1de-4013-b9dc-25f7a4a4ce97",
+                    "time": 2390.5295,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Krishna suggests creating a 'demo' folder within the main repository to house all the demo projects, allowing for easier access and management.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "daeb874c-7f29-43fe-aac1-7419aa117800",
+                    "time": 2421.0393,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "development_collaboration",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Sales Pitch Preparation",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "sales_pitch_preparation",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The team needs to prepare for a feature demo and ensure everything is working correctly before the client presentation.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "9c215c2e-1620-44bb-9dab-720093e4988b",
+                    "time": 1033.45,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The sales pitch will cover the project's simplicity, compliance with GDPR, and the cost benefits compared to manual processes.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "e72621be-a72d-43a6-ac1f-016cc4ea0c07",
+                    "time": 1062.24,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vinay discusses how he is preparing to pitch the Hubspot integration project to potential clients, highlighting the value of the service.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "482ea672-54ce-4d9d-a33f-78657cd69161",
+                    "time": 2595.9897,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "sales_pitch_preparation",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Technical Discussions",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "technical_discussions",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The meeting turns to a discussion on best practices for web scraping, especially regarding LinkedIn profiles.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "57c20fba-5190-443e-979d-146a4d369be8",
+                    "time": 1113.2883,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Krishna provides insights from his experience, emphasizing the need for flexible and error-tolerant scraping to handle various profile formats and frequent changes by LinkedIn.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "3a13a0db-694c-4bf7-acb8-c65dc2488ad8",
+                    "time": 1146.8594,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "technical_discussions",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Recently Completed Tasks",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "recently_completed_tasks",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Yash Mori has reported that the categorization of documents in the insurance project seems to be working correctly for 19 out of 19 expected categories.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "1366c4e4-6134-42b7-81e7-1a3987c86bde",
+                    "time": 1672.34,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The team discussed ongoing projects related to data scraping, integration, and document categorization.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "95eddac2-8b9d-4481-b1a6-8817dac691b9",
+                    "time": 2696.2898,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Concerns were raised about scraping challenges, which were addressed with suggestions for error handling and code maintenance.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "cf5f0cf7-90ef-4028-b64b-387bf6a7b4d3",
+                    "time": 2798.7,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Action items were assigned to push code to the repository and resolve scraping issues, with plans to reconvene the following day.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "95b35924-4672-4fd4-91c4-2857798833f5",
+                    "time": 2897.959,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "recently_completed_tasks",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Decision",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_decision",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "A decision was made to create a separate folder called 'demo' within the repository to add demos.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "d5802299-6dda-4140-adcb-c5301aefd5a4",
+                    "time": 2434.4697,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_decision",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Current Tasks",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "current_tasks",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Anupam Gevariya and Yash Mori are working on fetching roles from LinkedIn when the current company name is not present during scraping.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "5cb60d54-f8f7-4e87-9d04-7574847d2b94",
+                    "time": 2701.6394,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Yash Mori is currently working on scraping issues and pushing code to the repository.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "de3ae0f6-f554-4511-923e-051b8b4562de",
+                    "time": 2897.959,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "current_tasks",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Follow-up Meeting",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_next_meeting_date",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The team plans to catch up again tomorrow during the same time.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "b03c033c-2f94-4eb7-a9b3-85e6abe249b6",
+                    "time": 377.1299,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_next_meeting_date",
+            "highlight_notes_list": true
+          }
+        }
+      ],
+      "created": "2024-05-06T15:41:18.241996Z",
+      "modified": "2024-05-06T15:45:02.909033Z"
+    }
+  ]
+}

@@ -1,0 +1,2276 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "data": [
+        {
+          "children": [
+            {
+              "text": "Participants",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "cb8hm",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "ThinkByte: Niharika Chavati, Vamsi Posimsetti, Anupam Gevariya, Yash Mori, Krishna Sindhur, Shivani Singamsetty, vinay kovvuri, Praneetaa Lakshmi",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {}
+        },
+        {
+          "children": [
+            {
+              "text": "Key Takeaways",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Addressed critical login flow issues, particularly OTP verification and access control, to enhance user authentication.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "9f5d873f-a0a7-43e9-9173-5620aa189df6",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Krishna Sindhur and Yash Mori emphasized the need to fix the notification system, including FCM token registration and functionality.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "68c5edd0-58dd-42e5-bffa-29278175ba51",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Agreed on a 15-minute refresh rate for API caching to improve data accuracy and manage large datasets.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7f8e16a1-1215-4923-9f95-34a955e81b4f",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Discussed refining integration of subscription services, payment gateways, and Google Ads API to correct fee and keyword planning errors.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "18b028c7-fc84-4ae7-8b77-73bd275bfa93",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Planned a client demo of the authentication process and scheduled discussions on CICD pipeline, beta testing, and cloud migration.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ef76aa94-74fa-4068-8d84-6d68d4a421c9",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Action Items",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Krishna Sindhur",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Ensure that the data is stored in Firebase in addition to the local database.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "dd2cdb99-9014-43d9-b9e2-7eaf33242776",
+                            "time": 1512.5,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Prioritize email automation service integration.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "d0f4cb27-9ef6-47ab-9d92-e647274a3faf",
+                            "time": 1626.5801,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "0"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Speaker 2",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Check the documentation to determine the default expiration time for the access token.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "bdf56f38-4e97-4967-86be-d550148287a7",
+                            "time": 519.95996,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Work on the registration button, login flow, and UI tweaks.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "9fe07604-9d02-4ffb-9118-85dfb022955a",
+                            "time": 894.77,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "1"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Yash Mori",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Implement subscription and notification systems.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "8c8acf4a-ae3d-45af-b2f6-aa29819e0b8e",
+                            "time": 1040.25,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Put the remaining tasks from the product sensor list onto a separate sheet for proper listing, such as in Excel, to track progress effectively.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "23c05376-1901-424e-9c47-55d1e4925e98",
+                            "time": 1091.325,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Share the link to the small Excel document for grouping tasks related to CICD and horizontal scaling dependencies.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "533e2c4b-0aba-4d26-a68d-d36840023513",
+                            "time": 1138.7999,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "List out remaining tasks in an Excel sheet.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "87fac5eb-e601-4edc-9b79-8a6ba9517723",
+                            "time": 1299.69,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Debug and fix API token issues.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "23d6ca50-6ab1-4953-b4b5-0e5334cb8841",
+                            "time": 1389.5701,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Check the Google Ads API documentation and tutorials.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "f8b4b4eb-bf55-48cb-9037-839bc0ec5f19",
+                            "time": 1612.79,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "3"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Priti",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Review updates on the login flow.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "84171038-db62-41db-a813-904cb1faf21e",
+                            "time": 311.56,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "Priti"
+              }
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Login Flow Integration Issues",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "login_flow_integration_issues",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Ongoing issues with integrating the login flow using a third-party sdk, otter tailor",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "fe7c3a3a-565c-48dd-b84d-fc26277a4710",
+                    "time": 261.61,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Challenges with sorting out access control",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "acec11fb-fc87-49d6-b7bb-ef907f29929f",
+                    "time": 396.37003,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Focus on resolving the OTP issue by consulting the support team",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "5c3a5802-174a-409b-872c-9c166e54785d",
+                    "time": 689.69995,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Difficulties accessing OTP via phone number",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "bce7c5ca-cd7e-46fd-ad11-320dc4b1d851",
+                    "time": 718.61,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Problems with distinguishing between protected and public routes",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "76cecdb3-ae8e-4a3a-aff9-891b75b2b23a",
+                    "time": 859.56,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Ensuring accurate documentation for better integration.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "5a64592e-710f-4a17-9a33-b9fb31ccb8a4",
+                    "time": 1658.27,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "login_flow_integration_issues",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Business Goals",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_need",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Complete the login flow and address issues with otp via phone number",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "da44801e-50df-4396-8a45-0ec0d3047850",
+                    "time": 261.61,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Ensure access control and routing between public and protected pages",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "f05877f7-0e77-418e-9332-b72264213ae2",
+                    "time": 580.54,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Prepare for the client's authentication process demonstration",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "87903adb-a6f8-4519-a8ff-1c4c12f99589",
+                    "time": 621.24005,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Implement caching for large data with a 15-minute refresh timeline",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "1012c086-71c3-4dd9-9f52-972e6dda7ff7",
+                    "time": 1227.0334,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Debug and resolve issues with the notification system and API tokens",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "a5ac763c-d089-42c0-ba0d-6a78021da3ec",
+                    "time": 1330.88,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Integrate deep linking and Memoryfox API changes",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "6243ef71-3f89-4007-aa98-d9e1a295599b",
+                    "time": 1731.87,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_need",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Current Tasks",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "current_tasks",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Working on login flow, distinguishing between protected and public routes",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7349701f-ccf8-4968-880e-b4b1d296ddc8",
+                    "time": 319.9,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Organizing and setting up access control for public and protected pages",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ddb9db7a-ebc8-4e54-8b8d-a6c2853b6104",
+                    "time": 375.11,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Connecting backend API with public and protected routes",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "dd183f7b-0612-43ba-883e-dc59368b2b6e",
+                    "time": 467.97998,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Updating code for other APIs and adjusting the payload",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ed8a2b1b-d745-459a-9788-542ec318ca29",
+                    "time": 609.07996,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Debugging API token issues and ensuring proper notification system functionality",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "f016fd14-8768-49f0-bc42-f9304f484ee5",
+                    "time": 1462.8301,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Fixing errors with Google Ads API fees and keyword planning service",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "9eb0e53a-f44f-42e3-813f-b9ea2b8e4848",
+                    "time": 1584.19,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Email automation service integration for a pharma client",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "23f506ba-dff3-4c05-aa4d-047fd9014941",
+                    "time": 1626.5801,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "current_tasks",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Recently Completed Tasks",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "recently_completed_tasks",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Connection of several pages and backend API",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "c22da018-d334-431c-b7c4-88c8aec7d084",
+                    "time": 338.28,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Cost and access issues sorted out",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "948a3d1c-310b-4479-8d63-e387dad5d2ed",
+                    "time": 340.36002,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Protected route implementation",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "a6931155-dad7-42f1-8616-7ac0aa8c4c68",
+                    "time": 467.97998,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Caching implemented for certain models",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "e6904523-99a0-458b-8a59-31ab20ad1156",
+                    "time": 1187.67,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Notifications sent successfully despite issues with FCM token registration",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7adb96e7-5f43-4fad-81dc-32d4acd8bdc4",
+                    "time": 1330.88,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "recently_completed_tasks",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Decision",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_decision",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Backend development assistance needed",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7368310f-41a7-4aaf-9d1c-bc3badfa5122",
+                    "time": 396.37003,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Single input text box preferred for both options on login page",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "d1efd773-4b1d-4f0d-bcfa-be261c9cb7be",
+                    "time": 741.02,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Decision outcomes support required",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "a0be14f0-921d-4ff4-bdd8-d370207e0546",
+                    "time": 768.76996,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Subscription and product sensor updates discussed",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "dafd75d5-dd9a-4bdf-b70f-b3656f92f02b",
+                    "time": 1054.53,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "CICD pipeline, beta testing, and cloud migration to be discussed",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "6a8ce31b-b31c-42c9-b776-298e5f295106",
+                    "time": 1163.81,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Use of centralized Redis cluster for horizontal scaling",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "f132b42d-8a6a-41c4-bba3-05e13386279c",
+                    "time": 1262.21,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Notification API to be stored in Firebase",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "5322d259-4d54-49cd-96be-faef9454a63d",
+                    "time": 1530.4501,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_decision",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Authentication End-to-End Demonstration",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "authentication_end-to-end_demonstration",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Team mentioned client's request to see authentication process from start to finish",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "790d6951-caff-48b4-a6ff-fb4ee69cf4e8",
+                    "time": 623.32,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Speaker 1 will demonstrate authentication process at 5:30 PM",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "6b4a6888-9d07-44f1-aa29-51ded3d2a198",
+                    "time": 689.69995,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "authentication_end-to-end_demonstration",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Subscription and Payment Integration",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "subscription_and_payment_integration",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Integrate with a payment gateway",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "c25de602-6847-4e0e-a72e-006159c3e4fa",
+                    "time": 989.75995,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Customize subscription services",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "0a849bcc-9003-4b0f-9a35-f06fc06160c2",
+                    "time": 1040.25,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Conduct beta testing",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "56ba63a6-f6dd-4b99-b533-5a98e5dcbcc0",
+                    "time": 1054.53,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Ensure proper indexing and caching",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "28d3b812-6b6a-426a-8630-a80549c85568",
+                    "time": 1181.51,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "subscription_and_payment_integration",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Task Prioritization and Dependencies",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "task_prioritization_and_dependencies",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Address necessary dependencies like CICD and horizontal scaling",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "291164aa-48ff-4621-9d06-ab7c2f558f14",
+                    "time": 1103.35,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Use tools like Jira or Atlassian for project management",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "17c671f3-6e6c-4667-a9ea-7069dd068fc3",
+                    "time": 1126.96,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Prioritize tasks like cloud migration, database indexing, and production steps for a smooth transition",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "e9e5bd89-544f-49f1-99e7-22b83eb29e2d",
+                    "time": 1163.81,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Emphasized the need to prioritize tasks",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "9feca544-18ea-4ec8-97af-0f63e9a1dfc0",
+                    "time": 1299.69,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "task_prioritization_and_dependencies",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "API Caching and Data Accuracy",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "api_caching_and_data_accuracy",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Discussed the importance of caching apis to handle large datasets and ensure efficient access",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "13d41a12-bcd2-4ba1-a3b5-5e3689a3df7f",
+                    "time": 1187.67,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Emphasized the need for a Time-to-Live to avoid displaying outdated information and decided to implement a 15-minute refresh timeline",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "e5a178d4-fcc2-442f-93c0-3607c6e7440b",
+                    "time": 1227.0334,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "api_caching_and_data_accuracy",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Google Ads API Errors",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "google_ads_api_errors",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Errors related to fees and keyword planning services",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "d6c4964a-b06b-48e0-95d6-b0dbb4911104",
+                    "time": 1584.19,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Conflicting versions in Github code causing errors",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ed54a12d-58c5-458e-aa07-efb3c7f579ad",
+                    "time": 1603.92,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Discussed errors with google ads api",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "15a9b7c7-8dac-4230-bc15-4dd9b962de29",
+                    "time": 1612.79,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "google_ads_api_errors",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Deep Linking and Memoryfox API",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "deep_linking_and_memoryfox_api",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Team will focus on resolving notification issues",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "15ab464a-8092-4e0c-9681-45a119c1cadb",
+                    "time": 1729.99,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Deep linking has not been integrated yet",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "b7caf2b6-f95d-43fd-880b-56b3b1222f14",
+                    "time": 1731.87,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "deep_linking_and_memoryfox_api",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Pain Point",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_pain_point",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Unable to access the token due to an issue with the OTP verification process.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "e5c9ccdb-f883-4222-9452-58ffbe583d98",
+                    "time": 665.12,
+                    "highlight_note_list_item": true,
+                    "machine_note": true,
+                    "model": "machine_note_cleaned"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The delay in updating documentation is causing issues with the notification system triggering properly.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "06b36fca-ee3a-4cc7-852b-a85ded4d12e3",
+                    "time": 701.67,
+                    "highlight_note_list_item": true,
+                    "machine_note": true,
+                    "model": "machine_note_cleaned"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The client does not want a separate button for phone number verification.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "cf7b4665-926a-4dcd-9f6a-97256c5085e7",
+                    "time": 738.26,
+                    "highlight_note_list_item": true,
+                    "machine_note": true,
+                    "model": "machine_note_cleaned"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_pain_point",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Follow-up Meeting",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_next_meeting_date",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "A call tomorrow to discuss weekly tasks and keep everyone updated.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "98542e8c-7769-4afe-ba6d-18eca8a83817",
+                    "time": 396.37003,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "A call with the OTP support team and tech support team to be scheduled.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "4a3043dc-64b6-44fe-812b-717757a4bea5",
+                    "time": 689.69995,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_next_meeting_date",
+            "highlight_notes_list": true
+          }
+        }
+      ],
+      "created": "2024-09-30T08:55:52.296907Z",
+      "modified": "2024-09-30T08:59:15.887467Z"
+    }
+  ]
+}

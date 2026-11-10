@@ -1,0 +1,1206 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "data": [
+        {
+          "children": [
+            {
+              "text": "Participants",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "cb8hm",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "ThinkByte: Niharika Chavati, vinay kovvuri, Charan Kumar",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Lustralwater: Aditya",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {}
+        },
+        {
+          "children": [
+            {
+              "text": "Key Takeaways",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The meeting focused on enhancing the website's functionality and aesthetic appeal, including animating the logo and improving the FAQ section.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "df620a49-47e9-4a43-9b13-b6d052957449",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Technical issues addressed included incorrect animation displays and the need for proper image authorization to avoid legal issues.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "c48bd262-0b5f-4128-830f-a42717ea1047",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vinay Kovvuri was tasked with fixing the logo animation, reorganizing the FAQ section, and implementing OTP verification for phone number authentication during purchases.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "f52a121a-c19f-437e-b5f8-6e7fe2795b78",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Aditya highlighted the need for better visibility of the Bangalore branch and improvements in customer interaction, such as the callback option.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "41d0345f-02dc-4cdd-b2f1-4832cb6cdc8e",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The team agreed to transition to Hubspot to improve digital tools and customer engagement after implementing the discussed changes.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "1d7ba3f8-14bf-4e54-8b92-d3d30bbe123f",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Mentioned the addition of headquarters, Mumbai branch, and facility information.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "eb85aa9d-ec37-42b4-87f1-ef31c28094c8",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Action Items",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "vinay kovvuri",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Make the logo move in the art provided by Prospect Aditya.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "f2c3f66b-19a6-4419-81e3-6b4a6a1c9755",
+                            "time": 324.75998,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Share the zip logo for the globe in white color with Rep Niharika Chavati.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "d50ab242-201f-4887-924f-cc1c28365504",
+                            "time": 342.4,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Handle animations separately as the current animation is not showing up.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "f8c073f6-56cf-4a1e-bf08-7adaa9d13658",
+                            "time": 388.93,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Change the layout and design of the contact page to make it more visually appealing.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "3952675d-16ad-43cf-b3a1-c1243146dc5c",
+                            "time": 613.81,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Add a pop-up on scroll to block, prompting user input for name or number.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "7d7a69cf-bbc5-46c0-ac35-63c2d39979c5",
+                            "time": 645.70996,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Enlarge the Bangalore branch information as it is currently too small.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "dd455202-7e8b-499f-8e02-16117b1c0a01",
+                            "time": 811.33,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Work on adding Facebook and LinkedIn icons that link directly to Prospect Aditya's pages.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "5eb73430-19f6-460e-9cfd-f24082cd56ca",
+                            "time": 1031.81,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Align and improve the size of the cycles and organize the FAQ section better.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "b36e2cd6-6ec9-44e6-acc5-c9fbdada63a4",
+                            "time": 1168.21,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Check on the availability and costs related to phone number OTP verification for Shopify.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "f7bd4d91-3288-44b4-879e-848111b8123f",
+                            "time": 1230.9299,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "1"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vinay Kovvuri, Niharika Chavati",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Ensure all the discussed changes are made and transition to Hubspot once completed.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "7ddf8c2e-e6cb-4ceb-9352-4db3787b04f9",
+                            "time": 1571.5399,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "Vinay Kovvuri, Niharika Chavati"
+              }
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Features Interested",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "feature_request",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Enable \"For duck, All products\" link for cross-selling on product pages",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "6f8f4aaf-46fa-40f0-92d9-ea032f3eb5c0",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Discussed adding a callback option where customers can input their name and number.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "cb8144d7-d5a3-4c86-a545-c7f60e8139be",
+                    "time": 1101.12,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Mentioned that product images are coming from the products page and will be featured on the products page.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "571490c0-2492-4893-941c-7808bb300787",
+                    "time": 1234.76,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "feature_request",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Technical Challenges",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "technical_challenges",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Verify and confirm authorization for image use on products page",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7c59c6a6-919e-4168-8b84-64227f0ce88f",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Aditya reported that the animation was not displaying correctly on the right side and questioned why it was stuck.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "549e5e20-9f8c-47e7-9bfa-4c53cc62fd79",
+                    "time": 354.40002,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "technical_challenges",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Customizations",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "customizations",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Enhance faq section clarity",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "09bf9972-e9c8-4ab1-a762-fffa98242f9f",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Discussed changing the layout and design to make it more visually appealing.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "56537cee-a75b-4374-95c3-0f8d99a7d328",
+                    "time": 623.31,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "customizations",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Complaints",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "complaints",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Animate the logo in the provided art",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "c73d191a-211b-42f1-b00f-1a6f0fbfce3e",
+                    "time": 324.75998,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Fix missing animation on the right side",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "5c78f30e-974c-443d-9041-33f167235551",
+                    "time": 354.40002,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Ensure no elements on the website are infinitely looping",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "e2b38405-cede-4a34-b3a5-881d771fe20a",
+                    "time": 599.94,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Revamp contact page design for improved aesthetics",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "17d6a04c-a5ff-4af9-837f-74db89a99aaf",
+                    "time": 613.81,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Introduce pop-up for name or number input upon scrolling",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "894e44c9-0ff4-4817-84cf-db942f6cddc1",
+                    "time": 645.70996,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Redesign website for enhanced visual appeal and layout",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "9d26afae-9e14-4fdb-b4be-e6e98efe5b93",
+                    "time": 705.08997,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Increase visibility of Bangalore branch details",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "69d98ae6-f724-4519-9d78-6e5cabb00f90",
+                    "time": 811.33,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Reorganize FAQ section for clarity",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "9dc4373e-9f85-4c04-9f2f-c86023f3892f",
+                    "time": 893.16,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Add direct links to Facebook and LinkedIn via icons",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "5ed6a092-7c3d-4974-8ced-52dd40cca814",
+                    "time": 1036.51,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Align and resize cycles for better visual harmony",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "d1438928-a77b-4d06-84f7-c6336b6c67f6",
+                    "time": 1168.21,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Implement OTP verification for phone numbers during purchases",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "bf9357f9-3860-4e19-986b-398d89829b91",
+                    "time": 1513.74,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "complaints",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Pricing",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_pricing",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Inform customers of potential future price increases to encourage immediate purchases",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "927238a6-37c4-4aa7-9c9d-70445785bc4f",
+                    "time": 1271.39,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Discussed updating the pricing page to allow adjustments based on different factors such as the number of people and duration of use.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "31824889-f939-480d-ba87-be64709c6c1d",
+                    "time": 1463.01,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_pricing",
+            "highlight_notes_list": true
+          }
+        }
+      ],
+      "created": "2024-08-27T08:19:33.644255Z",
+      "modified": "2024-08-27T08:24:08.285241Z"
+    }
+  ]
+}

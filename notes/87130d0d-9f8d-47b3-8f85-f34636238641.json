@@ -1,0 +1,1381 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "data": [
+        {
+          "children": [
+            {
+              "text": "Participants",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "cb8hm",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "ThinkByte: Harsh Pandya, Pavan, Vigarna Ramesh, Raghu Gorrela, Harsha Thota, vinay kovvuri, Vijaya Katari, Charan, Niharika Chavati",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Iiraskins: Sales",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {}
+        },
+        {
+          "children": [
+            {
+              "text": "Key Takeaways",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The meeting focused on troubleshooting technical issues, optimizing sales strategies, and improving ad creatives for upcoming sales events.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "446864b7-eaa3-4941-b51d-753c5bbba125",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Key issues addressed were Shopify outages, discount display strategies, ad creative production delays, and international wire transfer challenges.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7a4a6605-4401-4019-9ff8-c5b1febaf132",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Follow-up actions include exploring Shopify apps, increasing video creative production, and resolving bank policy issues affecting wire transfers.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "a8e17996-b387-4beb-9bee-7c18f262b5de",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Decisions were made to remove discount codes in favor of price cutoffs, enhance video ad production, and address technical and banking issues promptly.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "b5143989-6506-462c-a0e3-d36e6770ceb2",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Shopify Partial Outage",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "shopify_partial_outage",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Decisions: Explore Shopify apps enhance functionalities maintain performance consistency future outages.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "1a4d1f71-634e-4ef7-b736-f1df1571e807",
+                    "time": 2538.68,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Partial outage on Shopify affected dashboard, website functionality, impacting sales operations temporarily.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "dbb73032-7822-4850-866a-0cd9328636d2",
+                    "time": 2584.9302,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Outage led to access issues for dashboard, website, causing business disruptions, performance tracking issues.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "d59ac67d-6322-4bb9-b00e-0b74cc30dbb7",
+                    "time": 2584.9302,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "shopify_partial_outage",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Discount Strategy",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "discount_strategy",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Transition from using discount codes to displaying price cutoffs with clear sale icons, timers to enhance customer transparency during sales events.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "156996c7-5a19-4dbd-a3ee-7a6d11a0b125",
+                    "time": 2747.695,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Displaying both discount codes and price cutoffs led to confusion for customers, reducing perceived value of offers.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "62ac7848-3cb8-42b1-8c5a-67de0ccd1990",
+                    "time": 2747.695,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Decisions: Remove discount codes; implement price cutoff strategy to streamline customer experience and clearly communicate value of sales.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "9b38cbdd-8e68-4cd0-b32b-78ce2897772a",
+                    "time": 3144.63,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "discount_strategy",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Black Friday and Christmas Sales",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "black_friday_and_christmas_sales",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Planned sales events: Black Friday sale November 16th to December 1st; Christmas sale starting December 9th, running till New Year.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "bb307c29-f79d-45c2-a00d-22446251998e",
+                    "time": 2838.5,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Decisions: Include free items like Qwasher tool for Black Friday, scented candles for Christmas to enhance promotional offers and attract more customers.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "dee28346-d154-45f3-8603-6ba818ad11e8",
+                    "time": 2978.2651,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "black_friday_and_christmas_sales",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Friends and Family Sale",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "friends_and_family_sale",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Event planned run October 24th November 15th with focus on offering 30% discounts without requiring discount codes.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "937f8483-c03b-443c-922d-6de644ed3e30",
+                    "time": 2895.525,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Decisions: Advertise event clearly with emphasis on no discount code needed; use bold, colored text to highlight 30% discount in marketing materials.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "3486053c-e1f5-44ca-85df-600186fef109",
+                    "time": 3175.24,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "friends_and_family_sale",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Video Creatives for Marketing",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "video_creatives_for_marketing",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Decisions: Utilize trending audio in videos, ensure consistent quality, increase production volume meet competitive demands, audience expectations.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "0a9c884f-05a2-4a36-911f-0c4bba57d9cd",
+                    "time": 3404.7,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Emphasis on creating high-quality video creatives to align with competitor strategies, maximize ad engagement, conversions.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "b7abcf23-1b38-47ab-a839-68f792397f26",
+                    "time": 4480.65,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Production delays of video content limiting ability to execute agile marketing strategies, affecting overall campaign effectiveness.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "bb08ec4d-6c68-49f7-afdf-6425f5847092",
+                    "time": 4642.02,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "video_creatives_for_marketing",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Facebook Ad Strategy",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "facebook_ad_strategy",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Discrepancies in campaign strategies affecting ad performance, learning curve of Facebook's algorithm, leading to inefficient budget allocation.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ffa25b70-67fa-432b-b059-8a4a25c359f3",
+                    "time": 4097.555,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Strategy involves leveraging traffic campaigns to optimize purchase-focused campaigns through improved algorithmic learning and audience targeting.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ac1c0cb2-e11e-4a37-a7f2-4eddb10207a7",
+                    "time": 4138.76,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Decisions: Continue traffic campaigns until clear insights guide adjustments, aligning with best practices and feedback from industry peers.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7947d266-4cf7-4854-9ac8-da45817768f6",
+                    "time": 4143.08,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "facebook_ad_strategy",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Ad Creatives",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "ad_creatives",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Current delays in producing new video creatives impacting campaign performance, reducing ability to quickly test and iterate on strategies.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "5611f555-17de-43af-8de6-4a9b2b5afa53",
+                    "time": 4642.02,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Focus on increasing production and use of video creatives for ad campaigns to enhance engagement, effectiveness in reaching target audiences.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "cd6d268e-87af-4343-b787-4bf2054b3d04",
+                    "time": 5320.6997,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Decisions: Prioritize increase in video creative production, exploring tools, resources to expedite process, ensure diverse, engaging ad content.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "d4234dd0-92ee-42fb-8c2d-4d22930aa798",
+                    "time": 5320.6997,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "ad_creatives",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Technical Issues and Troubleshooting",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "technical_issues_and_troubleshooting",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Technical issues with software integration, including Shopify outages, and international wire transfer challenges causing delays, operational hiccups.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7df806ae-1c05-4743-ba80-a6190d6dd323",
+                    "time": 5403.73,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Ongoing efforts address technical issues with software integration, international wire transfers affecting business operations.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "96cde38c-f0e9-46c3-8534-c15fe08b6dc5",
+                    "time": 5414.7847,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Decisions: Resolve software issues promptly, investigate alternative solutions for international transactions to mitigate impact on business activities.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "124eef42-3b9f-474d-835d-af09daeff1a6",
+                    "time": 5495.805,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "technical_issues_and_troubleshooting",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "International Wire Transfer Issues",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "international_wire_transfer_issues",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Issues with international wire transfers due to recent banking policy changes affecting timely financial transactions.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7f9ce730-f588-4ee6-97bc-21e2e2342930",
+                    "time": 5414.7847,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Banking policy changes require additional documentation, temporarily disabling international wire transfers, affecting payment processes.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "5e425fe3-1dd1-4aff-8e25-f106dca4d7d2",
+                    "time": 5414.7847,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Decisions: Submit necessary documentation to bank expedite process, enable transfers, ensure financial operations resume smoothly.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "69945383-b72a-4c95-ab2a-b3cba17fcdc8",
+                    "time": 5414.7847,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "international_wire_transfer_issues",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Action Items",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Ram",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Reach out to the team to confirm if it is okay to run the traffic campaigns as a new brand.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "3fe022ea-a0ed-41b2-a3ce-1e996779fb6a",
+                            "time": 5031.195,
+                            "highlight_note_list_item": true,
+                            "machine_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Ram needs to wait for the bank team to verify the submitted documents in order to enable international wire transfer and proceed with sending the amount.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "dd01cca8-7fcc-4aaf-b5d1-cadbc66699b4",
+                            "time": 5437.23,
+                            "highlight_note_list_item": true,
+                            "machine_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Fitra, go and update them on adding Ram's name to the press celebrating the contribution.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "f4836a8b-26e3-4930-8049-a7e82b221608",
+                            "time": 5567.8,
+                            "highlight_note_list_item": true,
+                            "machine_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Ram will check with the customer who bought for feedback right after this call.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "1943c0d2-0a64-4cd6-9197-83dda16c1e67",
+                            "time": 5617.715,
+                            "highlight_note_list_item": true,
+                            "machine_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "0"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Charan",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Send the screenshot of the stopped invoice.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "82406721-c08a-4ed7-8bc6-87ee5c03ec88",
+                            "time": 1738.315,
+                            "highlight_note_list_item": true,
+                            "machine_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Complete one video concept by today.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "df6af78c-9b3d-453a-97fd-3d5d74934a1e",
+                            "time": 4654.42,
+                            "highlight_note_list_item": true,
+                            "machine_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Share a few more emails and check yesterday's data for the number of add to cart events that occurred.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "8ae5b6db-226c-44c6-a724-bc5e11cca677",
+                            "time": 5000.975,
+                            "highlight_note_list_item": true,
+                            "machine_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "1"
+              }
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Pain Point",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_pain_point",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The algorithm prioritizes promoting trending audios, making it challenging for content to reach the audience unless it is exceptional.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "baf8ae27-4b3b-4032-b7c8-a64d23d9d6c6",
+                    "time": 3457.66,
+                    "highlight_note_list_item": true,
+                    "machine_note": true,
+                    "model": "machine_note_cleaned"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Disliked the background, wavy font, and wavy background.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "64e77170-34e5-4003-94e0-eb62233dc88c",
+                    "time": 3657.855,
+                    "highlight_note_list_item": true,
+                    "machine_note": true,
+                    "model": "machine_note_cleaned"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_pain_point",
+            "highlight_notes_list": true
+          }
+        }
+      ],
+      "created": "2024-10-24T14:36:56.052268Z",
+      "modified": "2024-10-24T14:38:21.429700Z"
+    }
+  ]
+}

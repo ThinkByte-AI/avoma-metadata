@@ -1,0 +1,458 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "data": [
+        {
+          "children": [
+            {
+              "text": "Participants",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "cb8hm",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "ThinkByte: Harsha Thota, Mahesh Patil, Vigarna Ramesh",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {}
+        },
+        {
+          "children": [
+            {
+              "text": "Key Takeaways",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Mahesh is tasked with creating five creative copies and summarizing research on foreplay types and appearances for a data campaign.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "42bc006d-1241-4f95-8261-0ff6a5d4e40f",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "A dependency exists as Mahesh awaits an image to finalize the data campaign plan, potentially delaying progress.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "8ae87a76-54ea-42b1-b138-1e6e6eb47334",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "A key meeting is set for 11 AM to discuss the creatives, underlining the project's priority.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "4f7b1400-40f2-440b-916e-570c9e671465",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The completion of the foreplay research summary remains pending, crucial for advancing the project's content development.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "07084176-d8e3-4a93-a7fa-7a7b39c05af4",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Action Items",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Mahesh",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Send the report without changes in Millet.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "18bafd33-35f8-4ee1-92cf-d9f23f9ad674",
+                            "time": 121.6,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "Mahesh"
+              }
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Current Tasks",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "current_tasks",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Mahesh is working on the data campaign plan and waiting on the image.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "dae806a4-4054-44e1-bffa-14c1af367f61",
+                    "time": 7.2,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Mahesh is preparing the data and creatives for the campaign.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "4b0ec088-c1c9-4f78-bfd2-c4938ee1bbe7",
+                    "time": 11.2,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "current_tasks",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Data Campaign Plan Preparation",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "data_campaign_plan_preparation",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The issue is currently being worked on by Speaker 1",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "2f610063-9082-457b-8f70-1f577b45f972",
+                    "time": 55.735,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "A meeting is scheduled at 11 o'clock for further discussion",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "3789ef8e-319b-4698-9593-b137db411406",
+                    "time": 107.865,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "data_campaign_plan_preparation",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Business Goals",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_need",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Mahesh aims to get good results for the creative copies and ideas.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "72656e96-2f1b-465e-97e2-a7769753d7ca",
+                    "time": 139.575,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_need",
+            "highlight_notes_list": true
+          }
+        }
+      ],
+      "created": "2024-09-25T04:55:51.309406Z",
+      "modified": "2024-09-25T04:56:43.927462Z"
+    }
+  ]
+}

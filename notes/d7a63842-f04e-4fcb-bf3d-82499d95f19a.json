@@ -1,0 +1,1569 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "data": [
+        {
+          "children": [
+            {
+              "text": "Participants",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "cb8hm",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "ThinkByte: Raghu Gorrela, Harsha Thota, vinay kovvuri, Bharath MVS",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {}
+        },
+        {
+          "children": [
+            {
+              "text": "Key Takeaways",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Pradeep Veeramaneni and Harsha Thota reviewed budget and project scope, focusing on pricing and infrastructure to meet client goals.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "deddaef8-94d1-49bf-89e1-6c64377811cf",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Discussion centered on implementing a SQL-based agent for efficient data summarization and search across multiple industries.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "29cd745f-141a-4247-9f49-53d3e71817c7",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Plans were made to develop new exam question papers from historical data, aiming to create a versatile question bank for future assessments.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "e7f0ea53-4534-4903-92f7-62e44bc88c3c",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Addressed data permissions and user access by planning a high-level architecture diagram to ensure proper backend user permissions and data security.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ecc8455b-d987-4f65-a48f-6e64920d282e",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Action Items",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Pradeep Veeramaneni",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Select and share multiple documents with the team.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "a38aea90-5392-46a3-b529-a82566cc0bf8",
+                            "time": 490.84003,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Summarize the set of documents stored in Sharepoint and Onedrive repositories, allowing for configuration at department level admin if possible.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "7912af60-6a18-4576-907e-8f7620f686ca",
+                            "time": 1018.58997,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Provide guidelines on categorizing the repository if needed.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "b7e9ca93-9445-4c3e-a272-41c8fc1e071d",
+                            "time": 1323.53,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Share screenshots of the research company's solution ideas.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "aeb57f61-6426-4ad0-a3b6-74acffcf8db9",
+                            "time": 1777.27,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Share Vinay and Bharat's contact details with Harsha Thota separately via email.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "7a043390-79ae-43c6-a193-0074cb88d9fb",
+                            "time": 1884.63,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "0"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Harsha Thota",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Move into the negotiation stage with Pradeep to finalize the overall scope.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "c4a02e41-67c0-4a2d-9c2a-6492684c44d6",
+                            "time": 1402.155,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Provide cost details for adding a margin.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "cc23c0d2-9f0c-44ec-abea-32220ad635e4",
+                            "time": 1856.0499,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "1"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Pradeep Veeramaneni, Harsha Thota",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Discuss budget details with the local customer before finalizing the research project.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "fa9ca0e3-4135-46b2-98ab-2e64c9374f4a",
+                            "time": 1826.89,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v9"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "Pradeep Veeramaneni, Harsha Thota"
+              }
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Budget",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_budget",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Discussed the features needed, infrastructure required, and recurring costs to provide a budget for a project.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "vfeyn",
+                    "time": 1233.595,
+                    "highlight_note_list_item": true,
+                    "trigger_prompt": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_budget",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Data Permissions and User Access",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "data_permissions_and_user_access",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Understanding different user permissions within the application, especially concerning backend data storage and logic",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "d823420d-5cce-4f8b-a383-321032aeec2e",
+                    "time": 208.41501,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Need to comprehend the scale of data, user base, and potential new permissions",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "bc9460cf-20f8-49a4-a290-fef451970808",
+                    "time": 251.78001,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Issue remains open",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "489fc57a-7bf6-4aa4-99b8-f1b49b231fc0",
+                    "time": 1462.4451,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Plans to address these points in further discussions",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "aab0bc66-4a5d-40a8-af1f-43916da9f9a2",
+                    "time": 1893.99,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "data_permissions_and_user_access",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Research Company Chatbot Implementation",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "research_company_chatbot_implementation",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Research company wants to use a chatbot for subscribed students to access a 300 gb document repository",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "773123fb-d394-4743-b0e1-7ba20a9541c9",
+                    "time": 279.075,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Need to integrate Sharepoint and Onedrive repositories with the chatbot for efficient document access",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "8c191cf2-60dc-4f1d-8c57-1c1f216628d4",
+                    "time": 396.78,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Suggestions made to create filters for document retrieval",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "a835912f-7008-4979-8247-681a8ed7ddd7",
+                    "time": 600.13,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "research_company_chatbot_implementation",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Decision",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_decision",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Use a chatbot to provide information from a 300 gb document repository to subscribed students",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "8c71e2b4-a747-483c-83d9-83d2f8e9990e",
+                    "time": 279.075,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Repositories in Sharepoint and Onedrive will be used, but migration to a separate repository is recommended",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "f899e21b-39ee-4f53-b077-9a28307781e2",
+                    "time": 396.78,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Focus on building a SQL-based querying agent for retrieving raw data and summarizing it",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "058dc077-d222-4865-9f1d-abfc855f27fb",
+                    "time": 868.335,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Infrastructure needed includes a repository size of 300 GB with PDFs, Word, and Excel documents",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "dfac00d9-08d9-4376-9dd9-ef72a6d45708",
+                    "time": 1420.45,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_decision",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Document Repository and Formats",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "document_repository_and_formats",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Categorizing and structuring repositories in sharepoint and onedrive",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ad258a90-332e-4f92-87a7-2113d0eb2de5",
+                    "time": 396.78,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Storing all documents in a vector database for easy summarization, search, and complex activities",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "24ef0e4c-4233-4ca0-8b2b-495003f0e28d",
+                    "time": 1295.585,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Align data formats and cost requirements",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7ffc7099-5002-4605-9aaa-943f847a43fa",
+                    "time": 1338.25,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Focus on file formats like PDFs, Word, and Excel",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7503315b-dcc8-472a-84b1-743957b06fbd",
+                    "time": 1356.59,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "document_repository_and_formats",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Data Summarization and Search Features",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "feature_request",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Developing a summarization feature for detailed outputs from excel data",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "dda6e016-b415-44e8-8f05-36375fe60163",
+                    "time": 651.94,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Implementing search functionalities for industry-specific information",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "59f766c4-d6b3-416f-a816-17a040eade40",
+                    "time": 679.03,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Analyzing different data sets to understand question patterns",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "fee6c146-8494-4d00-9f70-138365aae6ee",
+                    "time": 816.89,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Planning for future phases with a focus on building a SQL-based querying agent",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "d0243761-b6a0-4fd6-b06d-9c2c8a921808",
+                    "time": 868.335,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Ongoing development discussions to address product limitations and determine feasible solutions",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "dede2ad3-8f94-4517-a2d0-c0ca8ff60574",
+                    "time": 1826.89,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "feature_request",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Current Tasks",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "current_tasks",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vinay Kovvuri and team are analyzing different population data for COVID infections in 2012 by region from multiple documents to understand patterns of questions and plan for future phases.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "0a94b79a-1c03-4bdb-8ab1-7edf185dd622",
+                    "time": 775.855,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The team is working on creating new question papers for weekly and monthly exams using textbooks and sample question papers from the last few years.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "8a114c05-edca-47d5-a8f6-8293ca588327",
+                    "time": 1568.6051,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "current_tasks",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Business Goals",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_need",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "To create a high-level architecture diagram for the use cases and discuss the details.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "1f23e16b-b386-4c7f-b1af-4be58e5a44ed",
+                    "time": 1084.53,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "To align the data format and cost requirements based on discussions.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "983c3655-5dfa-461d-b7e2-f73360cb1f33",
+                    "time": 1338.25,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_need",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Pricing",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_pricing",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Discussions led by Pradeep Veeramaneni and Harsha Thota focused on determining the minimum budget, required features, infrastructure needs, and recurring costs for the client's project.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "92684a3d-a6b2-46b0-a6b5-03f359ce77cd",
+                    "time": 1447.62,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The strategy involves offering different pricing options based on chosen features to align the client's business goals with their budget.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "dc85a224-75c2-4e1b-b920-b930dbeb5094",
+                    "time": 1826.89,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_pricing",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Questions",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_questions",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Understanding different question formats and answers",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "a2e3abf6-c2b3-4162-9f9e-98aa7fb1e5a9",
+                    "time": 1564.0901,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Utilizing textbooks and sample question papers from previous years",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "444e868e-46bc-4269-8d53-b4bfec95712b",
+                    "time": 1568.6051,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Exam question paper creation discussed by two individuals",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "2a469c76-17c2-4446-ba08-622f2ac15f11",
+                    "time": 1734.605,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Focus on creating a question bank with multiple options",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "c8744211-036a-4cae-9f56-655aaa9ede39",
+                    "time": 1767.035,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Discussing budget considerations with potential Middle East customer",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "a314719b-6b60-40bf-bfa9-30a8b5ac2ced",
+                    "time": 1777.27,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Ongoing development with plans to check additional details",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "233c2ebb-74e3-4c69-8b2f-e565f5bbb602",
+                    "time": 1826.89,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v9"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_questions",
+            "highlight_notes_list": true
+          }
+        }
+      ],
+      "created": "2024-10-08T12:24:26.666580Z",
+      "modified": "2024-10-08T12:27:12.749904Z"
+    }
+  ]
+}

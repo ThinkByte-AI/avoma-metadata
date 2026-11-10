@@ -1,0 +1,1318 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "data": [
+        {
+          "children": [
+            {
+              "text": "Participants",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "cb8hm",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Thinkbyte: Sai, vinay kovvuri",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {}
+        },
+        {
+          "children": [
+            {
+              "text": "Key Takeaways",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Integrating Figma designs with Flutterflow, with specific action items for Sai to generate a personal access token on Figma and to reset a password, likely for security or access purposes",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "0a259fa5-37b2-4d7d-9e87-934be401bde9",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Sai and Sujan Deta are tasked with discussing the importation of colors and typography from a Figma theme into Flutterflow and confirming the process, indicating a focus on design system consistency",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "4dc58452-5804-42f1-9dbb-2124673bf84d",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "There was a decision to use a VPN for accessing certain services, suggesting concerns with regional restrictions or pricing, and the team is considering upgrading to a paid plan to access more features",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "08ab4e34-9519-4fff-bb2b-a128a5f91405",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Concerns were raised about the permissions for the Figma connector, with Sai mentioning viewonly access, which may limit their ability to edit designs, and there was talk of backend API connections for production deployment",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "56bab3fc-767a-4c54-930a-faf1cfba9742",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The meeting included discussions on account management, including the need for a password reset and considerations of a Pro account, suggesting that user access and security are important ongoing considerations for the team",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "45505416-bf7c-4152-8cb2-59f4deb6635b",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Action Items",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Sai",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Reset the password and consider upgrading to a Pro account.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "09c6e563-895a-4f2a-b38f-23d729b8e207",
+                            "time": 2666.9001,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v8"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "0"
+              }
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Business Goals",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_need",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The goal is to integrate Figma designs with Flutterflow and ensure proper functionality.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "4b33c314-a3e2-4df8-9ee6-6669a3a79fba",
+                    "time": 132.02,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_need",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Figma Connector Permissions",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "figma_connector_permissions",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Sai mentions Flutter flow key, Figma connector design imported with only view permission, indicating a potential permissions issue.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "27c789c0-9ea6-4748-8a06-0cb9f75d1a43",
+                    "time": 132.02,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vinay is involved with this discussion, and problems with permissions could lead to workflow disruptions or inability to edit designs.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "2412b049-8f24-4d55-a21c-6e5067186e65",
+                    "time": 2845.525,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "figma_connector_permissions",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Concerns",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "concerns",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Sai raised a concern about the need for privileges for an engineer.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "a5d23173-5bcd-4ab2-a6df-7da67821049b",
+                    "time": 970.295,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "There was a concern about whether the unpaid plan is ending, which Vinay Kovvuri clarified.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "905a950a-7cc1-4327-9390-3ff3db40aa0a",
+                    "time": 1213.45,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "concerns",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Personal Access Token",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "personal_access_token",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Sai brings up the need for generating a personal access token for Figma, which is required for integrating designs into their system.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "401337ef-eeac-4939-9761-344b6ef801d5",
+                    "time": 1016.05,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "personal_access_token",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "API Key Connection",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "api_key_connection",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "This is a technical aspect involving the backend setup, which could significantly impact the app's functionality.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "f4ba95de-4152-4c7c-a225-4447673ea358",
+                    "time": 1082.88,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Sai discusses connecting backend APIs and mentions a key, which suggests working on integrating an API or troubleshooting API connections.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "815d0727-2886-4e79-bb46-618bdca7ed18",
+                    "time": 1842.395,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "api_key_connection",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Paid Plan Discussion",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "paid_plan_discussion",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vinay asks about the paid plan versus the unpaid plan, possibly discussing a transition or upgrade in their service subscription.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "5a925977-c28c-4bf0-aefc-beb51cad7515",
+                    "time": 1213.45,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Welcome Sujan to the demo, indicating that there might be a presentation or review of the paid plan's features, but no final decision on the plan change is mentioned.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "4c306f4e-19f2-4354-a6c0-21b1a15dabdd",
+                    "time": 1243.105,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "paid_plan_discussion",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Design System Mapping",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "design_system_mapping",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The current state at the end of the meeting is that components and guidelines are being confirmed, but there's no clear indication of completion.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "2fef94b0-80f7-47bb-a9bc-34b99ac379f3",
+                    "time": 1213.45,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Sai and Sujan discuss the process of defining guidelines and mapping components within a design system, which relates to consistency and efficiency in design.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "4b774e8a-73c7-4e82-ad63-be89590028fc",
+                    "time": 1554.13,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "design_system_mapping",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Decision",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_decision",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Decided to go for a paid plan.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "62b3fdee-b4f3-4186-acb2-f856797e50da",
+                    "time": 1213.45,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "It was decided to use a personal access token for Figma file URL access.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "05576700-d18a-4f36-a92c-94bba97a8dec",
+                    "time": 1441.145,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The design system will import colors and typography from Figma.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "2545aa70-48c2-456e-b0e2-2945b3cf03ef",
+                    "time": 1607.9299,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "An agreement was made to utilize a VPN for certain services.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "3145802b-bc37-42f1-892d-cf3e1d4b7d05",
+                    "time": 2328.65,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_decision",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Recently Completed Tasks",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "recently_completed_tasks",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Sai confirmed the completion of the import of Figma theme into Flutterflow.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "f20ec392-1929-4dc7-95b2-02a9b1dc5348",
+                    "time": 1681.5,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "recently_completed_tasks",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Importing Design System",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "importing_design_system",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Speaker 3 provides a tutorial on importing colors and typography from a Figma theme into Flutterflow, indicating a development or learning opportunity.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ea7372b4-8cbf-4e48-a0cb-535b58f97f7c",
+                    "time": 1681.5,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "importing_design_system",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Current Tasks",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "current_tasks",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The current task involves screen sharing for visual testing and defining library elements for the primary color.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "2b748191-9f1a-44af-8bd8-f61ca09c37e8",
+                    "time": 1968.46,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "current_tasks",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Account and Password Management",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "account_and_password_management",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The current state at the end of the meeting is that the processes are understood, and they seem to be setting up or troubleshooting these features.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "86a09602-2517-4fd3-bef9-2a3d3f36ef1c",
+                    "time": 2162.615,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Sai and Vinay talk about account creation, email, and password reset processes, which are essential for user account management in their application.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "8675df63-362a-43e7-ad93-cb587c67c73a",
+                    "time": 2585.6602,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Discuss the potential for multiple logins, which could be a security or user experience issue.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "8335366f-3d4e-4d24-b437-e8167ffce4f3",
+                    "time": 2821.9602,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "account_and_password_management",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Pricing",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_pricing",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Sai and Vinay discuss deployment and pricing, with specific mentions of US and India pricing differences, possibly for hosting or service costs.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "453f922c-6ca4-4c9e-bd29-67caed72aecd",
+                    "time": 2248.615,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Consider using a VPN, which could be related to accessing services or pricing advantages.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "d6add6f6-8be3-4dca-8cae-4631c9bc26e1",
+                    "time": 2328.65,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_pricing",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Follow-up Meeting",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_next_meeting_date",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Sai mentions \"in US morning time,\" possibly implying a future meeting time.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "f4f69984-ee84-44dc-ab6e-778315b9b667",
+                    "time": 2862.365,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_next_meeting_date",
+            "highlight_notes_list": true
+          }
+        }
+      ],
+      "created": "2024-05-27T05:11:48.159903Z",
+      "modified": "2024-05-27T05:13:39.896319Z"
+    }
+  ]
+}

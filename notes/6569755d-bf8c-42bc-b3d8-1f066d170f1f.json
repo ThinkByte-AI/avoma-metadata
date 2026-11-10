@@ -1,0 +1,564 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "data": [
+        {
+          "children": [
+            {
+              "text": "Participants",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "cb8hm",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Anvayaa: Prashanth Patkar, P Reddy, Tripti B",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Thinkbyte: Raghu Gorrela, Sujan Deta, vinay kovvuri",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Xrgsolutions: Ps Manju, Rajagopal C",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {}
+        },
+        {
+          "children": [
+            {
+              "text": "Key Takeaways",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Standardizing psychological tests for dementia, setting up the app \"Sujan,\" and ensuring readiness for a launch by June to align with an event planned by Prashant",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "1f432ce2-3db3-4c00-a4f1-b3e079478c79",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "keyword": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vinay Kovvuri has to track the EZ2 instance approval and send out rough timelines for the development start date, while Rajagopal C needs to check the application name with Prashant and ensure Sharath works on the EZ2 instance upon return",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ff59eafa-7ba0-457e-8da5-447047a83026",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "keyword": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Concerns regarding the complexity of psychological tests for users were raised by Singh, and Vinay Kovvuri proposed standardization and the use of computerassisted tests to address these",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "a795ca12-487d-4c9c-9e0c-551912263ca3",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "keyword": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Singh suggested simplifying the language used in the psychological test recommendations for better understanding by caregivers and nonspecialists, with Vinay considering standardized report forms as a solution",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "583bc4f5-3775-43ac-8d7c-c7c23da766b6",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "keyword": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "A followup meeting was suggested by Rajagopal C to review progress, with the next meeting likely to occur the day after tomorrow or Friday to discuss advancements and any remaining action items",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ffa94137-bbd3-4e0c-af24-baa37529ddb1",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "keyword": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Product Feedback",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_feedback",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Set app name as \"Sujan\" and obtain approval for an EZ2 instance.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "fd78811b-4492-4da9-917c-fbde521df9f1",
+                    "time": 318.59,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "keyword": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Schedule a follow-up meeting to review progress before the June event.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "3d71e862-cbe9-410a-8d64-161833fc0b1a",
+                    "time": 417.13,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "keyword": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Explore creating standardized report forms.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "2a2efff0-3b60-4079-9c9b-42e868e5e8b7",
+                    "time": 1343.01,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "keyword": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Review feedback collection process for app design.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "6499b4a3-9237-4784-b8eb-190b841b26d0",
+                    "time": 1821.155,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "keyword": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Discuss simplifying psychological test recommendation language for caregivers and non-specialists.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "e2182fb6-4b39-47de-9aca-96fd76c318e6",
+                    "time": 1962.65,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "keyword": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Address standardization of psychological tests for dementia and app launch preparations.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "be7d68d6-de11-49e6-803c-f7bc4175b972",
+                    "time": 2235.98,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "keyword": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_feedback",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Concerns Addressed",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "concerns_addressed",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Singh raises concerns about the complexity and user understanding of psychological tests.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "b3fab6eb-faa9-4c62-b026-73ec5b9d7de7",
+                    "time": 1024.36,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "keyword": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vinay suggests standardization and computer assistance as solutions to improve test accessibility and comprehension.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "9f9e2e1f-ab77-4baf-8959-46e6521f712f",
+                    "time": 2188.46,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "keyword": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "concerns_addressed",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Business Goals",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_need",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The goal is to have the app ready to launch by June, as mentioned by Rajagopal C, to coincide with an event planned by Prashant.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "4fec07ab-85fa-4530-b1f3-4d5309e0c9aa",
+                    "time": 1743.43,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "keyword": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_need",
+            "highlight_notes_list": true
+          }
+        }
+      ],
+      "created": "2024-04-02T07:32:27.737763Z",
+      "modified": "2024-04-02T07:35:22.203312Z"
+    }
+  ]
+}

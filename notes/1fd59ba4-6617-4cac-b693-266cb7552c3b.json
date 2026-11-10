@@ -1,0 +1,856 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "data": [
+        {
+          "children": [
+            {
+              "text": "Participants",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "cb8hm",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "ThinkByte: Raghu Gorrela, Harsha, Charan, Bharath MVS",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Eatfit: Harish Byrappa, Syed Farooq",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {}
+        },
+        {
+          "children": [
+            {
+              "text": "Key Takeaways",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The meeting focused on discussing the demand planning process at EatFit and exploring potential areas for automation.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "9b3119d8-bc2f-4489-9076-f5a8a977e525",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Key problems addressed were manual SKU status updates, heavy Excel files, and inefficiencies in data handling.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "4b4fa3f0-3ed2-43de-898b-18b446dc38de",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Follow-up actions include organizing data for better analysis and obtaining necessary approvals and sample data for further progress.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "2037991a-8129-4866-b96e-51b58c7fb98f",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The meeting identified opportunities for automation in SKU status updates and demand planning processes to enhance efficiency and accuracy.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "65379fab-169e-4f79-8959-898aaf5112cb",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Action Items",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Harish Byrappa",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Collaborate with Charan on sample files and automation support",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "a866e4c6-33e3-473a-9512-0b9e4a83cda0",
+                            "time": 1244.7001,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v11"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Develop and enhance demand planning processes for automation",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "b589a0c4-bda6-4262-9925-d22ff1beb6b9",
+                            "time": 1311.8351,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v11"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "0"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Syed Farooq",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Prepare and review analysis plans for demand planning",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "c4ff94d1-cdd4-4bda-99dc-735ee4236551",
+                            "time": 1085.99,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v11"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Initiate discussions on NDA documents with Jugal and stakeholders",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "692566bf-5907-42bd-9009-536afde8d0cf",
+                            "time": 1765.6716,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v11"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "3"
+              }
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Demand Planning Process Automation",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "demand_planning_process_automation",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Harish Byrappa from EatFit discussed their current demand planning process, involving multiple modules: t+6, t+4, t+1, each for different time frames. The process relies heavily on Excel and includes manual tasks like updating SKU statuses, which affect demand forecasting for kitchens.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "12cef76a-134f-45a0-b6e9-25b6a99d5fc7",
+                    "time": 105.435,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Automation of SKU status updates is considered to eliminate manual errors, save time. This includes automating identification of live SKUs at each kitchen.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "32d466e1-d649-4a2e-9588-b42f4bf5bfe2",
+                    "time": 396.85,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Manual demand planning leads to inaccuracies, as subjective judgment is used for alternate demand planning. This is necessary to ensure SKUs that haven't sold recently still get planned demand based on their class and historical performance.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "2550d848-2974-42af-ad96-19eb12bdb7bc",
+                    "time": 798.245,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Explore automating demand planning to improve efficiency and accuracy. This could involve using more advanced logic or tools to take over repetitive tasks currently handled manually.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ba449c94-7e5f-44bc-a77d-6a2c39db7126",
+                    "time": 1199.5499,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The current process is manual, causing inefficiencies. Updating SKU statuses by hand leads to potential errors and takes substantial time, especially when handling large Excel files exceeding 100 MB. This makes day-to-day operations cumbersome and prone to inaccuracies.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "5905f34e-d074-4d5e-97f7-85ed74df53ae",
+                    "time": 1346.255,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "demand_planning_process_automation",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Excel File Management",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "excel_file_management",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Manual handling prone to errors, affecting data accuracy and decision-making, particularly around updating kitchen-level SKU statuses and demand forecasts.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "cdf1ea4f-68b0-481c-b420-f4fde26d900d",
+                    "time": 396.85,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Consider automation to reduce file size, improve process efficiency by replacing manual updates with automated systems. This could involve implementing formulas that dynamically update based on real-time data inputs.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ebc767ee-6501-46c7-9ba3-075545884ffb",
+                    "time": 605.605,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The demand planning process generates large Excel files due to manual data handling, including managing SKU statuses across multiple kitchens and calculating demand forecasts. This results in files that are difficult to manage and prone to errors.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "74ff6c26-3615-4e34-91a5-84f0ab617282",
+                    "time": 1346.255,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Large Excel files cause data management challenges, making it difficult to efficiently update, calculate, and manage demand planning data. This leads to a time-consuming process and potential data integrity issues.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "4eb47345-10f8-48d4-ad8b-10fcc0a750ff",
+                    "time": 1346.255,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "excel_file_management",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Stakeholder Involvement and Approvals",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "stakeholder_involvement_and_approvals",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Automation projects delayed due to pending approvals, as necessary discussions with stakeholders have not yet been concluded.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "1197e0de-d59d-49ef-9fca-03cdbcf4c67f",
+                    "time": 1709.775,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "NDA and stakeholder approvals needed before proceeding with automation projects to ensure all parties are aligned and data privacy is maintained. This includes obtaining necessary approvals from key stakeholders like Jugal and Syed Farooq.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "f315717b-d2f9-4bb6-9f51-593393586514",
+                    "time": 1765.6716,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Obtain necessary approvals and NDAs to move forward with projects, ensuring all stakeholders are consulted and consent to proposed changes.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "63ad31bb-db3a-43ec-899c-b81d5040cecd",
+                    "time": 1765.6716,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "stakeholder_involvement_and_approvals",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Data Organization for Future Analytics",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "data_organization_for_future_analytics",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Current data organization needs improvement for effective future analytics, requiring structured, organized data systems. This involves consolidating data sources, ensuring data is clean and ready for analysis.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "6cbafb34-3c08-42cd-b468-618925f767f0",
+                    "time": 1844.125,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v11"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "data_organization_for_future_analytics",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Pain Point",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_pain_point",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The process cannot be automated due to its entirely manual nature, and the decision to give or not to give is at their discretion.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "034b5b32-ec02-4ab5-a761-3e87ca56db37",
+                    "time": 783.52,
+                    "highlight_note_list_item": true,
+                    "machine_note": true,
+                    "model": "machine_note_cleaned"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_pain_point",
+            "highlight_notes_list": true
+          }
+        }
+      ],
+      "created": "2024-12-03T15:07:42.027665Z",
+      "modified": "2024-12-03T15:09:08.997637Z"
+    }
+  ]
+}

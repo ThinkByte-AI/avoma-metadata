@@ -1,0 +1,880 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "data": [
+        {
+          "children": [
+            {
+              "text": "Participants",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "cb8hm",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Thinkbyte: Sai, Raghu Gorrela, Sujan Deta, vinay kovvuri",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Anvayaa: Prashanth Patkar, P Reddy, Tripti B",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Xrgsolutions: Ps Manju, Rajagopal C",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {}
+        },
+        {
+          "children": [
+            {
+              "text": "Key Takeaways",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The meeting was about refining an app aimed at dementia patients and their caregivers, with a focus on user flow diagrams, profile assessments, subscription models, and data architecture",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "fc369571-beff-4e1f-bf84-084f0ee84628",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "keyword": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Significant action items included completing user flow diagrams for different personas, finalizing subscription models, and confirming backend processes with Jin, indicating a collaborative effort in app development",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "41c32dd1-2445-4614-94d1-d7af6eead7aa",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "keyword": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Concerns were raised about the app's usability for people with disabilities (PWDs) as selfcaregivers, the standardization of data entry by healthcare professionals, and the potential information overload during initial profile creation",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "83b46942-b960-47db-a4e3-5b12df15359f",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "keyword": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The team will be onboarding real user personas to test the app's flows and exploring the capture of realtime user data during activities to increase engagement and personalization",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "f470a12f-346e-4154-8082-1055b2fa634c",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "keyword": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Followup discussions were scheduled with Prashanth for additional input and with Tripti about onboarding real user personas, showing a commitment to refining the app based on diverse stakeholder input",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "91821e1d-775e-4b3f-b6a9-2b0348260458",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "keyword": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Product Feedback",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_feedback",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Evaluate app utility for self-caregivers and PWDs vs",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "db61040d-d483-42ea-81ee-cc64b02889b4",
+                    "time": 678.16,
+                    "highlight_note_list_item": true,
+                    "keyword": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Implement manual review of user input for tailored suggestions.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "baaf9b9a-5155-4411-8515-a183f5f01439",
+                    "time": 2023.0396,
+                    "highlight_note_list_item": true,
+                    "keyword": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_feedback",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Concerns Addressed",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "concerns_addressed",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Discussion on PWDs using the app for self-care.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "c7a66092-5d60-4799-81ad-e990a4886ac3",
+                    "time": 678.16,
+                    "highlight_note_list_item": true,
+                    "keyword": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Clarification on capturing diagnostic details from healthcare professionals.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "3efb3a55-cf71-4b7f-8afc-bcf9b715a5ad",
+                    "time": 1557.3395,
+                    "highlight_note_list_item": true,
+                    "keyword": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Consideration of manual healthcare professional reviews for user input-based suggestions.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "8787664b-8113-4611-8703-84ffef7063ae",
+                    "time": 1717.08,
+                    "highlight_note_list_item": true,
+                    "keyword": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "concerns_addressed",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Business Goals",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_need",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Refine and develop the app to meet the specific needs of dementia patients and their caregivers, ensuring activities and assessments are personalized and effective.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "3f341764-8101-48d2-bb5d-1028f23b1f2e",
+                    "time": 720.6897,
+                    "highlight_note_list_item": true,
+                    "keyword": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Legally safeguard the app by properly capturing and using diagnosis data.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "8a7a508b-47fa-4ee8-9ab6-abec73cbf402",
+                    "time": 1557.3395,
+                    "highlight_note_list_item": true,
+                    "keyword": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_need",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Product Issues",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_bug",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Enhance user engagement through in-activity data capture.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "0bb88fed-cad7-4fbf-9fe7-4e702c75374d",
+                    "time": 1370.0298,
+                    "highlight_note_list_item": true,
+                    "keyword": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Standardize healthcare professional data entry for consistency.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "cf01af7f-0dc2-4cf0-ae89-057e66aa7490",
+                    "time": 1455.8597,
+                    "highlight_note_list_item": true,
+                    "keyword": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Address concerns of information overload during initial profile setup.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "75b1687b-3f65-4f12-b59c-279d3af9f25b",
+                    "time": 1531.1598,
+                    "highlight_note_list_item": true,
+                    "keyword": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_bug",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Pain Point",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_pain_point",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The need for a central team arises when there are a large number of users and cases using the app.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "18ddbdfe-ddab-42f0-8394-34ab7f5044c5",
+                    "time": 1548.34,
+                    "highlight_note_list_item": true,
+                    "keyword": true,
+                    "turing_note": true,
+                    "machine_note": true,
+                    "model": "machine_note_cleaned"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_pain_point",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Action Items",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "vinay kovvuri",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Check whether Sujan can be used by a person whose cognitive Sujan is declining.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "9d0a57a7-804d-4f70-b217-ab036293982c",
+                            "time": 1006.7285,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Rework the wording to accurately convey that they strongly believe the person has dementia.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "87869935-f71a-4cc8-b4a4-5acf41955799",
+                            "time": 1193.71,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "0"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Team Member (best guess based on context)",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Explore capturing real-time user data during activities for increased engagement.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "09ec107f-685c-446d-8389-f803941fb9c9",
+                            "time": 1370.0298,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v8"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Confirm data architecture and backend processes with Jin.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "4a8dd758-d96d-4fcc-9977-a65841530198",
+                            "time": 2593.929,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v8"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Complete user flow diagrams for different personas, including initial profile capturing and assessment details.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "c63219d5-6309-43fa-88f6-4481ad6dcdf7",
+                            "time": 2655.5298,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v8"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "Team Member (best guess based on context)"
+              }
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_list": true
+          }
+        }
+      ],
+      "created": "2024-04-12T10:38:58.847667Z",
+      "modified": "2024-04-12T10:41:39.159589Z"
+    }
+  ]
+}

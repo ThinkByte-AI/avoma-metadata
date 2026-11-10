@@ -1,0 +1,1682 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "data": [
+        {
+          "children": [
+            {
+              "text": "Participants",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "cb8hm",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "ThinkByte: Mukul M, Harsha Thota, Samarpith Rout, Charan Kumar, Pavan Kalyan, Revanth Babu Raavi",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Sigmainfo: Magesh R, Sonam Dahake, Sandeep Phophaliya, to: Shiresha Madhury, Divya Mishra",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {}
+        },
+        {
+          "children": [
+            {
+              "text": "Agenda",
+              "object": "text"
+            }
+          ],
+          "type": "header-2"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Learn your feedback and update on evaluation",
+                      "object": "text"
+                    }
+                  ],
+                  "type": "paragraph",
+                  "data": {
+                    "block_updated": "2022-11-28T16:48:39+05:30"
+                  }
+                }
+              ],
+              "type": "list-item"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Discuss next steps about your timelines and purchase interest"
+                    }
+                  ],
+                  "type": "paragraph",
+                  "data": {
+                    "block_updated": "2022-11-28T16:48:41+05:30"
+                  }
+                }
+              ],
+              "type": "list-item"
+            }
+          ],
+          "type": "unordered-list"
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Key Takeaways"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_key_takeaways"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Metrics improvements were highlighted as traffic, sessions, and qualified lead counts increased compared to the previous week.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "61f57f8b-2076-428b-8fa6-a49091b5e1fa",
+                    "time": 110.939995,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "An execution plan along with an action tracker for the ecom niche in ANZ is to be documented and shared after the call.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "aed86d18-1a6b-4e34-90c1-94def879207a",
+                    "time": 477.175,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Innovative ideas to boost site indexing via LLM platforms were discussed, including implementing a Bing instant indexing plugin and creating an LLM.txt file.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "763c6377-f41b-498c-a7f3-5feefee46026",
+                    "time": 610.17,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Recommendations were made to enhance content credibility by assigning expert authorship and integrating detailed author profiles to boost EAT signals.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "9689bc7b-139c-4528-b5a6-8b79cbadf8e8",
+                    "time": 929.74,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "It was decided to incorporate these metrics and content improvements in upcoming monthly reports, including a dedicated GU and AU overview section.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "c8173f8c-942b-4b0f-b793-2bbc75c17890",
+                    "time": 1672.83,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_key_takeaways",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Business Need"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_need"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Improve search traffic metrics including increased overall users, sessions, and qualified leads from targeted content.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "573ff3cf-4155-4c8e-b4b3-e663eae1fea5",
+                    "time": 110.939995,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Document detailed lead requirements for ecommerce and investment sectors to align blog content with user pain points.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "94339a33-cad1-40b5-88fd-8ef910b241d2",
+                    "time": 188.38,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Strengthen SEO via technology update posts, Bing index plugin, and LLM TXT file integration.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7ea75bcf-9d8d-4595-b803-dcb97d3a553d",
+                    "time": 610.17,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Enhance content authority by incorporating expert author profiles and social links in blogs.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "e6aff77a-b2e4-40aa-9b2e-df8182243e26",
+                    "time": 929.74,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_need",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Impact"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_impact"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Metrics show increased overall users, sessions, and conversion potential with 2 leads initially and later 6-7 leads discussed.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "9004e6fd-cf01-4bf7-9727-a7f57fab715b",
+                    "time": 110.939995,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Noted a traffic spike from the Salesforce release note with 100 keywords ranking and improved qualified lead generation.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "59813dba-b63e-4b06-867c-a1b2820f3c48",
+                    "time": 309.13,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_impact",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Feature Mention"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_feature_mention"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Refresh old content using Bing index plugin and LLM TXT file integration, and employ query file methods for targeted keyword strategies.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ff865471-8413-4d0c-9a2c-cc913a7edda4",
+                    "time": 596.035,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Plan to integrate a Charge GPT CTA within blogs to boost indexing frequency via user-initiated prompts.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "88281728-3405-44ad-8ca0-fb713f922c60",
+                    "time": 670.68,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Propose adding author expert profiles with social media links to bolster EAT signals and content credibility.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "81bf2474-ba9a-4e83-a459-904262b421b6",
+                    "time": 929.74,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_feature_mention",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Team Size"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_team_size"
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Competitor"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_competitor"
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Budget"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_budget"
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Decision Making"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_decision_making"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Harsha Thota and Revanth Babu lead decisions on SEO strategy and lead qualification, directing tactical implementations.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "77325ffc-c3f4-482f-87c0-c0721d198561",
+                    "time": 107.899994,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Commitment to share execution plans (e.g., ANZ ecommerce niche) and detailed documents post-call.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "af35646c-4aba-40f7-b9c9-c41e921d9c9d",
+                    "time": 477.175,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_decision_making",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Timeline"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_timeline"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Keyword integration data set to be shared by end of the week.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "589d970d-2415-4384-bc9e-1c3bb29df8ea",
+                    "time": 566.39496,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Monthly report to include dedicated section for GEO-specific service overviews (e.g., GU and AU).",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "34e2ec38-e86f-4da8-8f4c-0ea44b5853aa",
+                    "time": 1673.71,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Revised blog topics expected by end of day with feedback to be incorporated promptly.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "87eeec01-4bfb-4cb1-a6d4-c77ad93311e4",
+                    "time": 1712.725,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_timeline",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Risk"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_risk"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Risk of users leaving the page if the Charge GPT CTA diverts them away, affecting on-page engagement.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "91c2fb41-036f-4d94-b4d8-f5659504c489",
+                    "time": 863.37,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Low crawling frequency by LLM platforms poses a risk to timely indexing of new content.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "1d81b6f4-6556-4497-ad1b-6e830ff04f58",
+                    "time": 1466.5651,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_risk",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Positive Moment"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_positives"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Significant traffic spike from Salesforce release note and achievement of 100 keyword rankings were acknowledged as positive outcomes.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "9ba5761c-b360-43a6-9215-5fe6e2c8b16e",
+                    "time": 309.13,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Recognition of increased qualified lead numbers and overall improved user sessions boosted team morale.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "83fafa75-eb78-4576-8d85-af4448f5f129",
+                    "time": 1758.58,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_positives",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Pain Point"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_pain_point"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Need for better clarity on lead requirements to enhance content relevance and address client pain points effectively.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "e44201bf-8de8-4bbc-bee4-15c95b380c8c",
+                    "time": 188.38,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "There is a concern about the effectiveness of including names of marketing, delivery, or leadership personnel in articles when they have limited time to read multiple articles.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "1e37ce96-18d6-49a1-9620-e95ecf3b371e",
+                    "time": 1159.725,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "machine_note_cleaned"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_pain_point",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Action Item"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_action_item"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "to: Shiresha Madhury",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Finalize and share the revised blog titles for January 2026 topic proposals by end of day.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "9aa10b82-6407-4df4-8bb4-1ac03b12abde",
+                            "time": 1712.725,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "0"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Harsha Thota",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Create a document detailing the implementation plan for expert author profiles (EAT signals) for blogs, including a compiled list of potential experts in ecom, fintech, and related services, and share it with the team for internal discussion.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "0143ca5b-2fb3-4f58-b971-7eb646d9e7b1",
+                            "time": 1220.32,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "1"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Revanth Babu Raavi",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Share the execution plan for the ecom niche for ANZ, including estimates, responses, and priorities, with Shiresha.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "681aaea8-4f81-4d0a-b11d-6a76156eb4b4",
+                            "time": 477.175,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Share the MOM (minutes of meeting) after the call with attached sources and the in-progress keyword data.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "84aa0071-0885-4152-84ac-6e7965ea54a3",
+                            "time": 596.035,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Create a document outlining the LLM visibility strategy, including keyword targeting per service and prompts for AOGO, and share it after the call.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "65a7a0b1-ee1c-4340-8805-35a718dae501",
+                            "time": 1355.745,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Reshare the previously created query fan out (ANZ) document by sending the folder link to Shiresha.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "c4be9e85-9f8b-41af-9c28-4215c3970c0d",
+                            "time": 1621.24,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Include the curated report on AOGO prompts as a separate section in the monthly report covering all service-related efforts.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "9c0c363a-fca4-4925-9c85-0f90e3711c47",
+                            "time": 1673.71,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "2"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Sandeep Phophaliya",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Monitor and track lead conversion closely, ensuring that the feedback loop regarding increasing leads is maintained and communicated properly.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "d50649a4-22a1-4cff-aae6-bcc789f2c0d8",
+                            "time": 1766.525,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "3"
+              }
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Follow up"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_next_meeting_date"
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Lead Qualification Process",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "lead_qualification_process",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Confirmed only qualified leads progressing to discovery calls are recorded; a document detailing leads' pain points is being prepared.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "816c2492-bbf5-4850-92a0-9778e369c7f5",
+                    "time": 174.295,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "lead_qualification_process",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Content Enhancement Ideas",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "content_enhancement_ideas",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Proposed integrating chargeability and perplexity features in blogs to drive user engagement and indexing signals.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "22c1fb53-241c-4da3-9972-52d6a0ac9f0a",
+                    "time": 670.68,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "content_enhancement_ideas",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Content Authoring Strategy",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "content_authoring_strategy",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Advised assigning expert authors with verifiable social profiles to boost EAT signals and content credibility in blogs.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "3fb43c35-4f52-4608-9270-940c690d9feb",
+                    "time": 929.74,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "content_authoring_strategy",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Crawling Frequency Improvement",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "crawling_frequency_improvement",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Discussed using CTA prompts that trigger interactions (e.g., charge GPT) to increase website crawling frequency on LLM platforms.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "b786af4c-fc75-4d6f-863a-a1b487c0d917",
+                    "time": 1466.5651,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "crawling_frequency_improvement",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "created": "2025-12-24T09:14:42.321955Z",
+      "modified": "2025-12-24T09:15:28.702745Z"
+    }
+  ]
+}

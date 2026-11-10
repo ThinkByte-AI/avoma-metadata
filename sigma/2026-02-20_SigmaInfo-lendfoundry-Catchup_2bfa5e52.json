@@ -1,0 +1,619 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "data": [
+        {
+          "children": [
+            {
+              "text": "Participants",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "cb8hm",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "ThinkByte: Harsha Thota, Vamsi Rampalli, Revanth Babu Raavi",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {}
+        },
+        {
+          "children": [
+            {
+              "text": "Key Takeaways"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_key_takeaways"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Priority action items were identified for mobile performance, Sigma, and learning foundry initiatives.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "712b1944-22ba-4be2-9e71-ce9f39cfdfbc",
+                    "time": 398.725,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Consolidation of action items was completed by merging report analysis with content gap analysis findings.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "9b85ba11-98d2-48b6-bcd0-92ee65ab0b2c",
+                    "time": 766.125,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The tracker sheet was updated to include tasks, responsibilities, and considerations for both short- and long-term goals.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "5d19ef5a-0291-4087-bd2e-b4b7e00063eb",
+                    "time": 794.275,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Next steps involve resetting timelines and prioritizing tasks before sharing the updated tracker with the team.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "061124e8-c960-4a9f-b7fc-24fd6c69d5fd",
+                    "time": 1368.53,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_key_takeaways",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Action Items"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_action_item"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Harsha Thota",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Derive actionable insights by combining the shared content analysis with the report analysis and then generate clear action items from these two sources.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "b0811f4b-8fc4-44b7-905c-ce86d65d492a",
+                            "time": 918.76,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Remember any additional action items that come to mind, add them into the tracker, and distribute the updated tracker to the relevant team members.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "7eac5f5d-8ec8-49cd-91eb-a403c1a3d0f3",
+                            "time": 1345.77,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Reset timelines by creating a prioritized list of timelines before finalizing them.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "0c74cf13-87c8-4aa3-891a-d2bf535bff59",
+                            "time": 1368.53,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "0"
+              }
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Content Reviewed"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_content_reviewed"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Report analysis was reviewed and the document is shared for content review.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "c1157f39-c606-427e-8700-9395e057e2d7",
+                    "time": 584.98,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Content gap analysis and content analysis were discussed to derive action items for the content strategy.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ea7abe61-6954-416c-b7a0-212aed6a5f40",
+                    "time": 903.10504,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_content_reviewed",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Target Keywords"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_target_keywords"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Target keyword rank set for the page focused on lymphoma was confirmed.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "5b4f0f9f-2fc0-4263-8558-4dfe3acab674",
+                    "time": 1013.19,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_target_keywords",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Metrics"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_metrics"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Six performance metrics for reviewing content topics were identified.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "b56a9175-e2dd-4835-8383-89b5dccaa19e",
+                    "time": 934.88495,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_metrics",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "SEO Recommendations"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_seo_recommendations"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Optimization suggestions for low margin, supply positioning, and spam links were discussed.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "3c28ea24-c705-4c94-8cc5-e2a148087e99",
+                    "time": 1142.15,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_seo_recommendations",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Competitors"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_competitor"
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Content Refresh Opportunities"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_content_refresh_opportunities"
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "created": "2026-02-20T09:09:05.030165Z",
+      "modified": "2026-02-20T09:09:39.380356Z"
+    }
+  ]
+}

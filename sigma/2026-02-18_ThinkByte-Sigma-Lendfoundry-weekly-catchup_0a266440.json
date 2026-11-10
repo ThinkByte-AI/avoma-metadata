@@ -1,0 +1,1933 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "data": [
+        {
+          "children": [
+            {
+              "text": "Participants",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "cb8hm",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "ThinkByte: Revanth Babu Raavi, Harsha Thota, Vamsi Rampalli",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Sigmainfo: Sonam Dahake, Sandeep Phophaliya, to: Shiresha Madhury, Divya Mishra, Magesh R",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {}
+        },
+        {
+          "children": [
+            {
+              "text": "Agenda",
+              "object": "text"
+            }
+          ],
+          "type": "header-2"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Learn your feedback",
+                      "object": "text"
+                    }
+                  ],
+                  "type": "paragraph",
+                  "data": {
+                    "block_updated": "2022-11-28T17:14:30+05:30"
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "What is the main benefit you receive so far?"
+                            }
+                          ],
+                          "type": "paragraph",
+                          "data": {
+                            "block_updated": "2022-11-28T17:14:47+05:30"
+                          }
+                        }
+                      ],
+                      "type": "list-item"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Which functionality do you use the most?"
+                            }
+                          ],
+                          "type": "paragraph",
+                          "data": {
+                            "block_updated": "2022-11-28T17:14:49+05:30"
+                          }
+                        }
+                      ],
+                      "type": "list-item"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "What's your most frustrating experience so far?"
+                            }
+                          ],
+                          "type": "paragraph",
+                          "data": {
+                            "block_updated": "2022-11-28T17:14:53+05:30"
+                          }
+                        }
+                      ],
+                      "type": "list-item"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "What can we improve for you?"
+                            }
+                          ],
+                          "type": "paragraph",
+                          "data": {
+                            "block_updated": "2022-11-28T17:14:53+05:30"
+                          }
+                        }
+                      ],
+                      "type": "list-item"
+                    }
+                  ],
+                  "type": "unordered-list",
+                  "depth": 1
+                }
+              ],
+              "type": "list-item"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Discuss next steps"
+                    }
+                  ],
+                  "type": "paragraph",
+                  "data": {
+                    "block_updated": "2022-11-28T17:14:33+05:30"
+                  }
+                }
+              ],
+              "type": "list-item"
+            }
+          ],
+          "type": "unordered-list"
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Key Takeaways"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_key_takeaways"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Mobile performance improvements are being pursued iteratively with core web vital changes that have already boosted the mobile score from around 59-60 to 70, noting that changes can take up to 28 days to reflect.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "0453a701-f940-4f18-aa5f-32f4e85780ae",
+                    "time": 174.985,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Enhanced tracking mechanisms for chat and log file data were discussed, including ensuring that chat traffic from platforms like ChatGPT is captured consistently across systems like Sigma and Cloudways.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "c280dad3-8320-4e9f-905c-bee6c2ecbc92",
+                    "time": 748.93,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "A standardized lead tracking dashboard and template for lead-level data is to be finalized, ensuring all sources (organic, chat, ads) are clearly captured and monitored.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "b0c39747-46bf-4918-87f4-073c7a88c9ee",
+                    "time": 1216.0851,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "A structured SOP for using visitor behavior tools like Inspectlet, Microsoft Clarity, and Hotjar is to be developed to systematically review session recordings and derive actionable insights.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "721b3d2a-79ed-4d29-88f0-c88409764d59",
+                    "time": 2287.04,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The SEO and content strategy will be refined by aligning topic suggestions with competitor insights and sales feedback, with an upcoming delivery of a topics list and clear guidance for external content partners.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "b14f7893-2024-41f8-98e8-1114b5fd8251",
+                    "time": 3382.51,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_key_takeaways",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Feature Mention"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_feature_mention"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Iterative mobile core vitals improvements are in progress with changes reflected after 28 days; mobile score increased from around 59–60 to 70.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "e131cc69-5fa0-48b9-9b05-de34405d185d",
+                    "time": 79.399994,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The development process is supported by AI tools integrated within the WordPress environment.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "860cd608-390e-47e6-971b-bac99a9eab16",
+                    "time": 209.45499,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Chat workflow customization is planned to differentiate high-intent users coming from ChatGPT versus traditional organic sources.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "d20bf50e-8164-43e0-9d97-611a3ce0e0fc",
+                    "time": 577,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "A request was made to obtain specific access log details from the hosting environment to analyze user agents and crawling behavior.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "9b1b54b4-c14f-4251-8da9-6ffa65658acd",
+                    "time": 948.64,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_feature_mention",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Feedback"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_feedback"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Feedback was provided on the need to track chat traffic sources and adjust the chatbot workflow based on the visitor's source.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "45221852-48e0-4230-8f0c-e54ca8c0e284",
+                    "time": 614.17004,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Agreement to finalize a lead tracking template with detailed lead-level data (source, lead ID, landing page) was requested for timely insights.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "9f926e0a-fb85-4829-9619-dfd709f8b026",
+                    "time": 1216.0851,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "There is a call to develop and use a checklist for newly created pages to ensure all required SEO elements are in place before launch.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "e3e3f9e4-97a4-4011-aaeb-93cdce74ebef",
+                    "time": 2252.6602,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The team was asked to develop a process for content recommendations, aligning blog topics with competitor insights and sales feedback.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "2af27841-e977-48c7-8bc5-34a6386c3745",
+                    "time": 3214.9902,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_feedback",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Bug"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_bug"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Chat transcripts on the Sigma platform are not capturing source parameters (e.g. Copilot, ChatGPT) as required.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "60ce389b-8cf1-4cec-a923-c3e1543a200e",
+                    "time": 748.93,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Access log files provided from the hosting environment are limited due to restricted access; clarification is needed on obtaining full user agent data.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "e94c3e51-0eaa-4ba3-86d9-084e06d65eb9",
+                    "time": 902.58496,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_bug",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Positive Moment"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_positives"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Mobile performance improvements were highlighted with the mobile core vitals score rising to 70 following recent changes.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7d231f7e-cfc3-4189-b708-46ba0b3780ee",
+                    "time": 174.985,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "An increase in MQLs and overall lead conversion has been noted, reflecting positive impact from chatbot and SDR team coverage enhancements.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "9aa7d1d1-945c-4952-b017-a433aedc3ac6",
+                    "time": 738.15497,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_positives",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Pain Point"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_pain_point"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The high performance metrics in the web core vitals report indicate an urgent need for immediate fixes to avoid detrimental impacts.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "679c8a62-7316-4f35-95c6-202e5563b4c0",
+                    "time": 73.665,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "machine_note_cleaned"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "A delay of up to 28 days for reflecting changes in Google PageSpeed insights hampers rapid mobile performance assessment.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7d5e36d1-d617-47c1-a8ac-820e060d1f0e",
+                    "time": 174.985,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Chat tracking on the Sigma platform is incomplete, leading to gaps in understanding visitor source and conversion data.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "e8e7bc56-4746-4d2b-b1e0-0deaca954317",
+                    "time": 748.93,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Incomplete access to log file details from the hosting environment restricts comprehensive crawling and user behavior analysis.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "cd673056-1adc-47a4-b681-990c46e083e5",
+                    "time": 902.58496,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "There is confusion among visitors as 31% of chat interactions mistakenly assume the firm offers loans, affecting lead quality.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "cd57b276-7ebc-4cba-85f2-bd111a38ded5",
+                    "time": 1639.705,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "There is a challenge in monitoring video sessions from tools like Clarity and Inspectlet, as it may not be feasible to view all recordings, and errors may be present in the videos.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "0858cf9f-6e08-4fb2-acfa-c67bed79cd73",
+                    "time": 2584.145,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "machine_note_cleaned"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The competitor produces less content than our team, which is evident from their website.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "977febcc-4e1b-4269-8de2-66e307967771",
+                    "time": 2989.08,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "machine_note_cleaned"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "AI has been observed making significant errors, such as misclassifying valid links as spam, and should only be used as a guide.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "8cb084ab-ada4-4003-aa06-5320e716b2d9",
+                    "time": 3502.615,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "machine_note_cleaned"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "A challenge with AI is the frequent introduction of new metrics, which can complicate tracking and analysis.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "31b719e8-3441-43b1-9cf3-3667aeb5e5db",
+                    "time": 3673.2551,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "machine_note_cleaned"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_pain_point",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Action Item"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_action_item"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "to: Shiresha Madhury",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Update the Lendfoundry lead tracker with the consolidated daily lead data as discussed.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "3a2335ae-fe5c-4355-bcf9-2a6be737d815",
+                            "time": 1078.905,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Complete the messaging update for the homepage, loan servicing, and loan origination pages to clearly position Landfoundry as a software provider (not a loan provider) by this weekend.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "eecaf1ff-db46-4f5f-b313-26e98d5fb736",
+                            "time": 1682.27,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "0"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Harsha Thota",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Schedule a meeting with Divya and Shiresha to finalize the lead data tracking format and set a timeline for its enablement.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "c0b482ac-e795-4a2e-973f-2937e16f212a",
+                            "time": 1216.0851,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Work with the web team to develop and implement a checklist for new webpage creation that ensures all required SEO elements (e.g. proper meta titles, headers, user agent tracking) are included.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "c3b37439-a55c-4a6b-bb5c-0f0cf6de2a3a",
+                            "time": 2227.51,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Harsha Thota will add the discussed keywords related to invoice financing, legal financing, and product development into the tracker and create a process for the sales and presales teams to share new keywords they encounter.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "bcba9ef2-50ad-49a4-9bee-b9e3b28d1bfa",
+                            "time": 2948.5452,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Discuss internally and finalize a list of content topics and keyword targets for Landfoundry, then share the list with Sandeep and the team.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "0df027a2-8a4b-43a7-af6f-3da45e83c25a",
+                            "time": 3382.51,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Will work on an initial list of topics and share it while collecting additional feedback and data from the product and sales teams to establish a feedback loop.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "fd286416-c7b9-448e-93fa-146b36173101",
+                            "time": 3445.6848,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Develop a consolidated tracking table for key marketing, SEO, and lead metrics (e.g. cost per lead, mobile core vitals) in coordination with relevant team members.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "b8839180-3bdb-4f2e-a1bf-cba20d7ca44a",
+                            "time": 3580.745,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Review the content gap analysis document to inform the next blog strategy and provide input for new content topics.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "69c13a4b-dd76-484e-a6a9-ae984d53d5e3",
+                            "time": 3791.055,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Generate an AI report for Sigma similar to the one produced for Lendfoundry and share it with the team.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "eb66bcb4-0abf-4436-8084-f91b5d1ab87f",
+                            "time": 3809.125,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "1"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Sandeep Phophaliya",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "But keep Sandeep on the invite, keep Sandeep on the invite, but we can continue to make progress in my absence",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "3f96ccd2-9d9a-4118-8f6c-b7e099c2e32b",
+                            "time": 3838.105,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "machine_note"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "2"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Magesh R",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Clarify with Cloudways regarding access log requirements by confirming which specific data (including user agent and browser information) is needed for proper analysis of website crawling.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "8ba216d3-96d2-478d-84be-1207c967f78e",
+                            "time": 902.58496,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "3"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Revanth Babu Raavi",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Update the lead summary tracker by adding potential lead details, including requirements and associated content strategy suggestions derived from the discussion.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "66746e09-9af8-4f47-982f-640a8505768e",
+                            "time": 859.05,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "4"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vamsi Rampalli",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Continue monitoring top-performing keywords via Google Search Console and incorporate relevant keywords into upcoming blog content where applicable.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "a575aa63-5388-4f99-b0df-6331c19c7e66",
+                            "time": 2845.8,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "5"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Divya Mishra",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Draft and share a Standard Operating Procedure (SOP) for using session recording and analysis tools (such as Inspectlet, Microsoft Clarity, and Hotjar) to monitor website performance and conversion issues.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "eff21a04-2736-4ee7-9820-1d5fe5e1fe39",
+                            "time": 2408.7551,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "6"
+              }
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Follow up"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_next_meeting_date"
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Web Performance Targets",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "web_performance_targets",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Target mobile core vitals are LCP 2.3s, FCP 2.1s, and TTFP 1.5s. Iterative changes are in place with a 28-day update window; mobile score improved from ~59/60 to 70.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "62c6b769-8077-467a-9f47-bc83db20fbb3",
+                    "time": 149.27501,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "web_performance_targets",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Content Gap Analysis",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "content_gap_analysis",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Content gap analysis for HCS, Fintech, Turnkey, and Loanpro revealed a massive gap. Actionable insights and low hanging fruit inputs are requested from Harsha.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "bf71c6eb-6310-4018-b621-1f80ee2c7ed7",
+                    "time": 249.69,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "content_gap_analysis",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Traffic Sources Analysis",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "traffic_sources_analysis",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Traffic data indicates mixed channels including organic, chat, and Google Ads. A proposal was made to add an overall traffic column to track unplanned sources like ChatGPT.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "65f1ef04-cd6a-452f-bc1c-f3c6a3a8867d",
+                    "time": 362.815,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "traffic_sources_analysis",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Chatbot Improvement Strategy",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "chatbot_improvement_strategy",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Strategies include tracking the origin of chatbot visitors (e.g., ChatGPT) to customize workflows, and expanding coverage with Australian (Yatin) and US (Matt) teams for high-intent lead follow-up.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "20b1fc59-5782-4870-9732-1871ba2b272b",
+                    "time": 614.17004,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "chatbot_improvement_strategy",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Conversion Rate Optimization",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "conversion_rate_optimization",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "A standardized lead tracking template is to be finalized, capturing lead ID, source, and landing page, with updates occurring within hours and consolidated weekly.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "751aba65-a5b3-4197-a5b1-0c4a25c3092f",
+                    "time": 1216.0851,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "conversion_rate_optimization",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "created": "2026-02-18T07:21:03.107231Z",
+      "modified": "2026-02-18T07:22:15.086843Z"
+    }
+  ]
+}

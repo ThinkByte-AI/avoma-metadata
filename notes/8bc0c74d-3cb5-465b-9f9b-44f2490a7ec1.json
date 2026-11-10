@@ -1,0 +1,1114 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "data": [
+        {
+          "children": [
+            {
+              "text": "Participants",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "cb8hm",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Thinkbyte: Harsha Thota, vinay kovvuri",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {}
+        },
+        {
+          "children": [
+            {
+              "text": "Key Takeaways",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The meeting was about exploring ways to develop a ticketing platform MVP within a tight budget, with discussions centered on using nocode platforms to reduce costs",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "cb2586c5-dd85-4135-ab7c-273aa764376f",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vinay's team is considering revising the cost estimates to align with the client, Bhavan's budget constraints, following the feedback that initial quotes exceeded the budget set by the incubator",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "2cb4e79f-6e39-4003-a27f-f71c80670a9f",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "There was a significant focus on whether to build an MVP or a fullfeatured product, with the decision deferred until Vinay's team reviews the scope and provides a more accurate quote",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "afa6dd04-8b81-4e1a-a724-a3378164f3ab",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Bhavan's team is currently lacking a technical lead and is open to the idea of Vinay's team potentially becoming tech cofounders, with further discussions to be held on this partnership opportunity",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "1feb4306-9731-42fe-99b2-eaf9607cacb8",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "No next steps or future meetings were scheduled, but Vinay's team was tasked with revisiting the cost estimate and scope of the project to provide a solution that fits the client's budget and requirements",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "0d439c9c-0fa6-4abb-bad0-9391850f39c4",
+                    "time": 0,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "key_takeaways",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Current Tasks",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "current_tasks",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vinay Kovvuri and Harsha Thota (technology and development team).",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ac6bdf56-59ab-49e6-a544-73f3b6a22562",
+                    "time": 173.50998,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Discussions on the cost and scope of building a ticketing platform took place.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "cc9b305b-2886-4e66-95f8-667f224c4e49",
+                    "time": 208.21988,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "No-code platforms suggested to reduce costs for MVP development.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "a8f665c9-1223-40cc-a6d1-c529ec877460",
+                    "time": 546.73,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Team to revisit cost estimates; client interested in tech team potentially becoming co-founders.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "331e47b5-10d3-4fd2-8c45-c360932c9116",
+                    "time": 1087.3395,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Work on designs and application development for the cognitive therapy project.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "305c3bbc-3f23-474b-a83f-af545832d608",
+                    "time": 1108.47,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "current_tasks",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Tech Team Composition",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "tech_team_composition",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Bhavan's team is looking for technical co-founders or partners to join their venture, as they currently lack a technical lead.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "e47f5efd-dabc-49a6-99a5-b682cd39abf9",
+                    "time": 173.50998,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Are open to collaboration, and Vinay's team showed interest in exploring the possibility of becoming tech co-founders.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ccd44f38-6944-4cc6-990c-4d115ec5a9c2",
+                    "time": 1002.5597,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "tech_team_composition",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Product Development Approach",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "product_development_approach",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The meeting concluded without a definitive decision on the approach. Vinay's team will reconsider their strategy and possibly adjust the scope to fit the budget.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "6a6b976d-851b-4c57-9372-fca91cc24cd9",
+                    "time": 204.63977,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "There's a debate on whether to launch with a full-featured product or an MVP. Bhavan and his team are considering the complexity and the costs associated with each approach.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "604e34a4-dd32-4671-99f7-2bd4cc5592f5",
+                    "time": 443.42984,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vinay's team suggests starting with a Minimum Viable Product (MVP) using no-code platforms for quicker go-to-market and cost efficiency.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "19b5771d-b151-4d30-9532-9275e7a45ecc",
+                    "time": 546.73,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "product_development_approach",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Scope and Features Clarity",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "feature_request",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "There is some lack of clarity on the exact features and scope of the ticketing platform project.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7ffe73c2-0e2b-4733-87a4-ebed8b2d838b",
+                    "time": 208.21988,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Bhavan explains the basic functionality they need on the website and app, while Vinay's team shares their process and the level of detail they typically work with.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "553668f0-aa05-4735-8daf-27e99da536e9",
+                    "time": 602.19,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The meeting ends with Vinay's team needing to review the detailed scope and features to provide a more accurate quote and development plan.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "98d0c4dc-0c1b-4809-9e47-f25c093e0a9d",
+                    "time": 1578.7499,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "feature_request",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Business Goals",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_need",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Build a ticketing platform with distinct features from competitors.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "d7ff4e78-670b-4a77-bed6-78de77e99527",
+                    "time": 258.13837,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Achieve market validation before seeking additional investment.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "f8df6beb-55f9-4473-a8c5-9c950ff458ae",
+                    "time": 432.04987,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_need",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Concerns",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "concerns",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Ensuring the quality of work while staying within the budget.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "2d86f59a-306a-4855-a076-008172e2a312",
+                    "time": 303.51917,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Clarity needed on whether to build an MVP or a final product.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ed4189da-000d-4ee5-84a4-03e7989d8bbc",
+                    "time": 443.42984,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "High cost estimates exceed the client's budget.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "25d008e8-e809-4ab2-8561-0760cfb1d3d7",
+                    "time": 573.5096,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "concerns",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Decision",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_decision",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Explore the use of no-code platforms for MVP development to potentially lower costs.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7201ec82-8408-4c65-b0c0-1e6d8ab9846d",
+                    "time": 546.73,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Revisit the cost estimate for the project to better align with the client's budget constraints.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "545e9ac8-7f25-42c9-aa26-a9a4e0236e3b",
+                    "time": 1161.3589,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_decision",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Budget Constraints",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "budget_constraints",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Received quotes from various vendors for the development of a ticketing platform and have a budget ceiling of around 10 lakhs. They are considering investment options for their startup.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "6282aa0c-0683-4240-86c3-4dba078ee842",
+                    "time": 573.5096,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "By the end of the meeting, no resolution was reached on the budget issue. Bhavan expressed that the quote from Vinay's team was beyond their budget, and Vinay agreed to revisit their numbers to possibly provide a more suitable quote.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "5cccd057-35d4-489f-be9a-05dabfc1cac2",
+                    "time": 704.1299,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Bhavan and his team are working on a tight budget and are being monitored by an incubator that has set financial constraints.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "9ccb66fd-6078-4db0-98ac-6bea25e6c157",
+                    "time": 958.86993,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "keyword": true,
+                    "machine_note": true,
+                    "model": "v8"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "budget_constraints",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Action Items",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Team",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Revisit the cost estimate for the project considering the use of no-code platforms for MVP development.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "66d0c507-8705-4576-bfe8-8d16f00925d4",
+                            "time": 546.73,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v8"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "Team"
+              }
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_list": true
+          }
+        }
+      ],
+      "created": "2024-04-29T12:26:07.419451Z",
+      "modified": "2024-04-29T12:27:59.756356Z"
+    }
+  ]
+}

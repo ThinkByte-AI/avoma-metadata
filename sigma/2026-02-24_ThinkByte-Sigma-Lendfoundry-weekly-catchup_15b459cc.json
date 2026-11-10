@@ -1,0 +1,2464 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "data": [
+        {
+          "children": [
+            {
+              "text": "Participants",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "cb8hm",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "ThinkByte: Revanth Babu Raavi, Harsha Thota, Vamsi Rampalli",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Sigmainfo: Sonam Dahake, Sandeep Phophaliya, to: Shiresha Madhury, Divya Mishra, Magesh R",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {}
+        },
+        {
+          "children": [
+            {
+              "text": "Key Takeaways"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_key_takeaways"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The metrics tracker showed two partnership inquiries and highlighted unresolved lead source tracking for Sigma, prompting a follow-up with the server team.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "614d9c9e-2bcf-44a2-b1ba-4ae4fe350346",
+                    "time": 165.105,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "New URLs for the Sigma landing pages are implemented along with finalized pages for ecommerce and fintech, and there is a plan to integrate additional Australia/NZ ecommerce development keywords.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7801b34c-2d11-46fa-9f9e-3150b398698f",
+                    "time": 272.155,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "An overview of blog quality metrics covering AI score, originality, and readability was provided, with a demo planned for Divya and Sonam to better understand the assessment process.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "175f76d7-9ef8-451a-a2bd-aa4f20a1f173",
+                    "time": 926.07,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "An SEO checklist for new web pages is to be developed by Magesh, paired with a content gap analysis for blog topics, and a follow-up meeting is scheduled to finalize these action items.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "630a85c9-3999-4799-9c88-35ea42041cec",
+                    "time": 1318.995,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Google Ads performance was reviewed with plans to analyze the impact of shifting keyword match types and to integrate Zoho chat conversion events via coordination with the engineering team.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "6e993da7-7ead-485c-8306-40b44677677d",
+                    "time": 1810.53,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_key_takeaways",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Action Items"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_action_item"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Harsha Thota",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Follow up with Rahul to review the pending log file analysis and report back the findings today or tomorrow.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "02b6b4a7-f435-4f4b-9419-42993e964c02",
+                            "time": 132.505,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Review the raised ticket on Sigma tracking source and coordinate with Ram's/engineering team to resolve why the source is not reflected in IQ.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "88c1c2b0-4427-4064-9bae-998c004b262b",
+                            "time": 217.435,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Fill in the LINE Foundry metrics tracker with Google Analytics data for the last three months (December, January, February) and share the updates with Sandeep.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "9a9f20b0-38be-4fa5-a0a2-45df2f6460e9",
+                            "time": 509.22,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Coordinate with Wamsi regarding the clinical ecommerce blog topic and ensure inclusion of the case study link for better website traction.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "4e9dce38-6715-4a75-9164-d24aa7795af0",
+                            "time": 623.48004,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Set up a demo call to showcase the AI quality check agent for blogs to Divya and Sonam.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "e7997bd1-3508-44f7-8f5a-f59d64a47ae1",
+                            "time": 1041.635,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Update and share a comprehensive SEO checklist for new web pages including all necessary SEO aspects as requested by Sandeep.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "c01f8c1f-8955-4621-b1ae-4f97799256f6",
+                            "time": 1133.66,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Complete the traffic source reporting and lead reporting once the leads are filled.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "7b05f7d0-14e0-458c-84b9-892faf356340",
+                            "time": 1221.57,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Update his task sheet by adding due dates for all action items.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "02a3418e-f342-4bd4-b2bc-c447600a2bdf",
+                            "time": 1261.4149,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Review and analyze the Google Ads performance after the new keyword changes (shift from broad to exact match) and schedule a follow‐up call if needed.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "eb8a9ebd-c1fe-4d9c-b471-b8e5ef0d0e3f",
+                            "time": 1819.145,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Harsha Thota will work on scheduling a follow-up meeting regarding Google Ads and will reach out to Shiresha Madhury to confirm the date.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "62e8f729-c239-48a6-ae4e-d7bcb00a69b0",
+                            "time": 2705.05,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "0"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "to: Shiresha Madhury",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Share the additional e-commerce development keywords in the Australia and New Zealand sheet to support updating the Sigma landing page.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "02036694-5cb2-4758-a60a-c026bffebe15",
+                            "time": 414.365,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Update the content calendar by adding the existing Lendfoundry topics and ensure not to prioritize Indian topics.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "9b98e949-405a-4ace-be42-a347635d78e1",
+                            "time": 1489.8151,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Provide feedback on the Google Ads performance and help coordinate scheduling a follow-up call to review keyword performance and related changes.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "0ceda5c9-7134-415f-9105-b33d18d595ec",
+                            "time": 1951.245,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Coordinate with the migration team to integrate the lead sheet and website emails into Zoho CRM with proper UTM parameter capture.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "b3cbc34f-3793-4a12-928c-52e04f31f61c",
+                            "time": 2368.215,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "2"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Magesh R",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Verify the final log file details and send the required additional details directly to the server team as requested last week.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "4af3f9ad-e1ad-42b6-aad8-194801e0ce05",
+                            "time": 101.725006,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Create and share a comprehensive SEO checklist for new web pages, incorporating necessary SEO checks.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "8017975f-fa00-41dc-8c32-50784bbf2b2e",
+                            "time": 1324.6901,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Check the conversion event tracking integration for Zoho chat by coordinating with the engineering team and set up a call if needed.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "3559c464-a95f-4723-890d-115c9450df02",
+                            "time": 1579.37,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "The team will check with the Zoho team regarding the necessary details to send to Google.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "5cf39b8a-b613-4f5c-9066-808ebedd163c",
+                            "time": 1648.235,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "machine_note_cleaned"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Update the lead tracker data and cross-check the metrics for accuracy.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "cf0cac3f-8150-4d2d-ba37-35238d36c07a",
+                            "time": 2182.425,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Provide an update on mobile performance improvement (website speed test) by next week.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "852b0984-c449-433b-a73b-c899c3cf75b8",
+                            "time": 2591.075,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "3"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Divya Mishra",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Connect with Harsha and Shiresha to review and refine the SOP for recording tools to ensure clear linkage on the website.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "74f783e6-8900-48a1-815a-b9386108aa7c",
+                            "time": 1193.14,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Follow up on the updated due dates for Harsha's action items and cross-verify the tasks listed at the bottom of his sheet.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "00318e94-6e18-4b18-aa37-4e835196d5d7",
+                            "time": 1261.4149,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "4"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Sonam Dahake",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Coordinate with the team to schedule a call with the Zoho team regarding conversion event tracking from Zoho chat, and confirm a suitable timing.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "3ef3fcbc-44a7-4c7e-b4d5-c783671e457a",
+                            "time": 1735.505,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "5"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Vamsi Rampalli",
+                      "object": "text"
+                    }
+                  ],
+                  "object": "block",
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Review the list of additional e-commerce development keywords provided in the Australia and New Zealand sheet and add relevant keywords to the Sigma landing page.",
+                              "object": "text",
+                              "marks": []
+                            }
+                          ],
+                          "object": "block",
+                          "type": "transcript",
+                          "data": {
+                            "uuid": "151d3293-b72f-47ef-87e5-ce2b98348e25",
+                            "time": 414.365,
+                            "highlight_note_list_item": true,
+                            "turing_note": true,
+                            "model": "v12"
+                          }
+                        }
+                      ],
+                      "object": "block",
+                      "type": "list-item",
+                      "data": {}
+                    }
+                  ],
+                  "object": "block",
+                  "type": "unordered-list",
+                  "data": {
+                    "block_key": null,
+                    "highlight_notes_list": true,
+                    "machine_speaker_list": true
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {
+                "machine_speaker_title": true,
+                "speaker_number": "Vamsi Rampalli"
+              }
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_action_item",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Current Workflow"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_current_workflow"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Use of a metrics tracker and log file analysis for understanding lead sources and partnership inquiries.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "e8322112-e341-4012-b64d-893762c760fc",
+                    "time": 90.27,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Reliance on an Excel sheet integrated with IQ and Lend Foundry tracker to capture leads from chat, organic and ad channels.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "e97c0804-3c1c-415b-9e07-77880fbe0cd9",
+                    "time": 249.41501,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Usage of Google Ads and Google Analytics to monitor ad spend, impressions, clicks, and conversions.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "680dba6d-7172-4ff3-8325-8714b4fd1b97",
+                    "time": 1819.145,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_current_workflow",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Pain Points"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_pain_point"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Pending analysis details from the log files with data not fully reflected on IQ.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "3f5d0bff-cff5-4513-9aab-0c2608e00652",
+                    "time": 101.725006,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The current traffic to the ecommerce main page may be impacted.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "a98faf54-bbe1-45ef-9c74-490148f22b67",
+                    "time": 348.38,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "machine_note_cleaned"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Conversion events from Zoho chat are not being passed to Google Ads, limiting ad optimization.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "a28caf02-4d81-4511-84c3-bf3d5e933f91",
+                    "time": 1579.37,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_pain_point",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Inefficiencies Observed"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_inefficiencies_observed"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Excel sheet entries are not syncing with IQ, causing data discrepancies.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "1939a342-7d1c-466d-acc4-9d8e7fa34333",
+                    "time": 249.41501,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Absence of a standardized SEO checklist for new web pages creating potential oversights.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7704eeec-14e8-4f78-a8de-4ab441926f4b",
+                    "time": 1133.66,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Broad match keywords in Google Ads may be diluting campaign performance, pointing to a need for a switch to exact match.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "8138ed74-5dff-4442-b880-167a37cec9db",
+                    "time": 1852.855,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_inefficiencies_observed",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Key Stakeholders"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_key_stakeholders"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Shiresha Madhury leads the meeting and coordinates action items across teams.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ed4213ff-977c-47e0-a983-9486061df90c",
+                    "time": 46.784996,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Magesh R is responsible for handling technical issues, log file analysis, and ensuring conversion actions are captured.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "abd2e559-9bed-43b3-bd6f-5c69973f20b0",
+                    "time": 74.65501,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Harsha Thota manages the metrics tracker, Google Ads analysis, and coordination of blog quality and SEO tasks.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "0c3d4b5a-edd8-40a4-9176-6c8bc763a33e",
+                    "time": 158.625,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Divya Mishra coordinates documentation and assists in refining SEO checklist and blog topic strategies.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "199dc22d-eaa5-4528-884f-d9be80706e79",
+                    "time": 1206.465,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Sonam Dahake is involved in scheduling calls and ensuring conversion event issues are escalated.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ef8df4e8-46e9-472c-9c13-4d56713d37fe",
+                    "time": 2556.43,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_key_stakeholders",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Tools / Systems Used"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_tools_systems_used"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Metrics tracker and Lend Foundry tracker are used to record partnership inquiries, MQLs, and lead source data.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "1befe882-208d-4cee-ab2f-d7e639d86268",
+                    "time": 165.105,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Semrush and internal AI scoring tools are utilized for blog quality, originality, and readability checks.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "50e4827d-f445-4e6b-8f02-5680e26f593c",
+                    "time": 891.54,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Zoho chat/CRM and tag manager integration is intended for capturing chat conversion events.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "31b00d48-a969-44f8-b152-e2d56be9990e",
+                    "time": 1579.37,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Google Ads and Google Analytics monitor ad spend, impressions, clicks, and conversions.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "30e2f216-394b-4287-ada3-be225f06271f",
+                    "time": 1819.145,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_tools_systems_used",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Root Causes Identified"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_root_causes_identified"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Incomplete log file data and reduced information reflection on IQ hinder accurate technical analysis.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "24b70997-2439-41bc-9c14-3f13f8127d5d",
+                    "time": 101.725006,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "The separate iframe setup of Zoho chat prevents conversion events from reaching Google Ads.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "fa7d38f9-393b-41ef-984e-f96f10583c6c",
+                    "time": 1579.37,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Excessive use of broad match keywords is diluting ad performance effectiveness.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "7bc66e21-b692-478e-9c6d-1eca252c3ea1",
+                    "time": 1852.855,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_root_causes_identified",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Proposed Improvements"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_proposed_improvements"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Send finalized log file details directly to the server team for further analysis.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "fa57ea39-d212-4d70-873f-e074d3da62d2",
+                    "time": 101.725006,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Implement enhanced lead source tracking for Sigma by updating the Excel integration with IQ.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "35bf012e-fe1c-42ef-acec-5b250b046b38",
+                    "time": 217.435,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Revamp landing pages for Australia and New Zealand by integrating new ecommerce development keywords and strip features on pillar pages.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "1f9e4d84-aa4a-4d70-893a-6015bb541994",
+                    "time": 361.095,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Create an SEO checklist for all new web pages and integrate updated blog topics, including clinical ecommerce, to boost website traction.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "1671286d-1069-485d-b8fb-0909ac5ff4d4",
+                    "time": 1133.66,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Schedule a meeting with the Zoho team to enable conversion event tagging for chat interactions.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "fbfb8302-94ff-4f03-9a0b-1b04c2ed2b59",
+                    "time": 1579.37,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_proposed_improvements",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Impact"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_impact"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Revamped landing pages and integrated blog topics, including clinical ecommerce, should drive better website traction and case study visibility.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "29bba811-aeda-4b52-b0d3-bfd8b0384c84",
+                    "time": 623.48004,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Better integration of Zoho chat conversions with Google Ads will allow Google to optimize traffic spending effectively.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "61b587e0-9d4b-453f-8a12-2e5d644ab888",
+                    "time": 1579.37,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Enhanced lead tracking and refined ad keyword strategies are expected to improve conversion rates and optimize ad spend.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "fdbee1d2-f238-47ce-9146-71c7bbe79d8d",
+                    "time": 1819.145,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_impact",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Metrics"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_metrics"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Blog quality metrics including AI score, originality, and readability are tracked using internal tools and Semrush.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "37f3b5df-3c62-4e70-be6d-946a3dd6dbb1",
+                    "time": 891.54,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Google Ads metrics include spending of approximately $5.06 with 1,200 impressions, 24 clicks, and one conversion.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ab3ae0df-7ee5-4af5-90eb-a9798f158da4",
+                    "time": 1819.145,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Lead tracking recorded 10 chat leads, 9 organic leads, and 1 ad lead.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "0c132b6b-c407-4e74-8355-e89479b26f72",
+                    "time": 2188.72,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Website user data shows 895 users from direct channels and 234 from Google, totaling around 1,305 users.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "ac999d93-f380-47b8-bb21-506bae6c23f6",
+                    "time": 2280.9,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_metrics",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "children": [
+            {
+              "text": "Risk"
+            }
+          ],
+          "type": "header-2",
+          "data": {
+            "block_created": "2022-11-16T12:17:01-07:00",
+            "highlight_notes_title": true,
+            "block_key": "highlight_category_risk"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Data discrepancies between Excel inputs and IQ reflection risk misinformed decision-making regarding lead source analysis.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "dacf197c-25c0-4c85-abd2-cc6a1ae717a3",
+                    "time": 249.41501,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Failure to capture conversion events from Zoho chat may limit Google Ads optimization and result in inaccurate lead tracking.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "b1af524e-d3eb-4369-b642-51bb87c5c860",
+                    "time": 1579.37,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Delays in mobile performance improvements pose a risk to overall website user experience and load times.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "2482ebd0-96a3-4ac1-93a5-3ed517463187",
+                    "time": 2591.075,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "highlight_category_risk",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Canada & Australia Development Opportunities",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "canada_&_australia_development_opportunities",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Plan to feature additional ecommerce development services for Australia and New Zealand by sharing a list of small ecommerce platforms in the dedicated sheet.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "3afd23e8-adec-47ca-8a87-2ad98f8fc34e",
+                    "time": 361.095,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "canada_&_australia_development_opportunities",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Clinical E-commerce Blog",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "clinical_e-commerce_blog",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Commitment to publish a blog on clinical ecommerce to interlink with the upcoming case study for improved web traction.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "17afbbfc-8994-40db-97f3-71c59e14abe3",
+                    "time": 623.48004,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "clinical_e-commerce_blog",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Conversion Tracking for Zoho Chat",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "conversion_tracking_for_zoho_chat",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Need to set up conversion event tracking for Zoho chat to pass conversion data to Google Ads by coordinating with the Zoho and engineering teams.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "d40198e4-e728-4453-b435-04ddc6a8342a",
+                    "time": 1579.37,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "conversion_tracking_for_zoho_chat",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "Dynamic Keyword Optimization",
+              "object": "text"
+            }
+          ],
+          "object": "block",
+          "type": "header-2",
+          "data": {
+            "block_key": "dynamic_keyword_optimization",
+            "highlight_notes_title": true,
+            "machine_title": true
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Ongoing analysis and adjustment of new keywords in Google Ads, shifting from broad to exact/phrase matches to improve CTR and conversion performance.",
+                      "object": "text",
+                      "marks": []
+                    }
+                  ],
+                  "object": "block",
+                  "type": "transcript",
+                  "data": {
+                    "uuid": "8701836c-f3b1-41e3-a122-67d15abfaee2",
+                    "time": 1819.145,
+                    "highlight_note_list_item": true,
+                    "turing_note": true,
+                    "model": "v12"
+                  }
+                }
+              ],
+              "object": "block",
+              "type": "list-item",
+              "data": {}
+            }
+          ],
+          "object": "block",
+          "type": "unordered-list",
+          "data": {
+            "block_key": "dynamic_keyword_optimization",
+            "highlight_notes_list": true
+          }
+        },
+        {
+          "children": [
+            {
+              "text": "",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "created": "2026-02-24T07:02:12.318798Z",
+      "modified": "2026-02-24T07:03:09.291439Z"
+    }
+  ]
+}
