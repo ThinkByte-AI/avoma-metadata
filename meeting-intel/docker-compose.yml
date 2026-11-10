@@ -13,7 +13,7 @@ x-backend-common: &backend-common
     DATABASE_URL: postgresql+psycopg://mi:${POSTGRES_PASSWORD:-mi}@db:5432/meeting_intel
     METADATA_DIR: /data/metadata
   volumes:
-    - ../csv_files:/data/metadata:ro
+    - ../data/metadata:/data/metadata:ro
 
 services:
   db:

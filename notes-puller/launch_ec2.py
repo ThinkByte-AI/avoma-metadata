@@ -5,10 +5,10 @@ to S3 and TERMINATES itself when finished. Your laptop is not involved once this
 returns -- the instance does Avoma -> S3 on its own.
 
 What it does:
-  1. Uploads the 3 bootstrap files to s3://<bucket>/_bootstrap/ :
-        pull_notes.py        the puller
-        worklist.csv         precomputed 3,109-meeting work-list
-        avoma api key.txt    the 10 API keys
+  1. Uploads the 3 bootstrap files to s3://<bucket>/_bootstrap/ (by file name):
+        notes-puller/pull_notes.py   the puller
+        data/notes/worklist.csv      precomputed 3,109-meeting work-list
+        avoma api key.txt            the 10 API keys (repo root, never committed)
   2. Starts a t3.small with user-data that installs python deps, downloads those
      files, runs  pull_notes.py --s3 --worklist worklist.csv  (resumes off S3,
      so the ~180 notes already uploaded are skipped), uploads its run log to
@@ -17,8 +17,11 @@ What it does:
      so that shutdown deletes the instance.
 
 AWS creds for the instance are passed via user-data env (no IAM role needed);
-the instance is short-lived and self-deletes. Run cleanup_ec2.py afterwards to
-remove the _bootstrap/ files (including the keys).
+the instance is short-lived and self-deletes. Run notes-puller/cleanup_ec2.py
+afterwards to remove the _bootstrap/ files (including the keys).
+
+Usage (run from the repo root):
+    python notes-puller/launch_ec2.py
 """
 import os
 import sys
@@ -30,7 +33,11 @@ REGION = os.environ.get("AWS_REGION", "ap-south-1")
 AMI = os.environ.get("AMI_ID", "ami-0db56f446d44f2f09")   # AL2023 x86_64
 ITYPE = os.environ.get("INSTANCE_TYPE", "t3.small")
 BOOT = "_bootstrap"
-FILES = ["pull_notes.py", "worklist.csv", "avoma api key.txt"]
+# Local paths (relative to the repo root). Each is uploaded under its bare file
+# name, which is what the instance's user-data downloads.
+FILES = [os.path.join("notes-puller", "pull_notes.py"),
+         os.path.join("data", "notes", "worklist.csv"),
+         "avoma api key.txt"]
 
 
 def load_dotenv(path=".env"):
@@ -50,7 +57,7 @@ def main():
     for fn in FILES:
         if not os.path.exists(fn):
             sys.exit(f"missing {fn}")
-        s3.upload_file(fn, BUCKET, f"{BOOT}/{fn}")
+        s3.upload_file(fn, BUCKET, f"{BOOT}/{os.path.basename(fn)}")
     print(f"Uploaded bootstrap files to s3://{BUCKET}/{BOOT}/")
 
     # user-data: AWS creds only as env; everything else pulled from S3.

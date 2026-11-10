@@ -11,11 +11,11 @@ This is the cheap/fast first step before any S3 sync:
 
 Needs only AVOMA_API_KEY. No boto3, no AWS, nothing downloaded.
 
-Usage:
+Usage (run from the repo root):
     pip install requests
     $env:AVOMA_API_KEY="..."           # PowerShell
-    python avoma_estimate.py --from 2023-01-01 --to 2026-06-06
-    python avoma_estimate.py --from 2023-01-01 --to 2026-06-06 --csv meetings.csv
+    python archiver/avoma_estimate.py --from 2023-01-01 --to 2026-06-06
+    python archiver/avoma_estimate.py --from 2023-01-01 --to 2026-06-06 --csv meetings.csv
 """
 
 import argparse

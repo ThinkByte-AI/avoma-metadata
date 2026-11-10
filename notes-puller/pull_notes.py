@@ -2,27 +2,27 @@
 """
 Pull Avoma **AI Notes / summary** for the 10 people's meetings, deduped.
 
-Work-list: union of csv_files/meetings_<person>.csv for the 10 people, keep each
+Work-list: union of data/metadata/meetings_<person>.csv for the 10 people, keep each
 unique transcript-ready meeting once. AI notes are generated from the transcript,
 so transcript_ready=True is the gate (~3,109 meetings).
 
 Per meeting we call  GET /v1/notes?meeting_uuid=<uuid>  with an attending
 person's API key, and save:
-    notes/<uuid>.json   raw Avoma response (rich-text block format)
-    notes/<uuid>.md     flattened, human-readable summary
-Plus notes_index.csv mapping uuid -> subject/start/owner_used/attendees.
+    data/notes/<uuid>.json   raw Avoma response (rich-text block format)
+    data/notes/<uuid>.md     flattened, human-readable summary
+Plus data/notes/notes_index.csv mapping uuid -> subject/start/owner_used/attendees.
 
-Gentle + resumable (mirrors pull_deduped_to_s3.py): single global ~30 req/min
+Gentle + resumable (mirrors archiver/pull_deduped_to_s3.py): single global ~30 req/min
 clock with jitter, long backoff on 403(WAF)/429/5xx, and any meeting whose
-notes/<uuid>.json already exists is skipped -- Ctrl-C and re-run any time.
+data/notes/<uuid>.json already exists is skipped -- Ctrl-C and re-run any time.
 
-Optional --sentiments also pulls GET /v1/meeting_sentiments -> sentiments/<uuid>.json.
+Optional --sentiments also pulls GET /v1/meeting_sentiments -> data/sentiments/<uuid>.json.
 
-Usage:
-    python pull_notes.py --dry-run          # show plan, no API calls
-    python pull_notes.py --limit 3          # smoke test first 3
-    python pull_notes.py                     # full run (~3,100 calls, resumable)
-    python pull_notes.py --sentiments        # also archive sentiment timelines
+Usage (run from the repo root):
+    python notes-puller/pull_notes.py --dry-run          # show plan, no API calls
+    python notes-puller/pull_notes.py --limit 3          # smoke test first 3
+    python notes-puller/pull_notes.py                     # full run (~3,100 calls, resumable)
+    python notes-puller/pull_notes.py --sentiments        # also archive sentiment timelines
 """
 import argparse
 import csv
@@ -36,9 +36,9 @@ import requests
 
 KEYS_FILE = os.environ.get("KEYS_FILE", "avoma api key.txt")
 BASE = os.environ.get("AVOMA_BASE_URL", "https://api.avoma.com/v1")
-OUT_DIR = os.environ.get("NOTES_DIR", "notes")
-SENT_DIR = os.environ.get("SENT_DIR", "sentiments")
-INDEX = os.environ.get("NOTES_INDEX", "notes_index.csv")
+OUT_DIR = os.environ.get("NOTES_DIR", os.path.join("data", "notes"))
+SENT_DIR = os.environ.get("SENT_DIR", os.path.join("data", "sentiments"))
+INDEX = os.environ.get("NOTES_INDEX", os.path.join("data", "notes", "notes_index.csv"))
 PROGRESS_LOG = os.environ.get("NOTES_LOG", "notes_progress.log")
 
 # --- S3 (notes land beside the existing transcripts/recordings) ---
@@ -131,7 +131,7 @@ def build_worklist():
     """uuid -> {subject, start, owners:[people with transcript-ready]} deduped."""
     work = {}
     for p in PEOPLE:
-        path = os.path.join("csv_files", f"meetings_{p}.csv")
+        path = os.path.join("data", "metadata", f"meetings_{p}.csv")
         if not os.path.exists(path):
             print(f"WARN missing {path}", file=sys.stderr)
             continue
@@ -254,7 +254,7 @@ def main():
                     help="upload notes.json + notes.md to S3 (resume off S3); "
                          "reuses already-downloaded local notes (no API cost)")
     ap.add_argument("--keep-local", action="store_true",
-                    help="with --s3, also keep writing local notes/<uuid>.* files")
+                    help="with --s3, also keep writing local data/notes/<uuid>.* files")
     ap.add_argument("--worklist", default="",
                     help="read the meeting work-list from this CSV (uuid,start,"
                          "subject,owners) instead of the 10 per-person CSVs; if "
@@ -319,6 +319,7 @@ def main():
 
     n_done = n_skip = n_notes = n_empty = n_sent = n_err = 0
     log = open(PROGRESS_LOG, "a", encoding="utf-8")
+    os.makedirs(os.path.dirname(INDEX) or ".", exist_ok=True)
     index = open(INDEX, "w", newline="", encoding="utf-8")
     iw = csv.writer(index)
     iw.writerow(["uuid", "start", "subject", "owner_used", "attendees",

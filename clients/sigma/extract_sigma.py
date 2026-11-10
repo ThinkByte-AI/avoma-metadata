@@ -2,9 +2,13 @@
 """
 Extract the Sigma (SigmaInfo) client meetings from the pulled Avoma notes.
 
-Filters worklist.csv to meetings whose subject mentions "sigma", downloads each
-meeting's notes.json + notes.md from S3 into ./sigma/, builds one combined
-chronological sigma_notes.md, and writes a sigma_meetings.csv index.
+Filters data/notes/worklist.csv to meetings whose subject mentions "sigma",
+downloads each meeting's notes.json + notes.md from S3 into clients/sigma/meetings/,
+builds one combined chronological clients/sigma/sigma_notes.md, and writes a
+clients/sigma/sigma_meetings.csv index.
+
+Usage (run from the repo root):
+    python clients/sigma/extract_sigma.py
 """
 import csv
 import os
@@ -15,8 +19,11 @@ import boto3
 BUCKET = os.environ.get("S3_BUCKET", "avoma-archive-growthbyte")
 REGION = os.environ.get("AWS_REGION", "ap-south-1")
 PREFIX = os.environ.get("S3_PREFIX", "avoma").strip("/")
-WORKLIST = "worklist.csv"
-OUT = "sigma"
+WORKLIST = os.path.join("data", "notes", "worklist.csv")
+CLIENT_DIR = os.path.join("clients", "sigma")
+OUT = os.path.join(CLIENT_DIR, "meetings")
+COMBINED_MD = os.path.join(CLIENT_DIR, "sigma_notes.md")
+INDEX_CSV = os.path.join(CLIENT_DIR, "sigma_meetings.csv")
 TERM = re.compile(r"sigma", re.I)
 
 
@@ -87,18 +94,18 @@ def main():
         body_md = re.sub(r"^# .*\n(_.*_\n)?", "", md_text).strip()
         combined.append(body_md if body_md else "_(no AI notes generated)_")
 
-    with open("sigma_notes.md", "w", encoding="utf-8") as f:
+    with open(COMBINED_MD, "w", encoding="utf-8") as f:
         f.write("\n".join(combined) + "\n")
 
-    with open("sigma_meetings.csv", "w", newline="", encoding="utf-8") as f:
+    with open(INDEX_CSV, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["start", "subject", "uuid", "attendees", "notes", "s3_path"])
         w.writerows(index_rows)
 
     print(f"Downloaded into {OUT}/ : {len(rows)} meetings "
           f"({n_ok} with notes, {n_empty} empty)")
-    print("Combined doc : sigma_notes.md")
-    print("Index        : sigma_meetings.csv")
+    print(f"Combined doc : {COMBINED_MD}")
+    print(f"Index        : {INDEX_CSV}")
 
 
 if __name__ == "__main__":

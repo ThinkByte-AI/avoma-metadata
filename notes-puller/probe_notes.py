@@ -5,6 +5,9 @@ new key file's auth format. Read-only, a handful of GETs, gentle.
 Picks one person (default Harsha), finds one transcript-ready meeting from their
 CSV, and tries candidate endpoints. Prints status + a short body preview so we
 can see the real schema before building the bulk puller.
+
+Usage (run from the repo root):
+    python notes-puller/probe_notes.py
 """
 import csv, json, os, sys, time
 import requests
@@ -30,7 +33,7 @@ def load_keys(path):
 
 
 def find_transcript_uuid(person):
-    path = os.path.join("csv_files", f"meetings_{person}.csv")
+    path = os.path.join("data", "metadata", f"meetings_{person}.csv")
     with open(path, encoding="utf-8") as f:
         for r in csv.DictReader(f):
             if r.get("transcript_ready") == "True":

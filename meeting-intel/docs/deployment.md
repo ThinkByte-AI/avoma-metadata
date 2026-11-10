@@ -11,7 +11,7 @@ hours; inside AWS it takes minutes, and audio streams straight from S3 to the vi
 
 - Instance: `t3.large` (2 vCPU, 8 GB) in `ap-south-1`, 50 GB gp3. About $65/month on demand.
 - Attach an **IAM role** with `infra/iam-policy.json` (replace `REPLACE_WITH_S3_BUCKET`). Do not put access keys in `.env`.
-- Install Docker, copy this folder plus `csv_files/`, set `.env` (`COOKIE_SECURE=true`), `docker compose up -d --build`.
+- Install Docker, copy this folder plus `../data/metadata/` (keeping the same relative layout), set `.env` (`COOKIE_SECURE=true`), `docker compose up -d --build`.
 - Put it behind HTTPS: an Application Load Balancer with an ACM certificate (or Caddy on the instance) forwarding to port 3100.
 - Back up the `pgdata` volume with daily EBS snapshots (Data Lifecycle Manager).
 

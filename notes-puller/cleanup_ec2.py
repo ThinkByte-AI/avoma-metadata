@@ -7,9 +7,9 @@
   * reports whether the puller instance has terminated, and terminates it if a
     stray one is still running (e.g. the job errored before self-shutdown)
 
-Usage:
-  python cleanup_ec2.py            # show status + final log, then delete _bootstrap
-  python cleanup_ec2.py --keep-log # keep ec2_run.log/ec2_boot.log in S3
+Usage (run from the repo root):
+  python notes-puller/cleanup_ec2.py            # show status + final log, then delete _bootstrap
+  python notes-puller/cleanup_ec2.py --keep-log # keep ec2_run.log/ec2_boot.log in S3
 """
 import argparse
 import os

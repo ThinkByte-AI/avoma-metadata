@@ -14,7 +14,7 @@ Search, read, listen to and ask questions about the Avoma meeting archive stored
 
 1. **Ingestion** (worker) lists `s3://$S3_BUCKET/$S3_PREFIXES`, classifies every object, and for each meeting folder
    (`avoma/<YYYY>/<MM>/<meeting-uuid>/`) reads `transcript.json` and `notes.md`. Recordings are never downloaded.
-   Titles, dates, durations and owners come from the CSVs in `../csv_files` (mounted at `METADATA_DIR`).
+   Titles, dates, durations and owners come from the CSVs in `../data/metadata` (mounted at `METADATA_DIR`).
 2. Pass 1 stores meetings, participants, speaker turns (keyword search) and Avoma's notes.
    Pass 2 embeds ~150-word conversation windows and note sections with Titan v2 (512 dims) for meaning-based search.
 3. **Search** fuses Postgres full-text, trigram name/title matching and pgvector similarity (Reciprocal Rank Fusion),
